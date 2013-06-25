@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.4)  25 JUN 2013 11:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.4)  25 JUN 2013 15:36
 entering extended mode
 **C:/Users/antti.paananen/diplomityo/diplomityo/dippa.tex
 (C:/Users/antti.paananen/diplomityo/diplomityo/dippa.tex
@@ -1140,18 +1140,18 @@ AED: lastpage setting LastPage
 [16
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 979.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 979.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 984.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 984.
  (C:\Users\antti.paananen\diplomityo\diplomityo\dippa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 979.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 979.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 984.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 984.
 Package rerunfilecheck Info: File `dippa.out' has not changed.
-(rerunfilecheck)             Checksum: FB117CB21DDB9CB01269C730447304C2;1593.
+(rerunfilecheck)             Checksum: 10411DB844940DC21E72DA8EF05983C2;1598.
  ) 
 Here is how much of TeX's memory you used:
  18818 strings out of 493921
  354898 string characters out of 3144850
- 468233 words of memory out of 3000000
+ 468235 words of memory out of 3000000
  21659 multiletter control sequences out of 15000+200000
  11990 words of font info for 42 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
@@ -1165,7 +1165,7 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dippa.pdf (16 pages, 172944 bytes).
+Output written on dippa.pdf (16 pages, 173937 bytes).
 PDF statistics:
  264 PDF objects out of 1000 (max. 8388607)
  47 named destinations out of 1000 (max. 500000)
