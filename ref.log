@@ -1,10 +1,13 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.6.25)  25 JUN 2013 16:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.6.25)  26 JUN 2013 11:43
 entering extended mode
 **C:/Users/antti.paananen/diplomityo/diplomityo/ref.bib
 (C:/Users/antti.paananen/diplomityo/diplomityo/ref.bib
-Overfull \hbox (11.6765pt too wide) in paragraph at lines 14--20
-[]\tenrm @bookerp2, au-thor=Alexis Leon, year=2007, ti-tle=Enterprise re-source
- plan-ning, pub-lisher=Tata McGraw-|
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+
+Overfull \hbox (0.10709pt too wide) in paragraph at lines 17--23
+[]\tenrm @bookRefWorks:1, au-thor=Alexis Leon, year=2007, ti-tle=Enterprise re-
+source plan-ning, pub-lisher=Tata|
 
 \hbox(6.94444+1.94444)x469.75499, glue set - 1.0
 .\hbox(0.0+0.0)x20.0
@@ -14,23 +17,21 @@ Overfull \hbox (11.6765pt too wide) in paragraph at lines 14--20
 .\tenrm o
 .etc.
 
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
 ! Missing $ inserted.
 <inserted text> 
                 $
 <to be read again> 
                    _
-l.81 @misc{ipdcforum_
-                     def,
+l.51 ...raction-design.org/encyclopedia/usability_
+                                                  evaluation.html}
 ? 
 ! Emergency stop.
 <inserted text> 
                 $
 <to be read again> 
                    _
-l.81 @misc{ipdcforum_
-                     def,
+l.51 ...raction-design.org/encyclopedia/usability_
+                                                  evaluation.html}
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!
