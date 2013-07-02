@@ -131,7 +131,7 @@
 
 % Natbib allows you to select the format of the bibliography references.
 % The first example uses numbered citations:
-\usepackage[square,sort&compress,numbers]{natbib}
+%\usepackage[square,sort&compress,numbers]{natbib}
 % The second example uses author-year citations.
 % If you use author-year citations, change the bibliography style (below);
 % acm style does not work with author-year citations.
@@ -139,7 +139,7 @@
 % to the author directly (\citet{blaablaa} said blaa blaa), and
 % \citep when you wish to refer similarly than with numbered citations
 % (It has been said that blaa blaa~\citep{blaablaa}).
-% \usepackage[square]{natbib}
+%\usepackage[square]{natbib}
 
 % The alltt package provides an all-teletype environment that acts
 % like verbatim but you can use LaTeX commands in it. Uncomment if
@@ -218,7 +218,7 @@
 %\usepackage[twosupervisors]{aalto-thesis}
 %\usepackage[mydraft,doublenumbering]{aalto-thesis}
 \usepackage[mydraft]{aalto-thesis}
-
+\usepackage{pdfpages}
 
 % Hyperref
 % ------------------------------------------------------------------
@@ -368,7 +368,7 @@
 % references.
 \bibliographystyle{acm}
 % Plainnat is a plain style that works with both numbered and name citations.
-% \bibliographystyle{plainnat}
+%\bibliographystyle{plainnat}
 
 
 % Extra hyphenation settings
@@ -562,7 +562,7 @@ In this chapter, the background and reasoning for the thesis is described togeth
 \section{Motivation and methods}
 \label{sec:motivationandmethods}
 In the 1980s, when the usage of personal computers (PCs) became more common, software design practices were still falsely assuming that the users were knowledgeable and competent in computer science. As an outcome, big part of the users were practically incapable of using operating systems and applications.
-During these times, the concepts of Human Computer Interaction (HCI) and usability, became important. In the design process of interactive software for common people, the emphasis was now on usability. \cite{RefWorks:9}
+During these times, the concepts of Human Computer Interaction (HCI) and usability, became important. Since then, the design process of interactive software for common people emphasized usability. \cite{RefWorks:9}
 
 The term Enterprise Resource Planning (ERP) was invented in the early 1990s.\cite{RefWorks:3} The purpose of the ERP software is to offer techniques and concepts for integrated and thorough management of business, as well as making it more efficient.
 The usage of ERP software has increased globally and nowadays even service organizations have invested a lot of resources in ERP implementation.\cite{RefWorks:1, RefWorks:7} 
@@ -700,7 +700,7 @@ The first actual chapter of the thesis is about the usability methods. Every usa
 \chapter{Methods}
 \label{chapter:methods}
 In order to be able to discover reliable research data, the research methods must be understood thoroughly. In this research, the data is gathered with a few types of usability methods.
-Inquiries are used to study the business process. The process itself is measured from many different aspects and also remote evaluation is used.
+Inquiries are used to study the business process. The process itself is measured from many different aspects and also remote evaluation is utilized.
 All the methods is described in detail in the following chapter. 
 
 
@@ -713,12 +713,13 @@ All the methods is described in detail in the following chapter.
 \label{sec:measurement}
     
         \subsection{System Usability Scale}
+	In his paper Brooke\cite{RefWorks:10} argued that usability is not any real existing quality, but a good usability artefact is approppriate to its purpose. In other words "the usability of any tool or system has to be viewed in terms of the context in which it is used, and its approptiateness to that context"\cite{RefWorks:10}.
         \subsection{Cognitive Walkthrough} 
         \subsection{Interaction Sequence Illustration}
         \subsection{Time used and success rate}
 
-  \section{Automated Remote Usability Evaluation}
-    \label{sec:rue}
+\section{Automated Remote Usability Evaluation}
+\label{sec:rue}
  
     
 
@@ -953,13 +954,43 @@ Introduction to the chapter.
 % Appendices go here
 % ------------------------------------------------------------------
 % If you do not have appendices, comment out the following lines
-\appendix
-% \input{appendices.tex}
-\chapter{SUS form}
-\label{chapter:susform}
 
-\chapter{TEST form}
-\label{chapter:nasaltxform}    
+% \input{appendices.tex}
+%\chapter{SUS form}
+%\label{chapter:susform}
+
+\appendix
+\includepdf[scale=0.9,pages=4,picturecommand*={%
+     \put(110,770){%
+         \parbox{\textwidth}{\chapter{SUS form}\label{app:susform}}
+     }}]{sus.pdf}
+
+
+
+\includepdf[scale=0.9,pages=4,picturecommand*={%
+     \put(110,770){%
+         \parbox{\textwidth}{\chapter{TEST form}\label{app:susform}}
+     }}]{sus.pdf}
+
+
+%\includegraphics[scale=0.5,pages={4}]{sus.pdf}
+
+%\includepdf[ pages=4, scale=.7, frame, pagecommand =  \chapter{}]{sus.pdf}
+%\chapter{}
+%\includegraphics[page=4,width=1.2\textwidth]{sus.pdf}
+%\chapter{SUS form}
+%\label{chapter:susform}
+%\begin{figure}[h]
+ %  \centering
+   %\begin{tabular}{@{}c@{\vspace{2.5cm}}c@{}}
+      % \includegraphics[page=4,width=1.2\textwidth]{sus.pdf} & 
+
+   %\end{tabular}
+ %\label{fig:Test}
+%\end{figure}
+
+
+
 %    \section{APPENDIX A}
 %    \label{sec:appendixa}
 %This is the first appendix. You could put some test images or verbose data in an
