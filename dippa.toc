@@ -13,16 +13,14 @@
 \contentsline {section}{\numberline {2.1}Contextual Inquiry}{10}{section.2.1}
 \contentsline {section}{\numberline {2.2}Process measurement}{10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}System Usability Scale}{10}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Cognitive Walkthrough}{10}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Interaction Sequence Illustration}{10}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Time used and success rate}{10}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Automated Remote Usability Evaluation}{10}{section.2.3}
-\contentsline {chapter}{\numberline {3}Process experiment}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Steps}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}Implementation}{11}{section.3.2}
-\contentsline {chapter}{\numberline {4}Analysis}{12}{chapter.4}
-\contentsline {section}{\numberline {4.1}Results}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}Implementation analysis}{12}{section.4.2}
-\contentsline {chapter}{\numberline {5}Discussion and conclusions}{13}{chapter.5}
-\contentsline {chapter}{\numberline {A}SUS form}{15}{appendix.A}
-\contentsline {chapter}{\numberline {B}TEST form}{16}{appendix.B}
+\contentsline {subsection}{\numberline {2.2.2}Interaction Sequence Illustration}{11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Time used and success rate}{11}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Automated Remote Usability Evaluation}{11}{section.2.3}
+\contentsline {chapter}{\numberline {3}Process experiment}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Steps}{12}{section.3.1}
+\contentsline {section}{\numberline {3.2}Implementation}{12}{section.3.2}
+\contentsline {chapter}{\numberline {4}Analysis}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Results}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Implementation analysis}{13}{section.4.2}
+\contentsline {chapter}{\numberline {5}Discussion and conclusions}{14}{chapter.5}
+\contentsline {chapter}{\numberline {A}SUS form}{16}{appendix.A}
