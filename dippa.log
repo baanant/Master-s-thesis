@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.4)  3 JUL 2013 12:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.4)  3 JUL 2013 15:36
 entering extended mode
 **C:/Users/antti.paananen/diplomityo/diplomityo/dippa.tex
 (C:/Users/antti.paananen/diplomityo/diplomityo/dippa.tex
@@ -283,14 +283,18 @@ Language: english 2005/03/30 v3.3o English support from the babel system
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks16
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box26
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks16
-\verbatim@line=\toks17
+\every@verbatim=\toks17
+\verbatim@line=\toks18
 \verbatim@in@stream=\read1
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
@@ -309,7 +313,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LT@rows=\count91
 \c@LT@tables=\count92
 \c@LT@chunks=\count93
-\LT@p@ftn=\toks18
+\LT@p@ftn=\toks19
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
@@ -338,7 +342,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \aftertitleunit=\skip54
 \ttl@plus=\dimen107
 \ttl@minus=\dimen108
-\ttl@toksa=\toks19
+\ttl@toksa=\toks20
 \titlewidth=\dimen109
 \titlewidthlast=\dimen110
 \titlewidthfirst=\dimen111
@@ -348,7 +352,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
 x"
-\pgfutil@everybye=\toks20
+\pgfutil@everybye=\toks21
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
 "
@@ -366,7 +370,7 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks22
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -399,12 +403,12 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
 "
-\pgfkeys@pathtoks=\toks22
-\pgfkeys@temptoks=\toks23
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
 ode.tex"
-\pgfkeys@tmptoks=\toks24
+\pgfkeys@tmptoks=\toks25
 ))
 \pgf@x=\dimen114
 \pgf@y=\dimen115
@@ -471,9 +475,9 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 \pgfmath@dimen=\dimen122
 \pgfmath@count=\count105
 \pgfmath@box=\box33
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
 tex"
@@ -614,8 +618,8 @@ x"
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen148
 \pgffor@skip=\dimen149
-\pgffor@stack=\toks28
-\pgffor@toks=\toks29
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
 e.tex"
@@ -785,7 +789,7 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen166
 \extrarowheight=\dimen167
-\NC@list=\toks30
+\NC@list=\toks31
 \extratabsurround=\skip55
 \backup@length=\skip56
 )
@@ -795,7 +799,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@target=\dimen171
 \TX@delta=\dimen172
 \TX@cols=\count119
-\TX@ftn=\toks31
+\TX@ftn=\toks32
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
@@ -807,7 +811,7 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks32
+\@emptytoks=\toks33
 \ex@=\dimen173
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -837,21 +841,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip11
 \c@parentequation=\count127
 \dspbrk@lvl=\count128
-\tag@help=\toks33
+\tag@help=\toks34
 \row@=\count129
 \column@=\count130
 \maxfields@=\count131
-\andhelp@=\toks34
+\andhelp@=\toks35
 \eqnshift@=\dimen176
 \alignsep@=\dimen177
 \tagshift@=\dimen178
 \tagwidth@=\dimen179
 \totwidth@=\dimen180
 \lineht@=\dimen181
-\@envbody=\toks35
+\@envbody=\toks36
 \multlinegap=\skip58
 \multlinetaggap=\skip59
-\mathdisplay@stack=\toks36
+\mathdisplay@stack=\toks37
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -884,7 +888,7 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TPboxrulesize=\dimen186
 \TP@ox=\dimen187
 \TP@oy=\dimen188
-\TP@tbargs=\toks37
+\TP@tbargs=\toks38
 \TP@prevdepth=\dimen189
 TextBlockOrigin set to 0pt x 0pt
 )) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
@@ -917,7 +921,7 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 File: pppdftex.def 2013/05/30 v0.4u Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box66
-\AM@toc@title=\toks38
+\AM@toc@title=\toks39
 \c@AM@survey=\count137
 \AM@templatesizebox=\box67
 )
@@ -1062,12 +1066,12 @@ ABD: EveryShipout initializing macros
 \scratchbox=\box68
 \nofMPsegments=\count149
 \nofMParguments=\count150
-\everyMPshowfont=\toks39
+\everyMPshowfont=\toks40
 \MPscratchCnt=\count151
 \MPscratchDim=\dimen197
 \MPnumerator=\count152
 \makeMPintoPDFobject=\count153
-\everyMPtoPDFconversion=\toks40
+\everyMPtoPDFconversion=\toks41
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
@@ -1155,40 +1159,40 @@ Chapter 5.
 (C:\Users\antti.paananen\diplomityo\diplomityo\dippa.bbl [14
 
 ])
-<sus.pdf, id=219, 597.23125pt x 845.1575pt>
+<sus.pdf, id=222, 597.23125pt x 845.1575pt>
 File: sus.pdf Graphic file (type pdf)
  <use sus.pdf>
-Package pdftex.def Info: sus.pdf used on input line 971.
+Package pdftex.def Info: sus.pdf used on input line 983.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: sus.pdf Graphic file (type pdf)
  <use sus.pdf>
-Package pdftex.def Info: sus.pdf used on input line 971.
+Package pdftex.def Info: sus.pdf used on input line 983.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 [15
 
-] <sus.pdf, id=226, page=4, 597.23125pt x 845.1575pt>
+] <sus.pdf, id=229, page=4, 597.23125pt x 845.1575pt>
 File: sus.pdf Graphic file (type pdf)
  <use sus.pdf, page 4>
-Package pdftex.def Info: sus.pdf, page4 used on input line 971.
+Package pdftex.def Info: sus.pdf, page4 used on input line 983.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: sus.pdf Graphic file (type pdf)
 
 <use sus.pdf, page 4>
-Package pdftex.def Info: sus.pdf, page4 used on input line 971.
+Package pdftex.def Info: sus.pdf, page4 used on input line 983.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 File: sus.pdf Graphic file (type pdf)
  <use sus.pdf, page 4>
-Package pdftex.def Info: sus.pdf, page4 used on input line 971.
+Package pdftex.def Info: sus.pdf, page4 used on input line 983.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 File: sus.pdf Graphic file (type pdf)
  <use sus.pdf, page 4>
-Package pdftex.def Info: sus.pdf, page4 used on input line 971.
+Package pdftex.def Info: sus.pdf, page4 used on input line 983.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 File: sus.pdf Graphic file (type pdf)
 
 <use sus.pdf, page 4>
-Package pdftex.def Info: sus.pdf, page4 used on input line 971.
+Package pdftex.def Info: sus.pdf, page4 used on input line 983.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 
 Appendix A.
@@ -1197,20 +1201,20 @@ Appendix A.
  <C:/Users/antti.paananen/diplomityo/diplomityo/sus.pdf>]
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1024.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1024.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1036.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1036.
 (C:\Users\antti.paananen\diplomityo\diplomityo\dippa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1024.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1024.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1036.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1036.
 
 Package rerunfilecheck Info: File `dippa.out' has not changed.
 (rerunfilecheck)             Checksum: C858C88B8002D8C9AB2F82D457BCA36D;1468.
  ) 
 Here is how much of TeX's memory you used:
- 19159 strings out of 493921
- 361805 string characters out of 3144850
- 476618 words of memory out of 3000000
- 21978 multiletter control sequences out of 15000+200000
+ 19181 strings out of 493921
+ 362103 string characters out of 3144850
+ 476986 words of memory out of 3000000
+ 21995 multiletter control sequences out of 15000+200000
  11990 words of font info for 42 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  56i,19n,57p,847b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1223,9 +1227,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dippa.pdf (16 pages, 308844 bytes).
+Output written on dippa.pdf (16 pages, 309605 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
  209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
