@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{RefWorks:12}
 {\sc Bangor, A., Kortum, P.~T., and Miller, J.~T.}
@@ -52,5 +52,12 @@
 \newblock Identifying usability issues with an erp implementation.
 \newblock In {\em Proceedings of the Seventh International Conference on
   Enterprise Information Systems\/} (2005), Citeseer.
+
+\bibitem{RefWorks:17}
+{\sc Viitanen, J., and Nieminen, M.}
+\newblock {\em Usability Evaluation of Digital Dictation Procedure - An
+  Interaction Analysis Approach}, vol.~7058 of {\em Information Quality in
+  e-Health}.
+\newblock Springer Berlin Heidelberg, 2011, pp.~133--149.
 
 \end{thebibliography}
