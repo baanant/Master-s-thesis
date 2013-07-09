@@ -95,6 +95,7 @@
 \usepackage[finnish,swedish,english]{babel}
 
 \usepackage{enumerate}
+
 % Font selection
 % ------------------------------------------------------------------
 % The default LaTeX font is a very good font for rendering your
@@ -507,7 +508,7 @@ HCI & Human-Computer Interaction \\
 ISI & Interaction Sequence Illustration \\
 SUS & System Usability Scale \\
 UI & User Interface \\
-
+UX & User Experience
 
 %FLUTE  & The File Delivery over Unidirectional Transport protocol \\
 %e.g.& for example (do not list here this kind of common acronymbs or abbreviations, but only those that are essential for understanding the content of your thesis. \\
@@ -566,22 +567,27 @@ In this chapter, the background and reasoning for the thesis is described togeth
 \section{Motivation and aim of the thesis}
 \label{sec:motivationandaim}
 In the 1980s, when the usage of personal computers (PCs) became more common, software design practices were still falsely assuming that the users were knowledgeable and competent in computer science. As an outcome, big part of the users were practically incapable of using operating systems and applications.
-During these times, the concepts of Human Computer Interaction (HCI) and usability, became important. Since then, the design process of interactive software for common people emphasized usability. \cite{RefWorks:9} \texttt{TÄHÄN VIELÄ ISO-STANDARDISTA JUTTUA!!!!!!}
+During these times, the concepts of Human Computer Interaction (HCI) and usability, became important. Since then, the design process of interactive software for common people emphasized usability. This process is called human-centred design. \cite{RefWorks:9}
 
 The term Enterprise Resource Planning (ERP) was invented in the early 1990s.\cite{RefWorks:3} The purpose of the ERP software is to offer techniques and concepts for integrated and thorough management of business, as well as making it more efficient.
 The usage of ERP software has increased globally and nowadays even service organizations have invested a lot of resources in ERP implementation.\cite{RefWorks:1, RefWorks:7} 
 
 Despite the importance of the efficiency aspect, the usability of ERP systems is not a widely studied topic. However, weaknesses in usability may lead into a low productivity and make it harder for users to achieve their goals.\cite{RefWorks:2} 
 
-The aim of this thesis is to examine if the usability of a service-oriented ERP system can be enhanced by integrating usability inquiries, inspections and measures into the software development process. In the research, one well defined business process is examined and the state of its usability in the system is determined  by using variety of applicable methods:
+The aim of this thesis is to examine how the usability of a service-oriented ERP system can be enhanced by integrating usability inquiries, inspections and measures into the software development process. In the research, one well defined business process is examined and the state of its usability in the system is determined  by using variety of applicable methods:
 \begin{itemize}
 \item Contextual Inquiry to define the business process.
 \item Cognitive walkthrough for usability inspection.
-\item Interaction Sequence Illustration (ISI) to measure the amount of interaction steps in the process.
+\item Interaction Sequence Illustration (ISI) to measure the amount of interaction steps and to understand them.
 \item System Usability Scale (SUS) to give a global view of subjective assessments of usability.
 \item Remote Usability evaluation and Usability logging for remote usability evaluation.
 \end{itemize}
 The measurements are focused on time, error rate and user satisfaction.
+\\
+\\
+\indent According to ISO standard for Human-centred design for interactive systems \cite{RefWorks:16}, many benefits can be gained by using human-centred methods as a part of software development process. The productivity of an individual user can be increased, as well as the operational efficiency of an organisation. Usable and useful systems also reduce training and help-desk costs together with stress and discomfort since they are understandable by the users. In other words, human-centred design improves the UX (User Experience).
+
+The benefits of human-centred methods (for a software development process) are increased total lifecycle of product and likelihood of project succeeding on time and withing budget. Human-centric approach also decrease the risk of software being rejected by the users or failing to meet the requirements. \cite{RefWorks:16}
 
 \section{Background and research questions}
 \label{sec:backgroundandresearchquestions}
@@ -721,8 +727,7 @@ Contextual Inquiry was originally developed to overcome the three following chal
 \end{enumerate}
 
 In addition to those challenges, the technique is capable of much more. CI cherish participatory design and, because of that quality, users are able to involve in the design. 
-Users' contributes to the design by providing a deep understading about the nature of the work. This is done through inquiry and it's a basis for fundamental work concepts.  As soon as the understanding about the work is available 
-a design for a system model can be created. \cite{RefWorks:14}
+Users' contributes to the design by providing a deep understading about the nature of the work. This is done through inquiry and it's a basis for fundamental work concepts.  As soon as the understanding about the work is available design for a system model can be created. \cite{RefWorks:14}
 
   
 
@@ -739,6 +744,7 @@ a design for a system model can be created. \cite{RefWorks:14}
 
 	\texttt{TÄHÄN LISÄÄ!!!}
         \subsection{Interaction Sequence Illustration}
+	
         \subsection{Time used and success rate}
 
 \section{Automated Remote Usability Evaluation}
@@ -749,7 +755,15 @@ a design for a system model can be created. \cite{RefWorks:14}
     
 \chapter{Process experiment}
 \label{processexperiment}
-Introduction to the chapter.
+
+
+Human-centred design consist of a few activities and and iterative process.  
+This chapter describes the process experiment of the thesis, including the explicit report about the steps taken in the process. 
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=1.0\textwidth]{./images/hci_process.png}
+  \caption{A picture of a gulli.}
+\end{figure}
 
     \section{Steps}
     \label{sec:steps}
@@ -986,7 +1000,7 @@ Introduction to the chapter.
 \includepdf[scale=0.9,pages=4,angle=0.0,picturecommand*={%
      \put(110,770){%
          \parbox{\textwidth}{\chapter{SUS form}\label{app:susform}}
-     }}]{sus.pdf}
+     }}]{./pdfs/sus.pdf}
 
 
 

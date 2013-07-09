@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.6.25)  3 JUL 2013 11:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.6.25)  9 JUL 2013 11:28
 entering extended mode
 **C:/Users/antti.paananen/diplomityo/diplomityo/ref.bib
 (C:/Users/antti.paananen/diplomityo/diplomityo/ref.bib
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 
-Overfull \hbox (57.82964pt too wide) in paragraph at lines 17--30
+Overfull \hbox (57.82964pt too wide) in paragraph at lines 34--47
 \tenrm Jour-nal of Human-Computer In-ter-ac-tion, vol-ume=24, num-ber=6, pages=
 574-594, note=doi: 10.1080/10447310802205776;|
 
@@ -19,7 +19,7 @@ Overfull \hbox (57.82964pt too wide) in paragraph at lines 17--30
 .etc.
 
 
-Overfull \hbox (99.81137pt too wide) in paragraph at lines 17--30
+Overfull \hbox (99.81137pt too wide) in paragraph at lines 34--47
 \tenrm M3: doi: 10.1080/10447310802205776; 03, isbn=1044-7318, url=http://www.t
 andfonline.com/doi/abs/10.1080/10447310802205776|
 
@@ -32,14 +32,14 @@ andfonline.com/doi/abs/10.1080/10447310802205776|
 .etc.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--30
+Underfull \hbox (badness 10000) in paragraph at lines 34--47
 
 
 \hbox(0.0+0.0)x469.75499
 .\glue(\rightskip) 0.0
 
 
-Overfull \hbox (0.10709pt too wide) in paragraph at lines 40--46
+Overfull \hbox (0.10709pt too wide) in paragraph at lines 57--63
 []\tenrm @bookRefWorks:1, au-thor=Alexis Leon, year=2007, ti-tle=Enterprise re-
 source plan-ning, pub-lisher=Tata|
 
@@ -56,7 +56,7 @@ source plan-ning, pub-lisher=Tata|
                 $
 <to be read again> 
                    _
-l.74 ...raction-design.org/encyclopedia/usability_
+l.91 ...raction-design.org/encyclopedia/usability_
                                                   evaluation.html}
 ? 
 ! Emergency stop.
@@ -64,7 +64,7 @@ l.74 ...raction-design.org/encyclopedia/usability_
                 $
 <to be read again> 
                    _
-l.74 ...raction-design.org/encyclopedia/usability_
+l.91 ...raction-design.org/encyclopedia/usability_
                                                   evaluation.html}
 End of file on the terminal!
 
