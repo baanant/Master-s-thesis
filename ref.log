@@ -1,71 +1,36 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.6.25)  9 JUL 2013 11:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.6.25)  10 JUL 2013 17:08
 entering extended mode
 **C:/Users/antti.paananen/diplomityo/diplomityo/ref.bib
 (C:/Users/antti.paananen/diplomityo/diplomityo/ref.bib
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-
-Overfull \hbox (57.82964pt too wide) in paragraph at lines 34--47
-\tenrm Jour-nal of Human-Computer In-ter-ac-tion, vol-ume=24, num-ber=6, pages=
-574-594, note=doi: 10.1080/10447310802205776;|
-
-\hbox(7.5+2.5)x469.75499, glue set - 1.0
-.\tenrm J
-.\tenrm o
-.\tenrm u
-.\tenrm r
-.\discretionary
-..\tenrm -
-.etc.
-
-
-Overfull \hbox (99.81137pt too wide) in paragraph at lines 34--47
-\tenrm M3: doi: 10.1080/10447310802205776; 03, isbn=1044-7318, url=http://www.t
-andfonline.com/doi/abs/10.1080/10447310802205776|
-
-\hbox(7.5+2.5)x469.75499, glue set - 1.0
-.\tenrm M
-.\tenrm 3
-.\tenrm :
-.\glue 4.44444 plus 3.33331 minus 0.55556
-.\tenrm d
-.etc.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--47
-
-
-\hbox(0.0+0.0)x469.75499
-.\glue(\rightskip) 0.0
-
-
-Overfull \hbox (0.10709pt too wide) in paragraph at lines 57--63
-[]\tenrm @bookRefWorks:1, au-thor=Alexis Leon, year=2007, ti-tle=Enterprise re-
-source plan-ning, pub-lisher=Tata|
+Overfull \hbox (1.27377pt too wide) in paragraph at lines 4--16
+[]\tenrm @inproceedingsRefWorks:19, au-thor=Marita Franzke, year=1992, ti-tle=U
+sing the cog-ni-tive walk-through|
 
 \hbox(6.94444+1.94444)x469.75499, glue set - 1.0
 .\hbox(0.0+0.0)x20.0
 .\tenrm @
-.\tenrm b
-.\kern0.27779
-.\tenrm o
+.\tenrm i
+.\tenrm n
+.\tenrm p
 .etc.
 
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
 ! Missing $ inserted.
 <inserted text> 
                 $
 <to be read again> 
                    _
-l.91 ...raction-design.org/encyclopedia/usability_
-                                                  evaluation.html}
+l.75 ...tp://dx.doi.org/10.1007/978-3-642-25364-5_
+                                                  13}
 ? 
 ! Emergency stop.
 <inserted text> 
                 $
 <to be read again> 
                    _
-l.91 ...raction-design.org/encyclopedia/usability_
-                                                  evaluation.html}
+l.75 ...tp://dx.doi.org/10.1007/978-3-642-25364-5_
+                                                  13}
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!

@@ -32,6 +32,13 @@
 \newblock {\em International Organization for Standardization
   (ISO).Switzerland\/} (2010).
 
+\bibitem{RefWorks:19}
+{\sc Franzke, M.}
+\newblock Using the cognitive walkthrough in iterative design.
+\newblock In {\em Posters and Short Talks of the 1992 SIGCHI Conference on
+  Human Factors in Computing Systems\/} (New York, NY, USA, 1992), CHI '92,
+  ACM, pp.~37--37.
+
 \bibitem{RefWorks:3}
 {\sc Jacobs, F.~R.}
 \newblock Enterprise resource planning (erp) - a brief history.
@@ -41,6 +48,13 @@
 {\sc Leon, A.}
 \newblock {\em Enterprise resource planning}.
 \newblock Tata McGraw-Hill Education, 2007.
+
+\bibitem{RefWorks:18}
+{\sc Lewis, C., Polson, P.~G., Wharton, C., and Rieman, J.}
+\newblock Testing a walkthrough methodology for theory-based design of
+  walk-up-and-use interfaces.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems\/} (New York, NY, USA, 1990), CHI '90, ACM, pp.~235--242.
 
 \bibitem{RefWorks:14}
 {\sc Schuler, D., and Namioka, A.}
