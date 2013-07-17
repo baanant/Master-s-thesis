@@ -13,11 +13,11 @@
 \contentsline {section}{\numberline {2.1}Automated Remote Usability Evaluation}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}Contextual Inquiry}{11}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Fundamentals of Contextual Inquiry}{12}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Contextual Inquiry in practice}{12}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Contextual Inquiry in practice}{13}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Cognitive walkthrough}{13}{section.2.3}
 \contentsline {section}{\numberline {2.4}Interaction Sequence Illustration}{13}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Description of the method}{13}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Utilization of Interaction Sequence Illustration}{13}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}Utilization of Interaction Sequence Illustration}{14}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}System Usability Scale}{14}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Description of the System Usability Scale}{15}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}System Usability Scale in practice}{15}{subsection.2.5.2}
