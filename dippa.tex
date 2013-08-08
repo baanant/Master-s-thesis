@@ -726,14 +726,16 @@ There are many ways to implement remote usability evaluation. In this paper, the
 Usage data of an application can offer valuable information about users' actions and can therefore be utilized in the process of improving software's usability. Even if logging can not replace the traditional usability methods, it provides many advantages over them.  Logging is automatic, objective and it doesn't require direct observation. The data is gathered from the actual running application. \cite{RefWorks:24}	
 
 
-\subsection{Evaluation Process}
+\subsection{Evaluation process}
 
-	
+According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation process consist typically of three stages (see Figure \ref{fig:logging_usability_process}). The first is called \emph{application instrumentation} and in that stage logging capability is added to the application. In other words, instrumentation is a process which determines what data will be logged from the usage of an application. In order to gain useful data, successful decisions in instrumentation stage are crucial. Bateman et al. also assert that if wrong decisions are made and therefore large amount of low-level data has been collected, it might be challenging to interpret and might not reveal any value. On the other hand they remark that if only high-level events is logged, internal structures may remain undiscovered. Consequently both, low-level and high-level usage data need to be tracked and logged. Sometimes, when log data doesn't supply enough information for interpretation, contextual information is needed. Generally, it requires a significant amount of effort and vigilance to be able to gather all the essential data to be analyzed. \cite{RefWorks:24}
+
+
 \begin{figure}[H]
   	\centering
   	\includegraphics[width=0.8\textwidth]{./images/logging_usability_process.png}
   	\caption{Process for log-based usability evaluation. \cite{RefWorks:24}}
-	\label{fig:isi_chart}
+	\label{fig:logging_usability_process}
 \end{figure}
 
 \subsection{Log data analysis and pattern creation}
@@ -1061,7 +1063,7 @@ Human-centered design consist a few activities and iterative process (see Figure
 %\label{chapter:susform}
 
 \appendix
-\includepdf[scale=0.9,pages=4,angle=0.0,picturecommand*={%
+\includepdf[scale=0.9,pages=4,angle=0.1,picturecommand*={%
      \put(110,770){%
          \parbox{\textwidth}{\chapter{SUS form}\label{app:susform}}
      }}]{./pdfs/sus.pdf}
