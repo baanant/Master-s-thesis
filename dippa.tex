@@ -321,8 +321,8 @@
 %\newcommand{\SPROFESSORSHIP}{Datakommunikationsprogram}
 % Professorship code is the same in all languages
 \newcommand{\PROFCODE}{T-121}
-\newcommand{\KEYWORDS}{Usability, ERP, Software Development Process, Process Measurement, Cognitive walkthrough, Remote Usability Evaluation, SUS, Contextual Inquiry, ISI}
-\newcommand{\FKEYWORDS}{Käytettävyys, ERP, Ohjelmistokehitysprosessi, Prosessimittaus, Kognitiivinen läpikäynti, Käytettävyyden etäarviointi, SUS, Kontekstuaalinen tutkimus, ISI}
+\newcommand{\KEYWORDS}{Usability, ERP, Software Development Process, Process Measurement, Cognitive walkthrough, Remote Usability Evaluation, Automatic Usability Logging, SUS, Contextual Inquiry, ISI}
+\newcommand{\FKEYWORDS}{Käytettävyys, ERP, Ohjelmistokehitysprosessi, Prosessimittaus, Kognitiivinen läpikäynti, Käytettävyyden etäarviointi, Automaattinen käytettävyyslokitus, SUS, Kontekstuaalinen tutkimus, ISI}
 %\newcommand{\SKEYWORDS}{omsättning, kassaflöde, värdepappersmarknadslagen,
 %yrkesutövare, intresseföretag, verifieringskedja}
 \newcommand{\LANGUAGE}{English}
@@ -584,7 +584,7 @@ The aim of this thesis is to examine how the usability of a service-oriented ERP
 \item Cognitive walkthrough for usability inspection.
 \item Interaction Sequence Illustration (ISI) to measure the amount of interaction steps and to understand them.
 \item System Usability Scale (SUS) to give a global view of subjective assessments of usability.
-\item Remote Usability evaluation and Usability logging for remote usability evaluation.
+\item Usability Logging for remote usability evaluation.
 \end{itemize}
 The measurements are focused on time, error rate and user satisfaction.
 \\
@@ -718,13 +718,20 @@ Inquiries are used to study the business process and the process itself is measu
 
 Methods are used in different stages of the research to follow the structure of human-centered design principles. These methods are described in detail in the following chapter.  
 
-\section{Automated Remote Usability Evaluation}
+\section{Automated Usability Logging}
 \label{sec:rue}
- 
+
+Logged usage data of an application can offer valuable information about users' actions and can therefore be utilized in improving software usability. Logging provides many advantages over 
+
+
+\subsection{Evaluation Process}
+
+\subsection{Log data analysis and pattern creation}
     
 
 \section{Contextual Inquiry}
 \label{sec:cinquiry}
+\texttt{TÄHÄN VIELÄ p1-raven pdfstä juttua.}
 Contextual Inquiry is an unstructured interview method, but it has some qualities which differs it from traditional unstructured interviews.\cite{RefWorks:23}  It was originally developed to meet three requirements. Firstly it was supposed to identify a design process for systems that will be used similarly in different business contexts and in different cultures. It was also supposed to identify a convenient process for gathering user information in limited time and finally to identify a way to acquire information about users' work in eligible format. In addition to those requirements, the technique was noticed to be capable of much more. CI cherish participatory design and, because of that quality, users are able to involve in the design. Users' contributes to the design by providing a deep understanding about the nature of the work. This is done through inquiry and it's a basis for fundamental work concepts. \cite{RefWorks:14} 
 
 \subsection{Fundamentals of Contextual Inquiry}
@@ -752,14 +759,16 @@ The structure of the interview is considerably straightforward. First task of th
 
 Cognitive Walkthrough (CW) was developed in the early nineties and it was originally intended to help reviewing 'walk-up-and-use' interfaces, such as automatic teller machine (ATM). CW is a formal usability inspection method for professionals, involved in development process. The key concept behind CW is to use theory as a guide for design review. It is easy to understand and apply and therefore feasible to use in a regular development process. \cite{RefWorks:19, RefWorks:18} 	
 
+\text{TÄHÄN HUOMATTAVASTI LISÄÄ}
+
 \section{Interaction Sequence Illustration}
 \label{sec:isi}
 Considering the practical impacts of the thesis, it is important to use methods and measures which can shore up the software development process in a real-use context. This is why the process and it's interactions are reviewed using ISI method, which utilizes 				authentic use context and real users. \cite{RefWorks:17} ISI was originally developed for evaluating the usability of IT tasks carried out in healthcare industry, but there are no defined reasons why it could not be utilized in different environments.
 
-\subsection{Description of the method}
+\subsection{Description of the Interaction Sequence Illustration}
 Interaction Sequence Illustration is a low level analysis method for human-computer interaction. It uses data acquired during the contextual inquiry process and doesn't gather any of its own. However, the inquiry data has to be complemented with documentation 			about 	interaction activities. There are three objectives for ISI method to handle. The first is to demonstrate how the user perceives the system. The second one is to identify and document activities, and to discover problems. The first two objectives creates the 			third one, which is to support the user-centered design and development. \cite{RefWorks:17}  The strength of ISI lies in the analysis of data and it can be used to compare the interaction sequences of two of or more UI implementations. On the other hand it can 			provide prominent information on only one UI's interaction sequence. 
 
-\subsection{Utilization of Interaction Sequence Illustration}
+\subsection{Utilization of the Interaction Sequence Illustration}
 The utilization of Interaction Sequence Illustration can be simplified in seven steps (see Figure \ref{fig:isi_chart}). First the data need to be collect (notes and screenshots) alongside Contextual Inquiry interview.
 Then the screenshots need to be arranged in the right order and all the superfluous data need to be removed. The third phase is to count the interaction steps based on screenshots and activity analysis.
 After the analysis the screenshots needs to be modified and important details highlighted. Then the sequence numbers as well as a  detailed description text should be added to give a profound understanding about the actions. The outcomes of the method are 			illustration, or illustrations depending on the number of research objectives, of the interaction stages. Every stage contains step-by-step illustration (or illustrations) of user-computer interaction. \cite{RefWorks:17}
@@ -822,7 +831,7 @@ Human-centered design consist a few activities and iterative process (see Figure
     \section{Implementation}
     \label{sec:implementation}
 	\texttt{Kuinka monta osallistujaa, millainen ympäristö, missä maassa, minkä ikäisiä osallistujat, kauanko tehneet työtä}
-    
+    	\texttt{kuinka testaus sujui}
 \chapter{Analysis}
 \label{chapter:analysis}
 
