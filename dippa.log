@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.4)  8 AUG 2013 13:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.4)  8 AUG 2013 14:45
 entering extended mode
 **C:/Users/antti.paananen/diplomityo/diplomityo/dippa.tex
 (C:/Users/antti.paananen/diplomityo/diplomityo/dippa.tex
@@ -1050,7 +1050,11 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 237.
 
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 240.
 
-(C:\Users\antti.paananen\diplomityo\diplomityo\dippa.aux)
+(C:\Users\antti.paananen\diplomityo\diplomityo\dippa.aux
+
+LaTeX Warning: Label `fig:isi_chart' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 393.
 LaTeX Font Info:    ... okay on input line 393.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 393.
@@ -1065,8 +1069,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 393.
 LaTeX Font Info:    ... okay on input line 393.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 393.
 LaTeX Font Info:    ... okay on input line 393.
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count149
@@ -1157,103 +1160,116 @@ Underfull \hbox (badness 10000) in paragraph at lines 589--593
 
 [9] [10]
 Chapter 2.
-[11
+<./images/logging_usability_process.png, id=235, 742.775pt x 341.275pt>
+File: ./images/logging_usability_process.png Graphic file (type png)
 
-] [12] [13] [14] <./images/isi_chart.png, id=281, 2296.58pt x 1092.08pt>
+<use ./images/logging_usability_process.png>
+Package pdftex.def Info: ./images/logging_usability_process.png used on input l
+ine 734.
+(pdftex.def)             Requested size: 312.00119pt x 143.35535pt.
+ [11
+
+] [12 <C:/Users/antti.paananen/diplomityo/diplomityo/images/logging_usability_p
+rocess.png>] [13] [14]
+<./images/isi_chart.png, id=286, 2296.58pt x 1092.08pt>
 File: ./images/isi_chart.png Graphic file (type png)
 
 <use ./images/isi_chart.png>
-Package pdftex.def Info: ./images/isi_chart.png used on input line 778.
+Package pdftex.def Info: ./images/isi_chart.png used on input line 788.
 (pdftex.def)             Requested size: 429.00238pt x 203.99796pt.
 
-Overfull \hbox (39.00238pt too wide) in paragraph at lines 778--779
+Overfull \hbox (39.00238pt too wide) in paragraph at lines 788--789
  [][] 
  []
 
-[15 <C:/Users/antti.paananen/diplomityo/diplomityo/images/isi_chart.png>]
-[16]
+[15] [16 <C:/Users/antti.paananen/diplomityo/diplomityo/images/isi_chart.png>]
+[17]
 Chapter 3.
-<./images/hci_process.png, id=305, 684.30656pt x 447.92343pt>
+<./images/hci_process.png, id=315, 684.30656pt x 447.92343pt>
 File: ./images/hci_process.png Graphic file (type png)
 
 <use ./images/hci_process.png>
-Package pdftex.def Info: ./images/hci_process.png used on input line 814.
+Package pdftex.def Info: ./images/hci_process.png used on input line 824.
 (pdftex.def)             Requested size: 390.0pt x 255.28484pt.
- [17
+ [18
 
  <C:/Users/antti.paananen/diplomityo/diplomityo/images/hci_process.png>]
-Overfull \hbox (159.57527pt too wide) in paragraph at lines 833--835
+Overfull \hbox (159.57527pt too wide) in paragraph at lines 843--845
 \OT1/cmtt/m/n/12 Kuinka monta osallistujaa, millainen ymparisto, missa maass
 a, minka ikaisia osallistujat,
  []
 
-[18]
+[19]
 Chapter 4.
-[19
+[20
 
 ]
 Chapter 5.
-(C:\Users\antti.paananen\diplomityo\diplomityo\dippa.bbl [20
+(C:\Users\antti.paananen\diplomityo\diplomityo\dippa.bbl [21
 
-] [21
+] [22
 
 ])
-<./pdfs/sus.pdf, id=333, 597.23125pt x 845.1575pt>
+<./pdfs/sus.pdf, id=343, 597.23125pt x 845.1575pt>
 File: ./pdfs/sus.pdf Graphic file (type pdf)
  <use ./pdfs/sus.pdf>
-Package pdftex.def Info: ./pdfs/sus.pdf used on input line 1057.
+Package pdftex.def Info: ./pdfs/sus.pdf used on input line 1067.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ./pdfs/sus.pdf Graphic file (type pdf)
 
 <use ./pdfs/sus.pdf>
-Package pdftex.def Info: ./pdfs/sus.pdf used on input line 1057.
+Package pdftex.def Info: ./pdfs/sus.pdf used on input line 1067.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [22]
-<./pdfs/sus.pdf, id=338, page=4, 597.23125pt x 845.1575pt>
+ [23]
+<./pdfs/sus.pdf, id=348, page=4, 597.23125pt x 845.1575pt>
 File: ./pdfs/sus.pdf Graphic file (type pdf)
 
 <use ./pdfs/sus.pdf, page 4>
-Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1057.
+Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1067.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ./pdfs/sus.pdf Graphic file (type pdf)
  <use ./pdfs/sus.pdf, page 4>
-Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1057.
+Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1067.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 File: ./pdfs/sus.pdf Graphic file (type pdf)
 
 <use ./pdfs/sus.pdf, page 4>
-Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1057.
+Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1067.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 File: ./pdfs/sus.pdf Graphic file (type pdf)
  <use ./pdfs/sus.pdf, page 4>
-Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1057.
+Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1067.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 File: ./pdfs/sus.pdf Graphic file (type pdf)
 
 <use ./pdfs/sus.pdf, page 4>
-Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1057.
+Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1067.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 
 Appendix A.
-[23
+[24
 
  <C:/Users/antti.paananen/diplomityo/diplomityo/pdfs/sus.pdf>]
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1110.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1110.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1120.
 (C:\Users\antti.paananen\diplomityo\diplomityo\dippa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1110.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1120.
 
 Package rerunfilecheck Info: File `dippa.out' has not changed.
-(rerunfilecheck)             Checksum: 47D23ED3D150ABAC4968CCE655ED2702;2218.
+(rerunfilecheck)             Checksum: C057ADDF020DFE56A6CB7D05B4803C11;2218.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 19296 strings out of 493921
- 363855 string characters out of 3144850
- 479043 words of memory out of 3000000
- 22079 multiletter control sequences out of 15000+200000
+ 19305 strings out of 493921
+ 364101 string characters out of 3144850
+ 479116 words of memory out of 3000000
+ 22084 multiletter control sequences out of 15000+200000
  12159 words of font info for 43 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  56i,21n,57p,1134b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1267,9 +1283,9 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on dippa.pdf (23 pages, 428735 bytes).
+Output written on dippa.pdf (24 pages, 438746 bytes).
 PDF statistics:
- 436 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
