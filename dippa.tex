@@ -584,7 +584,7 @@ The aim of this thesis is to examine how the usability of a service-oriented ERP
 \item Cognitive walkthrough for usability inspection.
 \item Interaction Sequence Illustration (ISI) to measure the amount of interaction steps and to understand them.
 \item System Usability Scale (SUS) to give a global view of subjective assessments of usability.
-\item Usability Logging for remote usability evaluation.
+\item Remote Usability Evaluation (by using log data) to evaluate usability in distributed locations.
 \end{itemize}
 The measurements are focused on time, error rate and user satisfaction.
 \\
@@ -730,7 +730,6 @@ Usage data of an application can offer valuable information about users' actions
 
 According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation process consist typically of three stages (see Figure \ref{fig:logging_usability_process}). The first is called \emph{application instrumentation} and in that stage logging capability is added to the application. In other words, instrumentation is a process which determines what data will be logged from the usage of an application. In order to gain useful data, successful decisions in instrumentation stage are crucial. Bateman et al. also assert that if wrong decisions are made and therefore large amount of low-level data has been collected, it might be challenging to interpret and might not reveal any value. On the other hand they remark that if only high-level events is logged, internal structures may remain undiscovered. Consequently both, low-level and high-level usage data need to be tracked and logged. Sometimes, when log data doesn't supply enough information for interpretation, contextual information is needed. Generally, it requires a significant amount of effort and vigilance to be able to gather all the essential data to be analyzed. \cite{RefWorks:24}
 
-
 \begin{figure}[H]
   	\centering
   	\includegraphics[width=0.8\textwidth]{./images/logging_usability_process.png}
@@ -738,7 +737,14 @@ According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation pr
 	\label{fig:logging_usability_process}
 \end{figure}
 
+The second stage of log-based usability evaluation process is \emph{application usage}. It is a stage where the instrumented application is used in authentic or simulated situation. The log data is collected unobtrusively while the user is performing his tasks with the application. \cite{RefWorks:24}
+
+The final stage of the process is data analysis, which consist of a few steps or techniques: Synchronization and searching, transforming event streams, performing counts and summary statistics, detecting sequences, comparing sequences, characterizing sequences and visualizing. \cite{RefWorks:25} This part of the process will be described in more detail in the following subsection \nameref{sec:analysis}.
+
+
+
 \subsection{Log data analysis and pattern creation}
+\label{sec:analysis}
     
 
 \section{Contextual Inquiry}
