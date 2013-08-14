@@ -571,7 +571,7 @@ In this chapter, the background and reasoning for the thesis is described togeth
 \section{Motivation and aim of the thesis}
 \label{sec:motivationandaim}
 In the 1980s, when the usage of personal computers (PCs) became more common, software design practices were still falsely assuming that the users were knowledgeable and competent in computer science. As an outcome, big part of the users were practically incapable of using operating systems and applications.
-During these times, the concepts of Human Computer Interaction (HCI) and usability, became important. Since then, the design process of interactive software for common people emphasized usability. This process is called human-centered design. \cite{RefWorks:9}
+During these times, the concepts of Human Computer Interaction (HCI) and usability, became important. Since then, the design process of interactive software for common people has emphasized usability. This process is called human-centered design. \cite{RefWorks:9}
 
 The term Enterprise Resource Planning (ERP) was invented in the early 1990s.\cite{RefWorks:3} The purpose of the ERP software is to offer techniques and concepts for integrated and thorough management of business, as well as making it more efficient.
 The usage of ERP software has increased globally and nowadays even service organizations have invested a lot of resources in ERP implementation.\cite{RefWorks:1, RefWorks:7} 
@@ -595,7 +595,7 @@ The benefit of human-centered design (for software development process) is incre
 
 \section{Background and research questions}
 \label{sec:backgroundandresearchquestions}
-The subscriber of this thesis is a middle-sized company which is offering information services globally and practicing in-house software development. Because of the fast pace of growth, the company is willing to reform their current ERP system as well as the whole software development process. The aim of this thesis is to join usability perspective into this process and give answers to following research questions.
+The subscriber of this thesis is a middle-sized company which is offering information services globally and practicing in-house software development. Because of the fast pace of growth, the company is willing to reform their current ERP system as well as the whole software development process. This thesis tries to join usability perspective into this process and give answers to following research questions.
 
 \begin{itemize}
 \item \textbf{\emph{How usability methods can help to identify critical disparities in the usage of a system?}}
@@ -746,11 +746,13 @@ The final stage of the process is data analysis, which consist of a few steps or
 \subsection{Log data analysis and pattern creation}
 \label{sec:analysis}
  In order to gain beneficial usability information from user interface events, the log data has to be analyzed thoroughly. According to  Hilbert and Redmiles \cite{RefWorks:25}, there are several techniques to sort out important usability information out of log data.
-The first one of them is \textbf{\emph{synchronization and searching}}. 
+The first set of them are called \textbf{\emph{synchronization and searching techniques}}. 
 
 It is often challenging to interpret user interface events alone and thereby discover valuable higher level events without any contextual information. The purpose of the synchronization and searching techniques is to combine user interface event data with other informative data, such as observations or video recordings, in order to increase the understanding about the context of use. These two forms of data are complementary and can together provide wider understanding about the usability of a system. Observations or video recordings may supply additional information about the user interface event appeared in the log, or vice versa. However, there are few disadvantages with synchronization and searching techniques. For example video recording and observation typically require the presence of the observer. Furthermore, using video recording as a part of evaluation, produces a lot of data and can be inefficient to analyze. It might also have an disturbing affect on user's behavior. \cite{RefWorks:25}
 
-The second type of techniques are called \textbf{\emph{transformations}}. Transformations combine selection, abstraction and recording to transform events into more beneficial form of information. This information can then be utilized for example in human pattern detection, comparison and automation processes. 
+The second type of techniques are called \textbf{\emph{transformations}}. Transformations combine selection, abstraction and recording to transform events into more beneficial form of information. This information can then be utilized for instance in detecting, comparing or characterizing human behavior patterns. Selection is basically segregating useful information out of mass of user interface related events by filtering out irrelevant data or by selecting the relevant data. Example of selection could be a situation where the user has been writing a lot of text, generating a lot of data in the log, and trying to find save button from different menus. From the usability point of view, text inputs as log events are probably not that relevant, but time consuming browsing between different menus can be a sign from usability issues. \cite{RefWorks:25}
+
+Abstraction can be used to combine different events into a more understandable event sequences or patterns. For example user typing into different text fields and then clicking a button in a web page could be interpreted as a login activity. However, in this kind of situation user interface event logs, must be supplemented with contextual data to be assured that the event sequence is really what it appears to be. Recording means generating new sets of events based on selection and abstraction. Less effort is required to analyze new sets of raw data because earlier analyzing techniques can be exploited. \cite{RefWorks:25}
  
 
 \section{Contextual Inquiry}
