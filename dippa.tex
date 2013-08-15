@@ -729,7 +729,7 @@ Usage data of an application can offer valuable information about users' actions
 \subsection{Evaluation process}
 
 According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation process consist typically of three stages (see Figure \ref{fig:logging_usability_process}). The first is called \emph{application instrumentation} and in that stage logging capability is added to the application. In other words, instrumentation is a process which determines what data will be logged from the usage of an application. In order to gain useful data, successful decisions in instrumentation stage are crucial. Bateman et al. also assert that if wrong decisions are made and therefore large amount of low-level data has been collected, it might be challenging to interpret and might not reveal any value. On the other hand they remark that if only high-level events is logged, internal structures may remain undiscovered. Consequently both, low-level and high-level usage data need to be tracked and logged. Sometimes, when log data doesn't supply enough information for interpretation, contextual information is needed. Generally, it requires a significant amount of effort and vigilance to be able to gather all the essential data to be analyzed. \cite{RefWorks:24}
-
+\texttt{TÄHÄN ISTRUMENTAATIOSTA REFWORKS 24}
 \begin{figure}[H]
   	\centering
   	\includegraphics[width=0.8\textwidth]{./images/logging_usability_process.png}
@@ -739,20 +739,32 @@ According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation pr
 
 The second stage of log-based usability evaluation process is \emph{application usage}. It is a stage where the instrumented application is used in authentic or simulated situation. The log data is collected unobtrusively while the user is performing his tasks with the application. \cite{RefWorks:24}
 
-The final stage of the process is data analysis, which consist of a few steps or techniques: Synchronization and searching, transforming event streams, performing counts and summary statistics, detecting sequences, comparing sequences, characterizing sequences and visualizing. \cite{RefWorks:25} This part of the process will be described in more detail in the following subsection \nameref{sec:analysis}.
+The final stage of the process is data analysis, which can be done with a few different approaches \cite{RefWorks:25}:
+\begin{itemize}
+  \item Synchronize and searching
+  \item Transforming event streams
+  \item Performing counts and summary statistics
+  \item Detecting, comparing and characterizing sequences 
+  \item Visualizing
+\end{itemize}
+This part of the process will be described in more detail in the following subsection \nameref{sec:analysis}.
 
 
 
 \subsection{Log data analysis and pattern creation}
 \label{sec:analysis}
- In order to gain beneficial usability information from user interface events, the log data has to be analyzed thoroughly. According to  Hilbert and Redmiles \cite{RefWorks:25}, there are several techniques to sort out important usability information out of log data.
-The first set of them are called \textbf{\emph{synchronization and searching techniques}}. 
+ In order to gain beneficial usability information from user interface events, the log data has to be analyzed thoroughly. According to  Hilbert and Redmiles \cite{RefWorks:25}, there are several approaches to sort out important usability information out of log data.
+The first one of them is called \textbf{\emph{synchronization and searching}}. 
 
-It is often challenging to interpret user interface events alone and thereby discover valuable higher level events without any contextual information. The purpose of the synchronization and searching techniques is to combine user interface event data with other informative data, such as observations or video recordings, in order to increase the understanding about the context of use. These two forms of data are complementary and can together provide wider understanding about the usability of a system. Observations or video recordings may supply additional information about the user interface event appeared in the log, or vice versa. However, there are few disadvantages with synchronization and searching techniques. For example video recording and observation typically require the presence of the observer. Furthermore, using video recording as a part of evaluation, produces a lot of data and can be inefficient to analyze. It might also have an disturbing affect on user's behavior. \cite{RefWorks:25}
+It is often challenging to interpret user interface events alone and thereby discover valuable higher level events without any contextual information. The purpose of the synchronization and searching is to combine user interface event data with other informative data, such as observations or video recordings, in order to increase the understanding about the context of use. These two forms of data are complementary and can together provide wider understanding about the usability of a system. Observations or video recordings may supply additional information about the user interface event appeared in the log, or vice versa. However, there are few disadvantages with synchronization and searching techniques. For example video recording and observation typically require the presence of the observer. Furthermore, using video recording as a part of evaluation, produces a lot of data and can be inefficient to analyze. It might also have an disturbing affect on user's behavior. \cite{RefWorks:25}
 
-The second type of techniques are called \textbf{\emph{transformations}}. Transformations combine selection, abstraction and recording to transform events into more beneficial form of information. This information can then be utilized for instance in detecting, comparing or characterizing human behavior patterns. Selection is basically segregating useful information out of mass of user interface related events by filtering out irrelevant data or by selecting the relevant data. Example of selection could be a situation where the user has been writing a lot of text, generating a lot of data in the log, and trying to find save button from different menus. From the usability point of view, text inputs as log events are probably not that relevant, but time consuming browsing between different menus can be a sign from usability issues. \cite{RefWorks:25}
+The second approach is \textbf{\emph{transformation}}. Transformations combine selection, abstraction and recording to transform events into more beneficial form of information. This information can then be utilized for instance in detecting, comparing or characterizing human behavior patterns. Selection is basically segregating useful information out of mass of user interface related events by filtering out irrelevant data or by selecting the relevant data. Example of selection could be a situation where the user has been writing a lot of text, generating a lot of data in the log, and trying to find save button from different menus. From the usability point of view, text inputs as log events are probably not that relevant, but time consuming browsing between different menus can be a sign from usability issues. \cite{RefWorks:25}
 
 Abstraction can be used to combine different events into a more understandable event sequences or patterns. For example user typing into different text fields and then clicking a button in a web page could be interpreted as a login activity. However, in this kind of situation user interface event logs, must be supplemented with contextual data to be assured that the event sequence is really what it appears to be. Recording means generating new sets of events based on selection and abstraction. Less effort is required to analyze new sets of raw data because earlier analyzing techniques can be exploited. \cite{RefWorks:25}
+
+The third way of generating tangible usability information out of user interface log data is to use \textbf{\emph{counts and summary statistics}}. Counts and summary statistics are calculations based on usability-related metrics gathered from the log data. For instance, calculating the time spent on a specific task (performance time),  can be critical information in usability evaluation. \cite{Refworks:24, RefWorks:25}
+
+\textbf{\emph{Detecting, comparing and characterizing sequences}} are approaches which utilizes sequence information of events. Sequence detection refers to action in which concretely or abstractly defined sequences are tried to be identified from the set of source sequences.
  
 
 \section{Contextual Inquiry}
