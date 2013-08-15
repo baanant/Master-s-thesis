@@ -729,7 +729,7 @@ Usage data of an application can offer valuable information about users' actions
 \subsection{Evaluation process}
 
 According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation process consist typically of three stages (see Figure \ref{fig:logging_usability_process}). The first is called \emph{application instrumentation} and in that stage logging capability is added to the application. In other words, instrumentation is a process which determines what data will be logged from the usage of an application. In order to gain useful data, successful decisions in instrumentation stage are crucial. Bateman et al. also assert that if wrong decisions are made and therefore large amount of low-level data has been collected, it might be challenging to interpret and might not reveal any value. On the other hand they remark that if only high-level events is logged, internal structures may remain undiscovered. Consequently both, low-level and high-level usage data need to be tracked and logged. Sometimes, when log data doesn't supply enough information for interpretation, contextual information is needed. Generally, it requires a significant amount of effort and vigilance to be able to gather all the essential data to be analyzed. \cite{RefWorks:24}
-\texttt{TÄHÄN ISTRUMENTAATIOSTA REFWORKS 24}
+
 \begin{figure}[H]
   	\centering
   	\includegraphics[width=0.8\textwidth]{./images/logging_usability_process.png}
@@ -739,7 +739,7 @@ According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation pr
 
 The second stage of log-based usability evaluation process is \emph{application usage}. It is a stage where the instrumented application is used in authentic or simulated situation. The log data is collected unobtrusively while the user is performing his tasks with the application. \cite{RefWorks:24}
 
-The final stage of the process is data analysis, which can be done with a few different approaches \cite{RefWorks:25}:
+The final stage of the process is \emph{data analysis}, in which a few different approaches can be used \cite{RefWorks:24, RefWorks:25}:
 \begin{itemize}
   \item Synchronize and searching
   \item Transforming event streams
@@ -753,7 +753,7 @@ This part of the process will be described in more detail in the following subse
 
 \subsection{Log data analysis and pattern creation}
 \label{sec:analysis}
- In order to gain beneficial usability information from user interface events, the log data has to be analyzed thoroughly. According to  Hilbert and Redmiles \cite{RefWorks:25}, there are several approaches to sort out important usability information out of log data.
+ In order to gain beneficial usability information from user interface events, the log data has to be analyzed thoroughly. According to  Hilbert and Redmiles \cite{RefWorks:25}, there are several approaches to sort out important usability information out of log data and to make it more understandable for humans.
 The first one of them is called \textbf{\emph{synchronization and searching}}. 
 
 It is often challenging to interpret user interface events alone and thereby discover valuable higher level events without any contextual information. The purpose of the synchronization and searching is to combine user interface event data with other informative data, such as observations or video recordings, in order to increase the understanding about the context of use. These two forms of data are complementary and can together provide wider understanding about the usability of a system. Observations or video recordings may supply additional information about the user interface event appeared in the log, or vice versa. However, there are few disadvantages with synchronization and searching techniques. For example video recording and observation typically require the presence of the observer. Furthermore, using video recording as a part of evaluation, produces a lot of data and can be inefficient to analyze. It might also have an disturbing affect on user's behavior. \cite{RefWorks:25}
@@ -762,10 +762,11 @@ The second approach is \textbf{\emph{transformation}}. Transformations combine s
 
 Abstraction can be used to combine different events into a more understandable event sequences or patterns. For example user typing into different text fields and then clicking a button in a web page could be interpreted as a login activity. However, in this kind of situation user interface event logs, must be supplemented with contextual data to be assured that the event sequence is really what it appears to be. Recording means generating new sets of events based on selection and abstraction. Less effort is required to analyze new sets of raw data because earlier analyzing techniques can be exploited. \cite{RefWorks:25}
 
-The third way of generating tangible usability information out of user interface log data is to use \textbf{\emph{counts and summary statistics}}. Counts and summary statistics are calculations based on usability-related metrics gathered from the log data. For instance, calculating the time spent on a specific task (performance time),  can be critical information in usability evaluation. \cite{Refworks:24, RefWorks:25}
+The third way of generating tangible usability information out of user interface log data is to use \textbf{\emph{counts and summary statistics}}. Counts and summary statistics are calculations based on usability-related metrics gathered from the log data. For instance, calculating the time spent on a specific task (performance time),  can be critical information in usability evaluation. \cite{RefWorks:24, RefWorks:25}
 
-\textbf{\emph{Detecting, comparing and characterizing sequences}} are approaches which utilizes sequence information of events. Sequence detection refers to action in which concretely or abstractly defined sequences are tried to be identified from the set of source sequences.
+\textbf{\emph{Detecting, comparing and characterizing sequences}} are approaches which utilize sequence information of events. Sequence detection refers to an action in which ready-defined sequences are tried to be identified from the mass of source sequences. Sequence comparison is  executed by usability analyst and it is made between two sequences. These two sequences can be generated for example by subjects or subject groups. In any case, the purpose of sequence comparison is to compare actual usage against some defined ideal usage. Sequence characterization uses the source sequences to create a model to summarize all features of interest in those source sequences. \cite{RefWorks:24, RefWorks:25}
  
+The last approach for log-based data analysis is called \textbf{\emph{visualization}}. In visualization, transformed and analyzed data is  presented in a graphical form. General way to visualize data is to use charts, but it is possible to use other visualization techniques such as heat maps based on clicks or mouse traveling. \cite{RefWorks:24, RefWorks:25}
 
 \section{Contextual Inquiry}
 \label{sec:cinquiry}
@@ -792,12 +793,14 @@ Practical preparations of CI includes careful planning. The first phase of plann
 The structure of the interview is considerably straightforward. First task of the interviewer is to introduce the CI process and ask permission to record the conversation and work. The interviewer has to also make it clear that understanding the work of the user is the primary target of the research, and that all the misunderstandings should be corrected. The next step of the interview is to clarify the rules. In traditional Contextual Inquiry process it is desirable for the interviewer to interrupt and ask questions and correspondingly for the user to indicate if the time convenient for interruption. The third part of the CI is the actual interview, which consist of observation, asking direct questions, suggesting interpretations, writing notes and recording the whole chain of events. Finally the interviewer should wrap up the interview, ensure that everything is understood correctly and summarize the process. This is the last chance for the user to revise misunderstandings. \cite{RefWorks:21}
 
 
-\section{Cognitive walkthrough}
+\section{Cognitive Walkthrough}
 \label{sec:cognitivewalkthrough}
 
-Cognitive Walkthrough (CW) was developed in the early nineties and it was originally intended to help reviewing 'walk-up-and-use' interfaces, such as Automatic Teller Machine (ATM). CW is a formal usability inspection method for professionals, involved in development process. The key concept behind CW is to use theory as a guide for design review. It is easy to understand and apply and therefore feasible to use in a regular development process. \cite{RefWorks:19, RefWorks:18} 	
+Cognitive walkthrough (CW) was developed in the early nineties and it was originally intended to help reviewing 'walk-up-and-use' interfaces, such as Automatic Teller Machine (ATM). CW is a formal usability inspection method for professionals involved in the development process. The key concept behind CW is to use theory as a guide for design review. It is easy to understand and apply and therefore feasible to use in a regular development process. \cite{RefWorks:19, RefWorks:18} Cognitive walkthrough can be accomplished by using detailed design specification of the user interface which has been received after requirement analysis and functionality definition processes. The walkthrough can be also performed  on a paper simulation, minimal prototype or fully functional prototype of the UI. 
+Formally cognitive walkthrough evaluates design's ease of learning by exploring it. \cite{RefWorks:26}
+\subsection{Preparations}
 
-\text{TÄHÄN HUOMATTAVASTI LISÄÄ}
+\subsection{Analysis}
 
 \section{Interaction Sequence Illustration}
 \label{sec:isi}
