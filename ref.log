@@ -1,0 +1,56 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.6.25)  15 AUG 2013 17:16
+entering extended mode
+**C:/Users/antti.paananen/diplomityo/diplomityo/ref.bib
+(C:/Users/antti.paananen/diplomityo/diplomityo/ref.bib
+Overfull \hbox (1.27377pt too wide) in paragraph at lines 4--16
+[]\tenrm @inproceedingsRefWorks:19, au-thor=Marita Franzke, year=1992, ti-tle=U
+sing the cog-ni-tive walk-through|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (24.80177pt too wide) in paragraph at lines 54--66
+\tenrm a prac-ti-tioner's guide, pages=105-140, isbn=0-471-01877-5, url=http://
+dl.acm.org/citation.cfm?id=189200.189214|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm a
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm p
+.\tenrm r
+.\tenrm a
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--66
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.140 ...p://dx.doi.org/10.1007/978-3-642-25364-5_
+                                                  13}
+? 
+! Emergency stop.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.140 ...p://dx.doi.org/10.1007/978-3-642-25364-5_
+                                                  13}
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
