@@ -18,12 +18,12 @@
 \contentsline {subsection}{\numberline {2.2.2}Contextual Inquiry in practice}{16}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Cognitive Walkthrough}{16}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Preparations}{17}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Analysis}{17}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Interaction Sequence Illustration}{17}{section.2.4}
+\contentsline {subsection}{\numberline {2.3.2}Analysis}{18}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Interaction Sequence Illustration}{18}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Description of the Interaction Sequence Illustration}{18}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Utilization of the Interaction Sequence Illustration}{18}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}System Usability Scale}{19}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Description of the System Usability Scale}{19}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Description of the System Usability Scale}{20}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}System Usability Scale in practice}{20}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}Other measures}{20}{section.2.6}
 \contentsline {chapter}{\numberline {3}Process experiment}{21}{chapter.3}
