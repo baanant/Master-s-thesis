@@ -22,15 +22,15 @@
 \contentsline {section}{\numberline {2.4}Interaction Sequence Illustration}{18}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Description of the Interaction Sequence Illustration}{18}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Utilization of the Interaction Sequence Illustration}{19}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}System Usability Scale}{19}{section.2.5}
+\contentsline {section}{\numberline {2.5}System Usability Scale}{20}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Description of the System Usability Scale}{20}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}System Usability Scale in practice}{20}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Other methods}{20}{section.2.6}
-\contentsline {chapter}{\numberline {3}Process experiment}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Steps}{22}{section.3.1}
-\contentsline {section}{\numberline {3.2}Implementation}{22}{section.3.2}
-\contentsline {chapter}{\numberline {4}Analysis}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Results}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Implementation analysis}{23}{section.4.2}
-\contentsline {chapter}{\numberline {5}Summary and conclusions}{24}{chapter.5}
-\contentsline {chapter}{\numberline {A}SUS form}{27}{appendix.A}
+\contentsline {subsection}{\numberline {2.5.2}System Usability Scale in practice}{21}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Other methods}{21}{section.2.6}
+\contentsline {chapter}{\numberline {3}Process experiment}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Steps}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Implementation}{23}{section.3.2}
+\contentsline {chapter}{\numberline {4}Analysis}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Results}{24}{section.4.1}
+\contentsline {section}{\numberline {4.2}Implementation analysis}{24}{section.4.2}
+\contentsline {chapter}{\numberline {5}Summary and conclusions}{25}{chapter.5}
+\contentsline {chapter}{\numberline {A}SUS form}{28}{appendix.A}
