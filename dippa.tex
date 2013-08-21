@@ -259,8 +259,8 @@
 % You can just fix the texts there. Just remember to check all the language
 % variants you use (they are all there in the same place).
 % ------------------------------------------------------------------
-\newcommand{\TITLE}{In-house software development process:}
-\newcommand{\SUBTITLE}{A User-centered Approach}
+\newcommand{\TITLE}{In-House Software Development \vspace{0 mm} Process:}
+\newcommand{\SUBTITLE}{A User-Centered Approach}
 \newcommand{\FTITLE}{Yrityksen sisäinen ohjelmistokehitysprosessi:}
 \newcommand{\FSUBTITLE}{Käyttäjäkeskeinen lähestymistapa}
 %\newcommand{\STITLE}{Den stora stygga vargen:}
@@ -321,7 +321,7 @@
 %\newcommand{\SPROFESSORSHIP}{Datakommunikationsprogram}
 % Professorship code is the same in all languages
 \newcommand{\PROFCODE}{T-121}
-\newcommand{\KEYWORDS}{Usability, ERP, Software Development Process, Process Measurement, Cognitive walkthrough, Remote Usability Evaluation, Automatic Usability Logging, SUS, Contextual Inquiry, ISI}
+\newcommand{\KEYWORDS}{Usability, ERP, Software development process, Process measurement, Cognitive Walkthrough, Remote usability evaluation, Automatic usability logging, SUS, Contextual Inquiry, ISI}
 \newcommand{\FKEYWORDS}{Käytettävyys, ERP, Ohjelmistokehitysprosessi, Prosessimittaus, Kognitiivinen läpikäynti, Käytettävyyden etäarviointi, Automaattinen käytettävyyslokitus, SUS, Kontekstuaalinen tutkimus, ISI}
 %\newcommand{\SKEYWORDS}{omsättning, kassaflöde, värdepappersmarknadslagen,
 %yrkesutövare, intresseföretag, verifieringskedja}
@@ -506,12 +506,12 @@
 CI & Contextual Inquiry \\
 CW & Cognitive Walkthrough\\
 ERP & Enterprise Resource Planning \\
-HCI & Human-Computer Interaction \\
+HCI & Human-computer interaction \\
 ISI & Interaction Sequence Illustration \\
-IT & Information Technology \\
+IT & Information technology \\
 SUS & System Usability Scale \\
-UI & User Interface \\
-UX & User Experience \\
+UI & User interface \\
+UX & User experience \\
 
 
 %FLUTE  & The File Delivery over Unidirectional Transport protocol \\
@@ -566,43 +566,46 @@ UX & User Experience \\
 
 \chapter{Introduction}
 \label{chapter:introduction}
-In this chapter, the background and reasoning for the thesis is described together with the focus and limitations of the research. In the text, research problems and the structure of the thesis will be also defined. 
+This chapter describes the background and reasoning for the thesis as well as the focus and the limitations of the study. This section also presents the research problems and the overall structure of this thesis. 
 
 \section{Motivation and aim of the thesis}
 \label{sec:motivationandaim}
-In the 1980s, when the usage of personal computers (PCs) became more common, software design practices were still falsely assuming that the users were knowledgeable and competent in computer science. As an outcome, big part of the users were practically incapable of using operating systems and applications.
-During these times, the concepts of Human Computer Interaction (HCI) and usability, became important. Since then, the design process of interactive software for common people has emphasized usability. This process is called human-centered design. \cite{RefWorks:9}
+In the 1980s, when the usage of personal computers (PCs) became more common, software design practices were still falsely assuming that the users were knowledgeable and competent in computer science. As an outcome, a significant part of the users were practically incapable of using operating systems and applications.
+During these times, the concepts of Human Computer Interaction (HCI) and usability became important. Since then, the design process of interactive software for common people has emphasized usability. This process is called human-centered design. \cite{RefWorks:9}
 
 The term Enterprise Resource Planning (ERP) was invented in the early 1990s.\cite{RefWorks:3} The purpose of the ERP software is to offer techniques and concepts for integrated and thorough management of business, as well as making it more efficient.
 The usage of ERP software has increased globally and nowadays even service organizations have invested a lot of resources in ERP implementation.\cite{RefWorks:1, RefWorks:7} 
 
-Despite the importance of the efficiency aspect, the usability of ERP systems is not a widely studied topic. However, weaknesses in usability may lead into a low productivity and make it harder for users to achieve their goals.\cite{RefWorks:2} 
+Despite the importance of the efficiency aspect, the usability of ERP systems is not a widely researched subject area. However, weaknesses in usability may lead into low productivity and make it harder for users to achieve their goals.\cite{RefWorks:2} 
 
-The aim of this thesis is to examine how the usability of a service-oriented ERP system can be enhanced by integrating usability inquiries, inspections and measures into the software development process. In the research, one well defined business process is examined and the state of its usability in the system is determined  by using variety of applicable methods:
+The aim of this thesis is to examine how the usability of a service-oriented ERP system can be enhanced by integrating usability inquiries, inspections and measures into the software development process. 
+
+
+This study examines a customer service related business process employed in the subscriber company, (described in more detail in section \ref{sec:background}) and evaluates the state of its usability by using a variety of applicable methods:
 \begin{itemize}
 \item Contextual Inquiry to define the business process.
-\item Cognitive walkthrough for usability inspection.
+\item Cognitive Walkthrough for usability inspection.
 \item Interaction Sequence Illustration (ISI) to measure the amount of interaction steps and to understand them.
 \item System Usability Scale (SUS) to give a global view of subjective assessments of usability.
-\item Remote Usability Evaluation (by using log data) to evaluate usability in distributed locations.
+\item Remote usability evaluation (by using log data) to evaluate usability in distributed locations.
 \end{itemize}
 The measurements are focused on time, error rate and user satisfaction.
 \\
 \\
-\indent According to the ISO standard of Human-centered design for interactive systems \cite{RefWorks:16}, many benefits can be gained by using human-centered methods as a part of software development process. The productivity of an individual user can be increased together with the operational efficiency of an organization. Usable and useful systems also reduce training and help-desk costs, as well as stress and discomfort, because they are understandable by the users. In other words, human-centered design improves the UX (User Experience).
+\indent According to the ISO standard of human-centered design for interactive systems \cite{RefWorks:16}, many benefits can be gained by using human-centered methods as a part of software development process. The productivity of an individual user can be increased together with the operational efficiency of an organization. Usable and useful systems also reduce training and help-desk costs, as well as stress and discomfort because they are easily understood by users. In other words, human-centered design improves the UX (User experience).
 
-The benefit of human-centered design (for software development process) is increased total life cycle of a product and likelihood of project succeeding on time and within the budget. Human-centered approach also decrease the risk of software being rejected by the users, or failing to meet the requirements. \cite{RefWorks:16}
+The benefit of human-centered design (for software development process) is the increased total life cycle of a product and the likelihood of the project succeeding on time and within the budget. The human-centered approach also decreases the risk of software being rejected by the users, or failing to meet the requirements. \cite{RefWorks:16}
 
 \section{Background and research questions}
-\label{sec:backgroundandresearchquestions}
-The subscriber of this thesis is a middle-sized company which is offering information services globally and practicing in-house software development. Because of the fast pace of growth, the company is willing to reform their current ERP system as well as the whole software development process. This thesis tries to join usability perspective into this process and give answers to following research questions.
+\label{sec:background}
+The subscriber of this thesis is a middle-sized company which is offering information services globally and practicing in-house software development. Because of the fast pace of growth, the company is willing to reform their current ERP system as well as the whole software development process. This thesis aims to join usability perspective into this process and give answers to the following research questions.
 
 \begin{itemize}
 \item \textbf{\emph{How usability methods can help to identify critical disparities in the usage of a system?}}
 
 Understanding the differences in the system usage between individuals can help to understand and deploy best practices throughout the organization and therefore improve efficiency.
 
-\item \textbf{\emph{How the use efficiency is affected by the usability measurements?}}
+\item \textbf{\emph{How is the use efficiency affected by the usability measurements?}}
 
 It is important to find the most effective and usable user interface solutions and thus decrease the average time spent on tasks. Local differences can be tracked with remote usability measurements.
 
@@ -648,11 +651,11 @@ Finding practical and efficient usability methods to be joined with the software
 %        \end{itemize}
 %    
 \section{Scope and structure of the thesis}
-\label{sec:thescopeandstructureofthethesis}
+\label{sec:scope}
 
-This thesis covers research about usability of the in-house software development process, and its scope does not include any other aspects of the process. The literature  research consists of a few usability methods and though the target of the research is ERP software, literature about them are not covered in the thesis. The results of the research may not be suitable for every organization.
+This thesis covers a research study about the usability of a process, executed in the ERP system, and employed by the customer service department of the subscriber company. This process is related to a process of creating a new customer to the system, and specifically filling in the contact information. In general, the research study aims to join usability to in-house software development process. This thesis doesn't cover any other approaches to the development process. The literature  research consists of a few usability methods and though the target of the research is ERP software, literature about them are not covered in the thesis. The results of the research may not be suitable for every organization.
 
-The first actual chapter of the thesis is about the usability methods. Every usability method used in the research is discussed carefully. In the second chapter, the process experiment is being introduced. It covers the experiment steps and the implementation details. In the third chapter, the data gathered in the experiment, and the implementation process is being analyzed. In the last chapter the research will be summarized and discussed.
+The first actual chapter of the thesis is about the usability methods. Every usability method used in the research is discussed carefully. The second chapter introduces the process experiment. It covers the experiment steps and the implementation details. The third chapter analyzes the data acquired from the process and the implementation as such. The Last chapter summarizes and concludes the research study.
 
     
     
@@ -713,12 +716,12 @@ The first actual chapter of the thesis is about the usability methods. Every usa
 
 \chapter{Methods}
 \label{chapter:methods}
-In order to be able to discover reliable research data, the research methods must be understood thoroughly. In this research, the data is gathered with a few types of usability methods and they are selected according to their practicality and utility.
+In order to be able to discover reliable research data, the research methods must be understood thoroughly. This research study gathers data with a few types of usability methods and they are selected according to their practicality and utility.
 Inquiries are used to study the business process and the process itself is measured from many different aspects and also remote evaluation is utilized to gather data easily from distributed locations. 
 
-Methods are used in different stages of the research to follow the structure of human-centered design principles. These methods are described in detail in the following chapter.  
+Methods are used in different stages of the research to follow the structure of human-centered design principles. The following chapter describes these methods in more detail.  
 
-\section{Remote Usability Evaluation}
+\section{Remote usability evaluation}
 \label{sec:rue}
 
 There are many ways to implement remote usability evaluation. In this paper, the data logging approach is being discussed. In the context of usability, logging means practices for mechanically recording the usage of a system.
@@ -728,7 +731,7 @@ Usage data of an application can offer valuable information about users' actions
 
 \subsection{Evaluation process}
 
-According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation process consist typically of three stages (see Figure \ref{fig:logging_usability_process}). The first is called \emph{application instrumentation} and in that stage logging capability is added to the application. In other words, instrumentation is a process which determines what data will be logged from the usage of an application. In order to gain useful data, successful decisions in instrumentation stage are crucial. Bateman et al. also assert that if wrong decisions are made and therefore large amount of low-level data has been collected, it might be challenging to interpret and might not reveal any value. On the other hand they remark that if only high-level events is logged, internal structures may remain undiscovered. Consequently both, low-level and high-level usage data need to be tracked and logged. Sometimes, when log data doesn't supply enough information for interpretation, contextual information is needed. Generally, it requires a significant amount of effort and vigilance to be able to gather all the essential data to be analyzed. \cite{RefWorks:24}
+According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation process consist typically of three stages (see Figure \ref{fig:logging_usability_process}). The first is called \emph{application instrumentation} and in that stage logging capability is added to the application. In other words, instrumentation is a process which determines what data will be logged from the usage of an application. In order to gain useful data, successful decisions in instrumentation stage are crucial. Bateman et al. also assert that if wrong decisions are made and therefore large amount of low-level data has been collected, it might be challenging to interpret and it might not reveal any value. On the other hand, they remark that if only high-level events is logged, internal structures may remain undiscovered. Consequently both, low-level and high-level usage data need to be tracked and logged. Sometimes, when log data doesn't supply enough information for interpretation, contextual information is needed. Generally, it requires a significant amount of effort and vigilance to be able to gather all the essential data to be analyzed. \cite{RefWorks:24}
 
 \begin{figure}[H]
   	\centering
@@ -796,11 +799,11 @@ The structure of the interview is considerably straightforward. First task of th
 \section{Cognitive Walkthrough}
 \label{sec:cognitivewalkthrough}
 
-Cognitive walkthrough (CW) was developed in the early nineties and it was originally intended to help reviewing 'walk-up-and-use' interfaces, such as Automatic Teller Machine (ATM). CW is a formal usability inspection method for professionals involved in the development process. The key concept behind CW is to use theory as a guide for design review. It is easy to understand and apply and therefore feasible to use in a regular development process. \cite{RefWorks:19, RefWorks:18} 
-The method consist of two phases: preparatory and analysis phases. In the preparatory phase, the tasks, sequences for tasks, users and their backgrounds and the interface to be analyzed will be agreed upon.  The actual analysis will be accomplished in the analysis phase, where every action of every task will be executed and analyzed. In general the cognitive walkthrough method can benefit all phases of the design and development process.\cite{RefWorks:26}
+Cognitive Walkthrough (CW) was developed in the early nineties and it was originally intended to help reviewing 'walk-up-and-use' interfaces, such as Automatic Teller Machine (ATM). CW is a formal usability inspection method for professionals involved in the development process. The key concept behind CW is to use theory as a guide for design review. It is easy to understand and apply and therefore feasible to use in a regular development process. \cite{RefWorks:19, RefWorks:18} 
+The method consist of two phases: preparatory and analysis phases. In the preparatory phase, the tasks, sequences for tasks, users and their backgrounds and the interface to be analyzed will be agreed upon.  The actual analysis will be accomplished in the analysis phase, where every action of every task will be executed and analyzed. In general the Cognitive Walkthrough method can benefit all phases of the design and development process.\cite{RefWorks:26}
 
 \subsection{Preparations}
-Cognitive walkthrough can be accomplished by using detailed design specification of the user interface which has been received after requirement analysis and functionality definition processes. The walkthrough can be also performed  on a paper simulation, minimal prototype or fully functional prototype of the UI. Formally cognitive walkthrough evaluates design's ease of learning by exploring it. \cite{RefWorks:26}
+Cognitive Walkthrough can be accomplished by using detailed design specification of the user interface which has been received after requirement analysis and functionality definition processes. The walkthrough can be also performed  on a paper simulation, minimal prototype or fully functional prototype of the UI. Formally Cognitive Walkthrough evaluates design's ease of learning by exploring it. \cite{RefWorks:26}
 
 The analysis can be done individually or in a group. In a group the process starts with designers presenting the design to a group of peers and it's usually done after a certain milestone in interface design. The designers can then benefit from the feedback and improve the implementation for the next revision. Participants may represent different organizational units and in the evaluation team they have to adopt different roles, such as recorder, facilitator and various kinds of expert roles. \cite{RefWorks:26}
 
@@ -815,7 +818,7 @@ After the tasks have been chosen,  the action sequences for the tasks need to be
 Considering the practical impacts of the thesis, it is important to use methods and measures which can shore up the software development process in a real-use context. This is why the process and it's interactions are reviewed using ISI method, which utilizes 				authentic use context and real users. \cite{RefWorks:17} ISI was originally developed for evaluating the usability of IT tasks carried out in healthcare industry, but there are no defined reasons why it could not be utilized in different environments.
 
 \subsection{Description of the Interaction Sequence Illustration}
-Interaction Sequence Illustration is a low level analysis method for human-computer interaction. It uses data acquired during the contextual inquiry process and doesn't gather any of its own. However, the inquiry data has to be complemented with documentation 			about 	interaction activities. There are three objectives for ISI method to handle. The first is to demonstrate how the user perceives the system. The second one is to identify and document activities, and to discover problems. The first two objectives creates the 			third one, which is to support the user-centered design and development. \cite{RefWorks:17}  The strength of ISI lies in the analysis of data and it can be used to compare the interaction sequences of two of or more UI implementations. On the other hand it can 			provide prominent information on only one UI's interaction sequence. 
+Interaction Sequence Illustration is a low level analysis method for human-computer interaction. It uses data acquired during the Contextual Inquiry process and doesn't gather any of its own. However, the inquiry data has to be complemented with documentation 			about 	interaction activities. There are three objectives for ISI method to handle. The first is to demonstrate how the user perceives the system. The second one is to identify and document activities, and to discover problems. The first two objectives creates the 			third one, which is to support the user-centered design and development. \cite{RefWorks:17}  The strength of ISI lies in the analysis of data and it can be used to compare the interaction sequences of two of or more UI implementations. On the other hand it can 			provide prominent information on only one UI's interaction sequence. 
 
 \subsection{Utilization of the Interaction Sequence Illustration}
 The utilization of Interaction Sequence Illustration can be simplified in seven steps (see Figure \ref{fig:isi_chart}). First the data need to be collect (notes and screenshots) alongside Contextual Inquiry interview.
@@ -844,8 +847,8 @@ The outcome of SUS is a single value which express the overall usability of the 
 
 	
 
-\section{Other measures}
-\label{sec:othermeasures}
+\section{Other methods}
+\label{sec:other}
 The last process measurements used in the research are simply the time which was consumed while carrying out the task and the success rate of the task.
 
 
@@ -1063,8 +1066,8 @@ Human-centered design consist a few activities and iterative process (see Figure
 
 % \input{7discussion.tex}
 
-\chapter{Discussion and conclusions}
-\label{chapter:discussionandconclusions}
+\chapter{Summary and conclusions}
+\label{chapter:summary}
 
 %At this point, you will have some insightful thoughts on your implementation
 %and you may have ideas on what could be done in the future.
