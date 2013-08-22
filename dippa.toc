@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {2.3}Cognitive Walkthrough}{17}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Preparations}{17}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Analysis}{18}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Interaction Sequence Illustration}{18}{section.2.4}
+\contentsline {section}{\numberline {2.4}Interaction Sequence Illustration}{19}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Description of the Interaction Sequence Illustration}{19}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Utilization of the Interaction Sequence Illustration}{19}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}System Usability Scale}{20}{section.2.5}
@@ -34,3 +34,4 @@
 \contentsline {section}{\numberline {4.2}Implementation analysis}{24}{section.4.2}
 \contentsline {chapter}{\numberline {5}Summary and conclusions}{25}{chapter.5}
 \contentsline {chapter}{\numberline {A}SUS form}{28}{appendix.A}
+\contentsline {chapter}{\numberline {B}Contextual Inquiry: Research plan}{29}{appendix.B}
