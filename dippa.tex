@@ -714,22 +714,25 @@ The first actual chapter of the thesis is about the usability methods. Every usa
 %\textbf{not} to do it: \emph{\cite{HaapasaloThesis} describes
 % \input{3environment.tex}
 
-\chapter{Methods}
+\chapter{Applied methods and measurements}
 \label{chapter:methods}
-In order to be able to discover reliable research data, the research methods must be understood thoroughly. This research study gathers data with a few types of usability methods and they are selected according to their practicality and utility.
-Inquiries are used to study the business process and the process itself is measured from many different aspects and also remote evaluation is utilized to gather data easily from distributed locations. 
+In order to be able to discover reliable research data, the research methods must be understood thoroughly. This research study gathers data with a few types of usability methods and they are selected according to their practicality and utility in the research study context. Inquiries are used to study the business process and the process itself is measured from many different aspects and also remote evaluation is utilized to gather data easily from distributed locations. 
 
 Methods are used in different stages of the research to follow the structure of human-centered design principles. The following chapter describes these methods in more detail.  
+
+\texttt{TÄHÄN VÄHÄN LAAJEMMIN}
 
 \section{Remote usability evaluation}
 \label{sec:rue}
 
-There are many ways to implement remote usability evaluation. In this paper, the data logging approach is being discussed. In the context of usability, logging means practices for mechanically recording the usage of a system.
+\texttt{TÄHÄN VOISI ETSIÄ LISÄMATERIAALIA}
+
+There are many ways to implement remote usability evaluation.The data logging approach is being discussed in this paper. In the context of usability, logging means practices for mechanically recording the usage of a system.
 
 Usage data of an application can offer valuable information about users' actions and can therefore be utilized in the process of improving software's usability. Even if logging can not replace the traditional usability methods, it provides many advantages over them.  Logging is automatic, objective and it doesn't require direct observation. The data is gathered from the actual running application. \cite{RefWorks:24}	
 
 
-\subsection{Evaluation process}
+\subsection{Evaluation process} 
 
 According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation process consist typically of three stages (see Figure \ref{fig:logging_usability_process}). The first is called \emph{application instrumentation} and in that stage logging capability is added to the application. In other words, instrumentation is a process which determines what data will be logged from the usage of an application. In order to gain useful data, successful decisions in instrumentation stage are crucial. Bateman et al. also assert that if wrong decisions are made and therefore large amount of low-level data has been collected, it might be challenging to interpret and it might not reveal any value. On the other hand, they remark that if only high-level events is logged, internal structures may remain undiscovered. Consequently both, low-level and high-level usage data need to be tracked and logged. Sometimes, when log data doesn't supply enough information for interpretation, contextual information is needed. Generally, it requires a significant amount of effort and vigilance to be able to gather all the essential data to be analyzed. \cite{RefWorks:24}
 
@@ -754,7 +757,7 @@ This part of the process will be described in more detail in the following subse
 
 
 
-\subsection{Log data analysis and pattern creation}
+\subsection{Log data analysis}
 \label{sec:analysis}
  In order to gain beneficial usability information from user interface events, the log data has to be analyzed thoroughly. According to  Hilbert and Redmiles \cite{RefWorks:25}, there are several approaches to sort out important usability information out of log data and to make it more understandable for humans.
 The first one of them is called \textbf{\emph{synchronization and searching}}. 
@@ -816,6 +819,8 @@ After the tasks have been chosen,  the action sequences for the tasks need to be
 
 The Contextual Inquiry analysis phase examines the actions of the tasks and generates a plausible story or a review about the reasons why the users (which have been defined earlier) would have chosen those actions. These stories are based on presumptions about user's expertise and objectives. Sometimes users trust on their problem-solving skills, which is why it is important to understand the problem-solving process in the analysis phase. In order to mimic this process in the analysis phase, four steps should be taken. First, a rough description of the task to be accomplished should be considered. Then the user interface should be explored and actions should be taken according to assumptions users might have. The third step is to observe if the user interface is returning the expected results for each action. The last part of problem-solving process is to assume and define users' next action.\cite{RefWorks:26}
 
+\texttt{TÄHÄN VIELÄ LISÄÄ ARTIKKELISTA + ETSI MUUTA AINEISTOA}
+
 \section{Interaction Sequence Illustration}
 \label{sec:isi}
 Considering the practical impacts of the thesis, it is important to use methods and measures which can shore up the software development process in a real-use context. This is why the process and it's interactions are reviewed using ISI method, which utilizes 				authentic use context and real users. \cite{RefWorks:17} ISI was originally developed for evaluating the usability of IT tasks carried out in healthcare industry, but there are no defined reasons why it could not be utilized in different environments.
@@ -850,19 +855,19 @@ The outcome of SUS is a single value which express the overall usability of the 
 
 	
 
-\section{Other methods}
+\section{Quantitative measurements in usability evaluation}
 \label{sec:other}
 The last process measurements used in the research are simply the time which was consumed while carrying out the task and the success rate of the task.
 
 
  
     
-\chapter{Process experiment}
-\label{processexperiment}
+\chapter{Usability evaluation experiment}
+\label{experiment}
 
 Human-centered design consist a few activities and iterative process (see Figure \ref{fig:hci_process}). \cite{RefWorks:16} The empirical part of this thesis adapts human-centered desing principles and the steps of the process experiment are highly linked to its activities. The steps are described in detail in section \ref{sec:steps}. This chapter will also describe the implementation phases of the experiment. 
 
-\texttt{TÄHÄN JOTAIN CONTEXTUAL DESIGNISTÄ!!!!!}
+\texttt{TÄHÄN JOTAIN CONTEXTUAL DESIGNISTÄ JA ITSE PROSESSISTA JOTA ARVIOIDAAN!!!!!}
 
 \begin{figure}[H]
   	\centering
@@ -871,8 +876,8 @@ Human-centered design consist a few activities and iterative process (see Figure
 	\label{fig:hci_process}
 \end{figure}
 
-    \section{Steps}
-    \label{sec:steps}
+    \section{Evaluation phases}
+    \label{sec:phases}
         \begin{itemize}
             \item Creating the model for gathering data
             \item Modified contextual inquiry 
@@ -883,14 +888,15 @@ Human-centered design consist a few activities and iterative process (see Figure
             \item Analysis 2.
         \end{itemize}
 
-    \section{Implementation}
+    \section{Practical implementation}
     \label{sec:implementation}
 	\texttt{Kuinka monta osallistujaa, millainen ympäristö, missä maassa, minkä ikäisiä osallistujat, kauanko tehneet työtä}
     	\texttt{kuinka testaus sujui}
+    	
 \chapter{Analysis}
 \label{chapter:analysis}
 
-    \section{Results}
+    \section{Results and comparisons}
     \label{sec:results}
     -Comparison between country offices
     -Comparison between individuals (esim. kuinka kauan kesti tietyn toiminnon tekeminen) / Overall comparison (esim. kaikkien koehenkilöiden yhteinen kehitys.)
