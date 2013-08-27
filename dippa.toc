@@ -28,10 +28,10 @@
 \contentsline {section}{\numberline {2.6}Quantitative measurements in usability evaluation}{21}{section.2.6}
 \contentsline {chapter}{\numberline {3}Usability evaluation experiment}{22}{chapter.3}
 \contentsline {section}{\numberline {3.1}Applied human-centered design process}{23}{section.3.1}
-\contentsline {section}{\numberline {3.2}Practical implementation}{23}{section.3.2}
-\contentsline {chapter}{\numberline {4}Analysis}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}Results and comparisons}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}Implementation analysis}{24}{section.4.2}
-\contentsline {chapter}{\numberline {5}Summary and conclusions}{25}{chapter.5}
-\contentsline {chapter}{\numberline {A}SUS form}{28}{appendix.A}
-\contentsline {chapter}{\numberline {B}Contextual Inquiry: Research plan}{29}{appendix.B}
+\contentsline {section}{\numberline {3.2}Practical implementation}{24}{section.3.2}
+\contentsline {chapter}{\numberline {4}Analysis}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Results and comparisons}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Implementation analysis}{25}{section.4.2}
+\contentsline {chapter}{\numberline {5}Summary and conclusions}{26}{chapter.5}
+\contentsline {chapter}{\numberline {A}SUS form}{29}{appendix.A}
+\contentsline {chapter}{\numberline {B}Contextual Inquiry: Research plan}{30}{appendix.B}
