@@ -714,13 +714,17 @@ The first actual chapter of the thesis is about the usability methods. Every usa
 %\textbf{not} to do it: \emph{\cite{HaapasaloThesis} describes
 % \input{3environment.tex}
 
-\chapter{Applied methods and measurements}
-\label{chapter:methods}
+\chapter{Concepts and methods for user-centered software process improvement}
+\label{chapter:concepts}
+
 In order to be able to discover reliable research data, the research methods must be understood thoroughly. This research study gathers data with a few types of usability methods and they are selected according to their practicality and utility in the research study context. Inquiries are used to study the business process and the process itself is measured from many different aspects and also remote evaluation is utilized to gather data easily from distributed locations. 
 
 Methods are used in different stages of the research to follow the structure of human-centered design principles. The following chapter describes these methods in more detail.  
 
 \texttt{TÄHÄN VÄHÄN LAAJEMMIN}
+
+\section{User-centered software process improvement}
+\label{sec:improvement}
 
 \section{Remote usability evaluation}
 \label{sec:rue}
@@ -873,8 +877,8 @@ The last process measurements used in the research are simply the time which was
 
  
     
-\chapter{Usability evaluation experiment}
-\label{experiment}
+\chapter{Implementation of the study}
+\label{chapter:implementation}
 
 Human-centered design consist a few activities and iterative process (see Figure \ref{fig:hci_process}). \cite{RefWorks:16} The empirical part of this thesis adapts human-centered design principles and the steps of the process experiment are highly linked to its activities. The reasoning for this approach in the pragmatical part of the research study can be found from the earlier research done about the topic. \texttt{miksi hyvä???} 
 The steps are described in detail in section \ref{sec:dprocess}. This chapter will also describe the implementation phases of the experiment. 
@@ -892,21 +896,22 @@ As described earlier, the subscriber company operates globally and its tailored 
 \section{Applied human-centered design process}
 \label{sec:dprocess}
 
-This part of the thesis forms the first step of the human-centered design process: \emph{Planning the design process}. The section applies the framework of the human-centered design process and offers one possible approach to user-centered in-house software development.
+This part of the thesis forms the first step of the human-centered design process: \emph{Planning the design process}. The section applies the framework of the human-centered design process and offers one possible solution to improve existing in-house software development process with the user-centered approach.
 
-The process itself is executed by the personnel highly expertized in the area of customer service and the primary tool for the process is a tailored ERP system. Moreover, the distinctive nature of the business sets additional challenges for the usability evaluation. This is why it is presumable that the process can not be understood thoroughly without understanding the work in practice. Because of the reasons mentioned earlier, Contextual Inquiry is chosen as a method for \emph{understanding and specifying the context of use}. 
+The examined ERP process is executed by the personnel highly expertized in the area of customer service and the primary tool for the process is a tailored ERP system. Moreover, the distinctive nature of the business sets additional challenges for the usability evaluation. This is why it is presumable that the process can not be understood thoroughly without understanding the work in practice. Because of the reasons mentioned earlier, Contextual Inquiry is chosen as a method for \emph{understanding and specifying the context of use}. 
+Also, the researcher must have a profound understanding about the context of use in order to \emph{specify the user requirements}. A qualified system can be implemented only if the user requirements are precisely defined. Many of the methods used in this experiment aims to assist in this crucial state of development. Technically the process of requirement specification can be initiated while running the Contextual Inquiry. Although, it is essential to remember that the focus in CI should be mostly on understanding the context of use. This thesis uses user evaluation, remote usability evaluation, expert evaluation and quantitative metrics to identify all the user requirements affecting on the user experience and the functionality of the system. 
 
-The researcher must have a profound understanding about the context of use in order to \emph{specify the user requirements}. A qualified system can be implemented only if the user requirements are precisely defined. Many of the methods used in this experiment aims to assist in this crucial state of development. Technically the process of requirement specification can be initiated while running the Contextual Inquiry. Although, it is essential to remember that the focus in CI should be mostly on understanding the context of use. This thesis uses user evaluation, remote usability evaluation, expert evaluation and quantitative metrics to identify all the user requirements affecting on the user experience and the functionality of the system. 
+Interaction Sequence Illustration method is used in the thesis to identify and represent the interaction steps required to accomplish the customer creation process to the system. The method was chosen because one of the main objectives of this thesis \emph{is to find out how much the efficiency of use can be affected by utilizing the results of usability evaluation}. ISI can be used not only to identify all the interaction steps, but to detect the unnecessary steps as well. If the unnecessary phases can be excluded from the process, it might have significant affects on the efficiency of use and reveal tacit user requirements. 
 
-Interaction Sequence Illustration method is used in the thesis, together with the workflow diagram, to identify and represent the interaction steps required to accomplish the customer creation process. The method was chosen because one of the main objectives of this thesis \emph{is to find out how much the efficiency of use can be affected by utilizing the results of usability evaluation}. ISI can be used not only to identify all the interaction steps, but to detect the unnecessary steps as well. If the unnecessary phases can be excluded from the process, it might have significant affects on the efficiency of use and reveal tacit user requirements. ISI can be perceived also as a method for the process of understanding and specifying the context of use. 
+The user experience might have influence on the efficiency of use. This is why the UX of the system should be considered even if the company's distinctive ERP system is developed for the use of experts. The System Usability Scale is being used to understand the level of user satisfaction.
 
-The user experience might have influence on the efficiency of use. This is why the UX of the system should be considered even if the company's distinctive ERP system is developed for the use of experts. The System Usability Scale is being used to understand the level of user satisfaction. As ISI, also the SUS can answer to two steps of human-computer design process: Understanding and specifying the context of use and specifying the user requirements. 
+Traditional and continuous usability evaluation would be difficult and expensive for the subscriber company because of its distributed operational environment. Hence, the possibility of accommodating remote usability evaluation to the company's software development process is examined in this thesis. Remote usability evaluation in this context means the remote usability related user interface data logging. The desirable results from using the data logging would be utilizable, location independent usability data, which could help the development of the global ERP system and reveal user requirements. 
 
-Traditional and continuous usability evaluation would be difficult and expensive for the subscriber company because of its distributed operational environment. Hence, the possibility of accommodating remote usability evaluation to the company's software development process is examined in this thesis. Remote usability evaluation in this context means the remote usability related user interface data logging. The desirable results from using the data logging would be utilizable, location independent usability data, which could help the development of the global ERP system and reveal user requirements. Naturally, the remote usability evaluation in this thesis concentrates on the process of customer creation.
+Expert evaluation is utilized using Cognitive Walkthrough. The objective of CW in the thesis is to identify user requirements which are not distinctive and cannot be perceived with the user evaluations. Cognitive Walkthrough is used to ensure that any crucial requirements will not stay unnoticed.
 
-Expert evaluation is utilized using Cognitive Walkthrough. The objective of CW in the thesis is to identify user requirements which are not distinctive and cannot be perceived with the user evaluations. Cognitive Walkthrough is used to ensure that any crucial requirements will not stay unnoticed. 
+After the user requirements have been specified, \emph{design solution can be produced according to these requirements}. Analyzed data is applied to create a new user-centered prototype solution. The solution and \emph{the design is then evaluated against the requirements}. 
 
-After the user requirements have been specified, \emph{design solution can be produced according to these requirements}. 
+Figure \ref{fig:hcd_process} illustrates the methods used and the actions taken in the applied design process and reflects them against the actual human-centered design process. Contextual Inquiry, Interaction Sequence Illustration and System Usability Scale are utilized to understand the context of use and the level of sophistication of the current solution. Those methods in addition to Cognitive Walkthrough are applied to specify the user requirements. The SUS and ISI methods measures the existing solution and the data is exploited in analysis and user requirement specification. The design solutions and the prototype is evaluated with Cognitive Walkthrough, ISI, remote usability data logging and System Usability Scale. The final analysis is carried out using the data from the second evaluation.  
 
 
 \begin{figure}[H]
@@ -916,16 +921,6 @@ After the user requirements have been specified, \emph{design solution can be pr
 	\label{fig:hcd_process}
 \end{figure}
 
-
-        \begin{itemize}
-            \item Planning the design process
-            \item Modified contextual inquiry 
-            \item Process measurement methods
-            \item Analysis 1.
-            \item Prototype creation
-            \item Remote evaluation - process measurement methods.
-            \item Analysis 2.
-        \end{itemize}
 
     \section{Practical implementation}
     \label{sec:implementation}
@@ -937,14 +932,14 @@ After the user requirements have been specified, \emph{design solution can be pr
 	  \subsection{Cognitive Walkthrough}
 	  \subsection{System Usability Scale}
 	  \subsection{Remote usability evaluation}
-
+	\subsection{Building the prototype}
     	
 \chapter{Analysis}
 \label{chapter:analysis}
 
     \section{Results and comparisons}
     \label{sec:results}
-    -Comparison between country offices
+    -Comparison between country offices, between methods
     -Comparison between individuals (esim. kuinka kauan kesti tietyn toiminnon tekeminen) / Overall comparison (esim. kaikkien koehenkilöiden yhteinen kehitys.)
 - Interaction sequence illustration (esim. kuinka monta steppiä ennen ja jälkeen)
 
@@ -1121,9 +1116,12 @@ After the user requirements have been specified, \emph{design solution can be pr
 
 % \input{7discussion.tex}
 
-\chapter{Summary and conclusions}
-\label{chapter:summary}
+\chapter{Conclusions and discussions}
+\label{chapter:conclusion}
 
+
+        \section{Future work}
+	\label{sec:future}
 %At this point, you will have some insightful thoughts on your implementation
 %and you may have ideas on what could be done in the future.
 %This chapter is a good place to discuss your thesis as a whole and to show your
