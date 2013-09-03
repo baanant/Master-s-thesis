@@ -31,16 +31,16 @@
 \contentsline {chapter}{\numberline {3}Implementation of the study}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}Applied human-centered design process}{24}{section.3.1}
 \contentsline {section}{\numberline {3.2}Practical implementation}{26}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Contextual Inquiry}{27}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Interaction Sequence Illustration}{27}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Cognitive Walkthrough}{27}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}System Usability Scale}{27}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Remote usability evaluation}{27}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Building the prototype}{27}{subsection.3.2.6}
-\contentsline {chapter}{\numberline {4}Analysis}{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}Results and comparisons}{28}{section.4.1}
-\contentsline {section}{\numberline {4.2}Implementation analysis}{28}{section.4.2}
-\contentsline {chapter}{\numberline {5}Conclusions and discussions}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Future work}{29}{section.5.1}
-\contentsline {chapter}{\numberline {A}SUS form}{33}{appendix.A}
-\contentsline {chapter}{\numberline {B}Contextual Inquiry: Research plan}{34}{appendix.B}
+\contentsline {subsection}{\numberline {3.2.1}Contextual Inquiry}{26}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Interaction Sequence Illustration}{26}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Cognitive Walkthrough}{26}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}System Usability Scale}{26}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Remote usability evaluation}{26}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Building the prototype}{26}{subsection.3.2.6}
+\contentsline {chapter}{\numberline {4}Analysis}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Results and comparisons}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Implementation analysis}{27}{section.4.2}
+\contentsline {chapter}{\numberline {5}Conclusions and discussions}{28}{chapter.5}
+\contentsline {section}{\numberline {5.1}Future work}{28}{section.5.1}
+\contentsline {chapter}{\numberline {A}SUS form}{32}{appendix.A}
+\contentsline {chapter}{\numberline {B}Contextual Inquiry: Research plan}{33}{appendix.B}
