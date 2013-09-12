@@ -259,9 +259,9 @@
 % You can just fix the texts there. Just remember to check all the language
 % variants you use (they are all there in the same place).
 % ------------------------------------------------------------------
-\newcommand{\TITLE}{In-House Software Development \vspace{0 mm} Process:}
+\newcommand{\TITLE}{Improving In-House Software Development \vspace{0 mm} Process:}
 \newcommand{\SUBTITLE}{A User-Centered Approach}
-\newcommand{\FTITLE}{Yrityksen sisäinen ohjelmistokehitysprosessi:}
+\newcommand{\FTITLE}{Yrityksen sisäisen ohjelmistokehitysprosessin parantaminen:}
 \newcommand{\FSUBTITLE}{Käyttäjäkeskeinen lähestymistapa}
 %\newcommand{\STITLE}{Den stora stygga vargen:}
 %\newcommand{\SUBTITLE}{Subtitle}
@@ -715,30 +715,44 @@ The first actual chapter of the thesis elucidates the concept of Software Proces
 %\textbf{not} to do it: \emph{\cite{HaapasaloThesis} describes
 % \input{3environment.tex}
 
-\chapter{Concepts for user-centered software process improvement}
-\chaptermark{Concepts}
-\label{chapter:concepts}
+\chapter{Software process maturity models}
+\label{chapter:maturitymodels}
 
 According to O'Regan \cite{RefWorks:29} the Software Process Improvement is "a program of activities designed to improve the performance and maturity of the organization's software processes and the results of such a program". In practice, the aim of SPI is to meet the business goals more efficiently and for example to improve the software quality. In other words, it aims for smarter work and better software in less time. Many process models exist for Software Process Improvement and one of them, the Capability Maturity Model Integration (CMMI), is presented in this chapter. Because of the usability approach of this thesis, also a model emphasizing human-centeredness is introduces. The user-centered process model for SPI is called Usability Maturity Model (UMM). \cite{RefWorks:29}
 
 \section{Capability Maturity Model Integration}
-The Capability Maturity Model Intergration was developed in the early 1990s by the Software Engineering Institute. Its purpose is to define best practices for software processes in an organization and thereby improve their maturity. In this case, the object of interest is the development version of the model, called CMMI for Development (CMMI-DEV). It provides a carefully defined road map and  structured approach for the Software Process Improvement and allows to set improvement goals and priorities. The CMMI consist of five maturity levels and each level includes a number of process areas. These process areas consist of set of goals, which need to be implemented by the defined practices. These practices specify what needs to be done. A maturity level is achieved when all the process areas of that maturity level have been implemented. \cite{RefWorks:29}
+The Capability Maturity Model Intergration was developed in the early 1990s by the Software Engineering Institute. Its purpose is to define best practices for software processes in an organization and thereby improve their maturity. In the case of this thesis, the object of interest is the development version of the model, called CMMI for Development (CMMI-DEV). It provides a carefully defined road map and  structured approach for the Software Process Improvement and allows to set improvement goals and priorities. The CMMI consist of five maturity levels and each level includes a number of process areas. These process areas consist of set of goals, which need to be implemented by the defined practices. These practices specify what needs to be done. A maturity level is achieved when all the process areas of that maturity level have been implemented. \cite{RefWorks:29}
 
-After the CMMI is initialized (at first level), the focus at level two is on project management practices such as requirements management and project planning. Level three requires procedures and standards for engineering, denoting that for example design, coding and testing should be actions should be defined. Process performance must be achieved within the defined limits on the fourth level of the CMMI. The implementation of the level also requires using metrics and setting goals for the performance. The last level of the model requires a culture of continuous improvement in the company. The possible defects need to be identified and actions taken to prevent them to re-occur. Each of the levels and their improvements forms the basis of the next level. \cite{RefWorks:29}
+After the CMMI is initialized (at first level), the focus at level two is on project management practices such as requirements management and project planning. Level three requires procedures and standards for engineering. For example design, coding and testing should be defined for effective risk management and decision analysis. Process performance must be achieved within the defined limits on the fourth level of the CMMI. The implementation of the level also requires using metrics and setting goals for the performance. The last level of the model requires a culture of continuous improvement in the company. The possible defects need to be identified and actions taken to prevent them to re-occur. Each of the levels and their improvements forms the basis of the next level in the Capability Majority Model. \cite{RefWorks:29}
 
-The level representation of the CMMI is described in Figure \ref{fig:cmmi} including the levels and the CMMI process areas. Every process area consist of specific and generic goals and practices. The specific goals and practices are unique for each process area, and describes what needs to be done to perform the process. The specific practices connected to the specific goals describes the activities to achieve those goals. The generic goals and practices, on the other hand, are common for all the process areas in the CMMI level. The implementation of the generic practices institutionalizes the process, meaning that the process is documented, defined and understood. \cite{RefWorks:29}
+The level representation of the CMMI is described in Figure \ref{fig:cmmi} including the levels and the CMMI process areas. Every process area consist of \textbf{specific} and \textbf{generic} goals and practices. The specific goals and practices are unique for each process area, and describes what needs to be done to perform the process. The specific practices connected to the specific goals describes the activities to achieve those goals. The generic goals and practices, on the other hand, are common for all the process areas in the CMMI level. The implementation of the generic practices institutionalizes the process, meaning that the process is documented, defined and understood, and that the process users are appropriately trained. The generic goals could be for example to have managed, defined and optimized processes in the organization. \cite{RefWorks:29}	
 
 \begin{figure}[H]
   	\centering
-  	\includegraphics[width=1.1\textwidth]{./images/cmmi_levels.png}
-  	\caption{CMMI maturity levels. \cite{RefWorks:29}}
+  	\includegraphics[width=0.9\textwidth]{./images/cmmi_levels.png}
+  	\caption{Capability Maturity Model Integration: Maturity levels. \cite{RefWorks:29}}
 	\label{fig:cmmi}
 \end{figure}
 
 
 
 \section{Usability Maturity Model}
+The Capability Maturity Model Integration is a good example of a model for Software Process Improvement but it doesn't consider the human-centered part of system development. The Usability Maturity Model has been created as a scale to measure the human-centeredness of system development projects. It has many corresponding elements with other SPI models, such as ISO TR 15504 standard, but it is still a stand-alone model. 
 
+ \subsection{Levels of the model}
+ 
+
+
+\begin{figure}[H]
+  	\centering
+  	\includegraphics[width=0.7\textwidth]{./images/umm_levels.png}\hspace*{4cm}
+  	\caption{Usability Maturity Model: Maturity levels and process attributes. \cite{RefWorks:30}}
+	\label{fig:umm}
+\end{figure}
+
+\subsection{Level transitions}
+
+\subsection{Use of the model}
 
 
 \chapter{Methods for user-centered software process improvement}
@@ -835,7 +849,7 @@ The data gathered from Contextual Inquiry consist of notes, recordings and possi
 
 The analysis of CI consist of three steps. The first step is to set focus for the analysis. It is often the same than for the inquiry itself, but occasionally insights from the inquiry makes the original focus outdated. In this case, the new focus for the analysis need to be identified. The next phase in CI analysis is to choose the data display. There are various of methods available for that, such as affinity and workflow diagrams. After the data display has been chosen the final step is to organize the data in the data display. \cite{RefWorks:28}
 
-The affinity diagram organizes single notes in to higher categories or hierarchies. In affinity diagram there are no predefined categories for the individual notes. Instead, a single note is being used to define a category and then the corresponding notes are being attached to the same category. In other words, the notes creates categories and categories then raises common structures and themes. After the categories or groups are formed, and there is no floating notes left, the groups have to be descriptively named. Then groups of groups are being collected, and thereby hierarchies created. The named groups and hierarchies, and the headings of them, then represents new information in an affinity. \cite{RefWorks:21, RefWorks:28}
+The affinity diagram organizes single notes in to higher categories or hierarchies. There are no predefined categories in affinity diagram for the individual notes. Instead, a single note is being used to define a category and then the corresponding notes are being attached to the same category. In other words, the notes creates categories and categories then raises common structures and themes. After the categories or groups are formed, and there is no floating notes left, the groups have to be descriptively named. Then groups of groups are being collected, and thereby hierarchies created. The named groups and hierarchies, and the headings of them, then represents new information in an affinity. \cite{RefWorks:21, RefWorks:28}
 
 The workflow diagram can be used if the work process need to be tracked and understood thoroughly. At first, the notes from each interview need to be reviewed, after which the flow charts can be conducted. The flow charts should reflect the work process of each individual in every interview. After that all the flowcharts need to be displayed and compared. Finally, a composite work flow diagram (containing the stages perceived in most of the inquiries) can be created. \cite{RefWorks:28}
 
@@ -890,7 +904,7 @@ System Usability Scale (see \nameref{app:susform}) is a ten-item \emph{Likert sc
 
 
 \subsection{System Usability Scale in practice}
-The outcome of SUS is a single value which express the overall usability of the system. The value consist of all the items and none of them are meaningful as such. System Usability Scale can be calculated by first summing the score contribution (range from 0 to 4) 			from each item. Before summing the scale positions of the items 1,3,5,7 and 9 need to be subtracted by one and the scale positions of the items 2,4,6,8 and 10 need to be subtracted from 5. The last step is to multiply the sum of the scores by 2.5 to get the overall 			SUS value, which will range from minimum of 0 to maximum of 100. \cite{RefWorks:10} The resulting single score is an easy-to-understand measure, and can therefore be discussed with the wide range of stakeholders. \cite{RefWorks:12} 
+The outcome of SUS is a single value which express the overall usability of the system. The value of the method consist of all the items and none of them are meaningful as such. System Usability Scale can be calculated by summing the score contribution (range from 0 to 4) 		from each item. Before summing the scale positions, the items 1,3,5,7 and 9 need to be subtracted by one and the items 2,4,6,8 and 10 need to be subtracted from 5. The last step is to multiply the sum of the scores by 2.5 to get the overall SUS value, which will range from minimum of 0 to maximum of 100. \cite{RefWorks:10} The resulting single score is an easy-to-understand measure, and can therefore be discussed with the wide range of stakeholders. \cite{RefWorks:12} 
 
 	
 
@@ -1142,7 +1156,7 @@ Figure \ref{fig:hcd_process} illustrates the methods used and the actions taken 
 \chapter{Conclusions and discussions}
 \label{chapter:conclusion}
 
-
+jos käytetään hcd:tä ja menetelmiä voidaan päästä eteenpäin umm tasoilla.
         \section{Future work}
 	\label{sec:future}
 %At this point, you will have some insightful thoughts on your implementation
