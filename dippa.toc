@@ -9,43 +9,43 @@
 \contentsline {section}{\numberline {1.1}Motivation and aim of the thesis}{8}{section.1.1}
 \contentsline {section}{\numberline {1.2}Background and research questions}{9}{section.1.2}
 \contentsline {section}{\numberline {1.3}Scope and structure of the thesis}{10}{section.1.3}
-\contentsline {chapter}{\numberline {2}Software process maturity models}{11}{chapter.2}
+\contentsline {chapter}{\numberline {2}Software process improvement maturity models}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Capability Maturity Model Integration}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}Usability Maturity Model}{13}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Levels of the model}{14}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Level transitions}{14}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Use of the model}{14}{subsection.2.2.3}
-\contentsline {chapter}{\numberline {3}Methods for user-centered software process improvement}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Remote usability evaluation}{15}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Evaluation process}{15}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Log data analysis}{17}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Contextual Inquiry}{18}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Fundamentals of Contextual Inquiry}{19}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Contextual Inquiry interviews}{20}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Analysing the data}{21}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Cognitive Walkthrough}{22}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Preparations}{22}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Analysis}{23}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Interaction Sequence Illustration}{23}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Description of the Interaction Sequence Illustration}{24}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Utilization of the Interaction Sequence Illustration}{24}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}System Usability Scale}{25}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Description of the System Usability Scale}{25}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}System Usability Scale in practice}{26}{subsection.3.5.2}
-\contentsline {section}{\numberline {3.6}Quantitative measurements in usability evaluation}{26}{section.3.6}
-\contentsline {chapter}{\numberline {4}Implementation of the study}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Applied human-centered design process}{28}{section.4.1}
-\contentsline {section}{\numberline {4.2}Practical implementation}{30}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Contextual Inquiry}{30}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Interaction Sequence Illustration}{30}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Cognitive Walkthrough}{30}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}System Usability Scale}{30}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Remote usability evaluation}{30}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Building the prototype}{30}{subsection.4.2.6}
-\contentsline {chapter}{\numberline {5}Analysis}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Results and comparisons}{31}{section.5.1}
-\contentsline {section}{\numberline {5.2}Implementation analysis}{31}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclusions and discussions}{32}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future work}{32}{section.6.1}
-\contentsline {chapter}{\numberline {A}SUS form}{36}{appendix.A}
-\contentsline {chapter}{\numberline {B}Contextual Inquiry: Research plan}{37}{appendix.B}
+\contentsline {subsection}{\numberline {2.2.1}Maturity levels of the model}{14}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Level transitions}{15}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Utilization of the model}{16}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Methods for user-centered software process improvement}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Remote usability evaluation}{17}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Evaluation process}{17}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Log data analysis}{19}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Contextual Inquiry}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Fundamentals of Contextual Inquiry}{21}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Contextual Inquiry interviews}{22}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Analysing the data}{23}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Cognitive Walkthrough}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Preparations}{24}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Analysis}{25}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Interaction Sequence Illustration}{25}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Description of the Interaction Sequence Illustration}{26}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Utilization of the Interaction Sequence Illustration}{26}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}System Usability Scale}{27}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Description of the System Usability Scale}{27}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}System Usability Scale in practice}{28}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Quantitative measurements in usability evaluation}{28}{section.3.6}
+\contentsline {chapter}{\numberline {4}Implementation of the study}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Applied human-centered design process}{30}{section.4.1}
+\contentsline {section}{\numberline {4.2}Practical implementation}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Contextual Inquiry}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Interaction Sequence Illustration}{32}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Cognitive Walkthrough}{32}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}System Usability Scale}{32}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Remote usability evaluation}{32}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Building the prototype}{32}{subsection.4.2.6}
+\contentsline {chapter}{\numberline {5}Analysis}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Results and comparisons}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}Implementation analysis}{33}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusions and discussions}{34}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future work}{34}{section.6.1}
+\contentsline {chapter}{\numberline {A}SUS form}{38}{appendix.A}
+\contentsline {chapter}{\numberline {B}Contextual Inquiry: Research plan}{39}{appendix.B}

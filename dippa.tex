@@ -321,7 +321,7 @@
 %\newcommand{\SPROFESSORSHIP}{Datakommunikationsprogram}
 % Professorship code is the same in all languages
 \newcommand{\PROFCODE}{T-121}
-\newcommand{\KEYWORDS}{Usability, ERP, Software development process, Process measurement, Cognitive Walkthrough, Remote usability evaluation, Automatic usability logging, SUS, Contextual Inquiry, ISI, Software Process Improvement}
+\newcommand{\KEYWORDS}{Usability, ERP, Software development process, Process measurement, Cognitive Walkthrough, Remote usability evaluation, Automatic usability logging, SUS, Contextual Inquiry, ISI, Software process improvement}
 \newcommand{\FKEYWORDS}{Käytettävyys, ERP, Ohjelmistokehitysprosessi, Prosessimittaus, Kognitiivinen läpikäynti, Käytettävyyden etäarviointi, Automaattinen käytettävyyslokitus, SUS, Kontekstuaalinen tutkimus, ISI, Ohjelmistoprosessin kehitys}
 %\newcommand{\SKEYWORDS}{omsättning, kassaflöde, värdepappersmarknadslagen,
 %yrkesutövare, intresseföretag, verifieringskedja}
@@ -504,6 +504,7 @@
 \noindent
 \begin{longtable}{@{}p{0.25\textwidth}p{0.7\textwidth}@{}}
 CI & Contextual Inquiry \\
+CMMI & Capability Maturity Model Integration \\
 CW & Cognitive Walkthrough\\
 ERP & Enterprise Resource Planning \\
 HCI & Human-computer interaction \\
@@ -511,8 +512,9 @@ ISI & Interaction Sequence Illustration \\
 IT & Information technology \\
 SUS & System Usability Scale \\
 UI & User interface \\
+UMM & Usability Maturity Model \\
 UX & User experience \\
-SPI & Software Process Improvement\\
+SPI & Software process improvement\\
 
 
 %FLUTE  & The File Delivery over Unidirectional Transport protocol \\
@@ -579,7 +581,7 @@ The usage of ERP software has increased globally and nowadays even service organ
 
 Despite the importance of the efficiency aspect, the usability of ERP systems is not a widely researched subject area. However, weaknesses in usability may lead into low productivity and make it harder for users to achieve their goals.\cite{RefWorks:2} 
 
-The aim of this thesis is to examine how the usability of a service-oriented ERP system can be enhanced by integrating usability inquiries, inspections and measures into the software development process. 
+The aim of this thesis is to examine how the usability of a service-oriented ERP system can be enhanced by integrating usability inquiries, inspections and measures into the software development processes. 
 
 
 This study examines a customer service related business process employed in the subscriber company, (described in more detail in section \ref{sec:background}) and evaluates the state of its usability by using a variety of applicable methods:
@@ -654,9 +656,9 @@ Finding practical and efficient usability methods to be joined with the software
 \section{Scope and structure of the thesis}
 \label{sec:scope}
 
-This thesis covers a research study about the usability of a process, executed in the ERP system, and employed by the customer service department of the subscriber company. This thesis aims to use the key processes of Software Process Improvement (SPI) to join the usability perspective into the software development of the subscriber company. It doesn't cover any other approaches to the development process. The literature  research consists of the SPI, a few usability methods, and though the target of the research is ERP software, literature about Enterprise Resource Planning is not covered in the thesis. The results of the research may not be suitable for every organization.
+This thesis covers a research study about the usability of a process, which is executed in the ERP system, and employed by the customer service department of the subscriber company. This thesis aims to join the models of software process improvement (SPI) and the human-human centered design to attach usability perspective into the software development of the subscriber company. It covers only the human-centered approach to the development process. The literature  research consists of the SPI, two of its models and a few usability methods. Though the target of the research is ERP software, literature about Enterprise Resource Planning is not covered in the thesis.
 
-The first actual chapter of the thesis elucidates the concept of Software Process Improvement and the usability methods. Every usability method used in the research is discussed carefully. The second chapter introduces the process experiment. It covers the experiment steps and reflects the to the process of human-centered design. It also includes the implementation details of the study. The third chapter analyzes the data acquired from the process and the implementation process itself. The Last chapter discussed and concludes the research study and the whole thesis.
+The first actual chapter of the thesis elucidates the models of software process improvement. The second chapter describes the usability methods used in this thesis in order to improve the software process. Every usability method used in the research is discussed carefully. The third chapter introduces the process experiment. It covers the experiment steps and reflects the to the process of human-centered design. It also includes the implementation details of the study. The fourth chapter analyzes the data acquired from the process and the implementation process itself. The Last chapter discussed and concludes the research study and the whole thesis.
 
     
     
@@ -715,13 +717,13 @@ The first actual chapter of the thesis elucidates the concept of Software Proces
 %\textbf{not} to do it: \emph{\cite{HaapasaloThesis} describes
 % \input{3environment.tex}
 
-\chapter{Software process maturity models}
+\chapter{Software process improvement maturity models}
 \label{chapter:maturitymodels}
 
-According to O'Regan \cite{RefWorks:29} the Software Process Improvement is "a program of activities designed to improve the performance and maturity of the organization's software processes and the results of such a program". In practice, the aim of SPI is to meet the business goals more efficiently and for example to improve the software quality. In other words, it aims for smarter work and better software in less time. Many process models exist for Software Process Improvement and one of them, the Capability Maturity Model Integration (CMMI), is presented in this chapter. Because of the usability approach of this thesis, also a model emphasizing human-centeredness is introduces. The user-centered process model for SPI is called Usability Maturity Model (UMM). \cite{RefWorks:29}
+According to O'Regan \cite{RefWorks:29} the software process improvement is "a program of activities designed to improve the performance and maturity of the organization's software processes and the results of such a program". In practice, the aim of SPI is to meet the business goals more efficiently and for example to improve the software quality. In other words, it aims for smarter work and better software in less time. Many process models or frameworks exist for software process improvement and one of them, the Capability Maturity Model Integration (CMMI), is presented in this chapter. Because of the usability approach of this thesis, also a model emphasizing human-centeredness is introduces. The user-centered process model for SPI is called Usability Maturity Model (UMM). \cite{RefWorks:29}
 
 \section{Capability Maturity Model Integration}
-The Capability Maturity Model Intergration was developed in the early 1990s by the Software Engineering Institute. Its purpose is to define best practices for software processes in an organization and thereby improve their maturity. In the case of this thesis, the object of interest is the development version of the model, called CMMI for Development (CMMI-DEV). It provides a carefully defined road map and  structured approach for the Software Process Improvement and allows to set improvement goals and priorities. The CMMI consist of five maturity levels and each level includes a number of process areas. These process areas consist of set of goals, which need to be implemented by the defined practices. These practices specify what needs to be done. A maturity level is achieved when all the process areas of that maturity level have been implemented. \cite{RefWorks:29}
+The Capability Maturity Model Intergration was developed in the early 1990s by the Software Engineering Institute. Its purpose is to define best practices for software processes in an organization and thereby improve their maturity. In the case of this thesis, the object of interest is the development version of the model, called CMMI for Development (CMMI-DEV). It provides a carefully defined road map and  structured approach for the software process improvement and allows to set improvement goals and priorities. The CMMI consist of five maturity levels and each level includes a number of process areas. These process areas consist of set of goals, which need to be implemented by the defined practices. These practices specify what needs to be done. A maturity level is achieved when all the process areas of that maturity level have been implemented. \cite{RefWorks:29}
 
 After the CMMI is initialized (at first level), the focus at level two is on project management practices such as requirements management and project planning. Level three requires procedures and standards for engineering. For example design, coding and testing should be defined for effective risk management and decision analysis. Process performance must be achieved within the defined limits on the fourth level of the CMMI. The implementation of the level also requires using metrics and setting goals for the performance. The last level of the model requires a culture of continuous improvement in the company. The possible defects need to be identified and actions taken to prevent them to re-occur. Each of the levels and their improvements forms the basis of the next level in the Capability Majority Model. \cite{RefWorks:29}
 
@@ -737,11 +739,14 @@ The level representation of the CMMI is described in Figure \ref{fig:cmmi} inclu
 
 
 \section{Usability Maturity Model}
-The Capability Maturity Model Integration is a good example of a model for Software Process Improvement but it doesn't consider the human-centered part of system development. The Usability Maturity Model has been created as a scale to measure the human-centeredness of system development projects. It has many corresponding elements with other SPI models, such as ISO TR 15504 standard, but it is still a stand-alone model. 
+The Capability Maturity Model Integration is a good example of a model for software process improvement but it doesn't consider the human-centered part of system development. The Usability Maturity Model has been created as a scale to measure the human-centeredness of system development projects. It has many corresponding elements with other SPI models, such as ISO TR 15504 standard, but it is still considered a stand-alone model. \cite{RefWorks:30}
 
- \subsection{Levels of the model}
- 
+ \subsection{Maturity levels of the model}
+Like CMMI, also Usability Maturity Model consist of maturity levels (see Figure \ref{fig:umm}). In UMM there are six maturity levels and the first one of them is called level X, in which the need for human-centered activities are not recognized at all. In the level A the organization has recognized the need for improving systems quality of use. Level A1 is a problem recognition attribute and it describes the extent if understanding the problems. To achieve this level of maturity, the staff and the management need to be aware about the need of improvements. Level A2 describes the number of processes performed which provide input for human-centered activities. Information of user requirements should be included in the information collection and practices should be performed to gather this information. In level B, the organization indicates to the staff that the quality of use is considered as important attribute in the development and trains the staff to be aware that usability can be improved by considering the user requirements. The level B1 can be achieved by training the staff human-centered methods and principles of human-system interaction. The staff need focus on the users, for example by understanding the end users' skills, backgrounds and motivations. \cite{RefWorks:30}
 
+The human-centered processes are already implemented in the level C. Users are involved in specifying and testing the system and suitable human-centered techniques are being employed. Active involvement of users, the creation of UX, users defining the quality of use and continuous testing and feedback are required in order for the organization to achieve the level C1 maturity level. The level C2 on the other hand requires the use of appropriate usability methods, suitable facilities and tools, and maintaining usability techniques. Maintaining usability techniques includes reviewing the suitability of the methods and that the state-of-the  art UI technologies are being used. The level C3 can be achieved by ensuring that the staff has the defined and required human-centered competences. In level D and in all the sublevels, the human-centered processes are integrated to the life cycle and quality processes of the system. Also, the required time and resources are targeted for these activities and interaction with other departments is successful, feedback process is administered and the design solutions are being iterated. \cite{RefWorks:30}
+
+ The last level of UMM is level E and its sublevels, which requires the institutionalization of the human-centered processes, meaning that the organization gains benefit from its human-centeredness. On this maturity level, usability skills and engineering skills are used together and the usability defects are managed in a similar manner to other system defects. Also, human-centered process are being included in the projects and usability is systematically improved. Human-centredness has an influence to the whole organization. \cite{RefWorks:30}
 
 \begin{figure}[H]
   	\centering
@@ -752,8 +757,15 @@ The Capability Maturity Model Integration is a good example of a model for Softw
 
 \subsection{Level transitions}
 
-\subsection{Use of the model}
+The transitions between the maturity levels change the organization and these changes creates the basis for software process improvement. In the case of UMM, transitions represents also the improvement in usability consciousness. 
 
+The transition between maturity levels A and B is a cultural change, from experience based, to more user-centric engineering. In level A, the attitude against user-centeredness might be incredulous, but in level B the awareness about system being used by the people has been created. The transition from level B to C creates the cultural change of user being thought during the development. Also, the differences between analyst and end-users are being recognized. \cite{RefWorks:30}
+
+The Change from the level of considering the users to the implementation of the human-centered processes  (from level C to D) requires the routine use of human factors expertise and human-centered methods and tools. The user involving the development process is considered normal in the level D. The transition from the level D to level E institutionalizes the human-centeredness. The system development is then embedded in a business driven culture, which changes the focus (of the development) from the functionality of the supporting  systems to what the organization is able to do in general. In other words, the system functionality is not the core issue any longer.  \cite{RefWorks:30}
+
+\subsection{Utilization of the model}
+
+A member of staff need to be designated in charge of the quality of use. The first task of this employee is to examine the awareness of the human-centered principles within the organization by interviewing the managerial level. This information can then be used to assess the maturity level of the organization. However, more than one project should be assessed in order to gain wider understanding about the maturity of the organization. The performance assessment forms the basis of plans to review and improve the human-centered processes in the organization. \cite{RefWorks:30}
 
 \chapter{Methods for user-centered software process improvement}
 \chaptermark{Methods}
@@ -876,7 +888,7 @@ The Contextual Inquiry analysis phase examines the actions of the tasks and gene
 
 \section{Interaction Sequence Illustration}
 \label{sec:isi}
-Considering the practical impacts of the thesis, it is important to use methods and measures which can shore up the software development process in a real-use context. This is why the process and it's interactions are reviewed using ISI method, which utilizes 				authentic use context and real users. \cite{RefWorks:17} ISI was originally developed for evaluating the usability of IT tasks carried out in healthcare industry, but there are no defined reasons why it could not be utilized in different environments.
+Considering the practical impacts of the thesis, it is important to use methods and measures which can shore up the software development process in a real-use context. This is why the process and it's interactions are reviewed using ISI method, which utilizes 				authentic use context and real users. \cite{RefWorks:17} ISI was originally developed for evaluating the usability of Information Technology (IT) tasks carried out in healthcare industry, but there are no defined reasons why it could not be utilized in different environments.
 
 \subsection{Description of the Interaction Sequence Illustration}
 Interaction Sequence Illustration is a low level analysis method for human-computer interaction. It uses data acquired during the Contextual Inquiry process and doesn't gather any of its own. However, the inquiry data has to be complemented with documentation 			about 	interaction activities. There are three objectives for ISI method to handle. The first is to demonstrate how the user perceives the system. The second one is to identify and document activities, and to discover problems. The first two objectives creates the 			third one, which is to support the user-centered design and development. \cite{RefWorks:17}  The strength of ISI lies in the analysis of data and it can be used to compare the interaction sequences of two of or more UI implementations. On the other hand it can 			provide prominent information on only one UI's interaction sequence. 
@@ -976,6 +988,7 @@ Figure \ref{fig:hcd_process} illustrates the methods used and the actions taken 
 
     \section{Results and comparisons}
     \label{sec:results}
+     The results of the research may not be suitable for every organization.
     -Comparison between country offices, between methods
     -Comparison between individuals (esim. kuinka kauan kesti tietyn toiminnon tekeminen) / Overall comparison (esim. kaikkien koehenkilöiden yhteinen kehitys.)
 - Interaction sequence illustration (esim. kuinka monta steppiä ennen ja jälkeen)
