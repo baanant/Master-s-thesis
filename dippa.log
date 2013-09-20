@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.4)  13 SEP 2013 15:53
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.4)  20 SEP 2013 15:17
 entering extended mode
 **C:/Users/antti.paananen/dippa/diplomityo/dippa.tex
 (C:/Users/antti.paananen/dippa/diplomityo/dippa.tex
@@ -1117,14 +1117,14 @@ Overfull \hbox (0.40889pt too wide) in paragraph at lines 405--405
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<./pdfs/aalto-logo-en.pdf, id=202, 302.3837pt x 132.96776pt>
+<./pdfs/aalto-logo-en.pdf, id=214, 302.3837pt x 132.96776pt>
 File: ./pdfs/aalto-logo-en.pdf Graphic file (type pdf)
 
 <use ./pdfs/aalto-logo-en.pdf>
 Package pdftex.def Info: ./pdfs/aalto-logo-en.pdf used on input line 434.
 (pdftex.def)             Requested size: 174.709pt x 76.82234pt.
  [2 <C:/Users/antti.paananen/dippa/diplomityo/pdfs/aalto-logo-en.pdf>]
-<./pdfs/aalto-logo-fi.pdf, id=215, 284.79599pt x 133.24078pt>
+<./pdfs/aalto-logo-fi.pdf, id=227, 284.79599pt x 133.24078pt>
 File: ./pdfs/aalto-logo-fi.pdf Graphic file (type pdf)
 
 <use ./pdfs/aalto-logo-fi.pdf>
@@ -1168,7 +1168,7 @@ Overfull \hbox (29.23953pt too wide) in paragraph at lines 720--720
 
 [11
 
-] <./images/cmmi_levels.png, id=331, 1598.97375pt x 1659.19875pt>
+] <./images/cmmi_levels.png, id=346, 1598.97375pt x 1659.19875pt>
 File: ./images/cmmi_levels.png Graphic file (type png)
 
 <use ./images/cmmi_levels.png>
@@ -1192,7 +1192,7 @@ Overfull \hbox (43.39139pt too wide) has occurred while \output is active
 cmr/m/n/12 14
  []
 
-[14] <./images/umm_levels.png, id=354, 1336.995pt x 1754.80594pt>
+[14] <./images/umm_levels.png, id=369, 1336.995pt x 1754.80594pt>
 File: ./images/umm_levels.png Graphic file (type png)
 
 <use ./images/umm_levels.png>
@@ -1214,7 +1214,7 @@ cmr/m/n/12 16
 Chapter 3.
 [17
 
-] <./images/logging_usability_process.png, id=383, 742.775pt x 341.275pt>
+] <./images/logging_usability_process.png, id=398, 742.775pt x 341.275pt>
 File: ./images/logging_usability_process.png Graphic file (type png)
 
 <use ./images/logging_usability_process.png>
@@ -1229,7 +1229,7 @@ T1/cmr/m/n/12 are ap-proaches
  []
 
 [20] [21] [22] [23] [24] [25]
-<./images/isi_chart.png, id=477, 1224.575pt x 582.175pt>
+<./images/isi_chart.png, id=492, 1224.575pt x 582.175pt>
 File: ./images/isi_chart.png Graphic file (type png)
 
 <use ./images/isi_chart.png>
@@ -1243,7 +1243,7 @@ Overfull \hbox (39.00238pt too wide) in paragraph at lines 903--904
 [26] [27 <C:/Users/antti.paananen/dippa/diplomityo/images/isi_chart.png>]
 [28]
 Chapter 4.
-<./images/hci_process.png, id=506, 684.30656pt x 447.92343pt>
+<./images/hci_process.png, id=521, 684.30656pt x 447.92343pt>
 File: ./images/hci_process.png Graphic file (type png)
 
 <use ./images/hci_process.png>
@@ -1252,7 +1252,7 @@ Package pdftex.def Info: ./images/hci_process.png used on input line 938.
  [29
 
  <C:/Users/antti.paananen/dippa/diplomityo/images/hci_process.png>] [30]
-<./images/applied_hcd_process.png, id=519, 697.8572pt x 366.61969pt>
+<./images/applied_hcd_process.png, id=534, 697.8572pt x 366.61969pt>
 File: ./images/applied_hcd_process.png Graphic file (type png)
 
 <use ./images/applied_hcd_process.png>
@@ -1260,124 +1260,135 @@ Package pdftex.def Info: ./images/applied_hcd_process.png used on input line 96
 8.
 (pdftex.def)             Requested size: 390.0pt x 204.88606pt.
  [31]
-Overfull \hbox (159.57527pt too wide) in paragraph at lines 977--979
+Overfull \hbox (159.57527pt too wide) in paragraph at lines 977--989
 \OT1/cmtt/m/n/12 Kuinka monta osallistujaa, millainen ymparisto, missa maass
 a, minka ikaisia osallistujat,
  []
 
 
-Overfull \hbox (7.81128pt too wide) in paragraph at lines 977--979
+Overfull \hbox (7.81128pt too wide) in paragraph at lines 977--989
 \OT1/cmtt/m/n/12 kauanko tehneet tyota kuinka testaus sujui, menetelmakohtai
 sesti,
  []
 
 [32 <C:/Users/antti.paananen/dippa/diplomityo/images/applied_hcd_process.png>]
+[33]
 Chapter 5.
-[33
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1040
+
+ []
+
+[34
+
+] [35]
 Chapter 6.
-(C:\Users\antti.paananen\dippa\diplomityo\dippa.bbl [34
+(C:\Users\antti.paananen\dippa\diplomityo\dippa.bbl [36
 
-] [35
+] [37
 
-] [36])
-<./pdfs/sus.pdf, id=548, 597.23125pt x 845.1575pt>
+] [38])
+<./pdfs/sus.pdf, id=572, 597.23125pt x 845.1575pt>
 File: ./pdfs/sus.pdf Graphic file (type pdf)
  <use ./pdfs/sus.pdf>
-Package pdftex.def Info: ./pdfs/sus.pdf used on input line 1212.
+Package pdftex.def Info: ./pdfs/sus.pdf used on input line 1262.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ./pdfs/sus.pdf Graphic file (type pdf)
 
 <use ./pdfs/sus.pdf>
-Package pdftex.def Info: ./pdfs/sus.pdf used on input line 1212.
+Package pdftex.def Info: ./pdfs/sus.pdf used on input line 1262.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [37]
-<./pdfs/sus.pdf, id=554, page=4, 597.23125pt x 845.1575pt>
+ [39]
+<./pdfs/sus.pdf, id=577, page=4, 597.23125pt x 845.1575pt>
 File: ./pdfs/sus.pdf Graphic file (type pdf)
 
 <use ./pdfs/sus.pdf, page 4>
-Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1212.
+Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1262.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ./pdfs/sus.pdf Graphic file (type pdf)
  <use ./pdfs/sus.pdf, page 4>
-Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1212.
+Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1262.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 File: ./pdfs/sus.pdf Graphic file (type pdf)
 
 <use ./pdfs/sus.pdf, page 4>
-Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1212.
+Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1262.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 File: ./pdfs/sus.pdf Graphic file (type pdf)
  <use ./pdfs/sus.pdf, page 4>
-Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1212.
+Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1262.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 File: ./pdfs/sus.pdf Graphic file (type pdf)
 
 <use ./pdfs/sus.pdf, page 4>
-Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1212.
+Package pdftex.def Info: ./pdfs/sus.pdf, page4 used on input line 1262.
 (pdftex.def)             Requested size: 537.50316pt x 760.63474pt.
 
 Appendix A.
-[38
+[40
 
  <C:/Users/antti.paananen/dippa/diplomityo/pdfs/sus.pdf>]
-<./pdfs/ciplan.pdf, id=602, 597.55246pt x 845.07718pt>
+<./pdfs/ciplan.pdf, id=625, 597.55246pt x 845.07718pt>
 File: ./pdfs/ciplan.pdf Graphic file (type pdf)
  <use ./pdfs/ciplan.pdf>
-Package pdftex.def Info: ./pdfs/ciplan.pdf used on input line 1218.
+Package pdftex.def Info: ./pdfs/ciplan.pdf used on input line 1268.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: ./pdfs/ciplan.pdf Graphic file (type pdf)
 
 <use ./pdfs/ciplan.pdf>
-Package pdftex.def Info: ./pdfs/ciplan.pdf used on input line 1218.
+Package pdftex.def Info: ./pdfs/ciplan.pdf used on input line 1268.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<./pdfs/ciplan.pdf, id=603, page=1, 597.55246pt x 845.07718pt>
+<./pdfs/ciplan.pdf, id=626, page=1, 597.55246pt x 845.07718pt>
 File: ./pdfs/ciplan.pdf Graphic file (type pdf)
 
 <use ./pdfs/ciplan.pdf, page 1>
-Package pdftex.def Info: ./pdfs/ciplan.pdf, page1 used on input line 1218.
+Package pdftex.def Info: ./pdfs/ciplan.pdf, page1 used on input line 1268.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: ./pdfs/ciplan.pdf Graphic file (type pdf)
  <use ./pdfs/ciplan.pdf, page 1>
-Package pdftex.def Info: ./pdfs/ciplan.pdf, page1 used on input line 1218.
+Package pdftex.def Info: ./pdfs/ciplan.pdf, page1 used on input line 1268.
 (pdftex.def)             Requested size: 507.92198pt x 718.319pt.
 File: ./pdfs/ciplan.pdf Graphic file (type pdf)
 
 <use ./pdfs/ciplan.pdf, page 1>
-Package pdftex.def Info: ./pdfs/ciplan.pdf, page1 used on input line 1218.
+Package pdftex.def Info: ./pdfs/ciplan.pdf, page1 used on input line 1268.
 (pdftex.def)             Requested size: 507.92198pt x 718.319pt.
 File: ./pdfs/ciplan.pdf Graphic file (type pdf)
  <use ./pdfs/ciplan.pdf, page 1>
-Package pdftex.def Info: ./pdfs/ciplan.pdf, page1 used on input line 1218.
+Package pdftex.def Info: ./pdfs/ciplan.pdf, page1 used on input line 1268.
 (pdftex.def)             Requested size: 507.92198pt x 718.319pt.
 File: ./pdfs/ciplan.pdf Graphic file (type pdf)
 
 <use ./pdfs/ciplan.pdf, page 1>
-Package pdftex.def Info: ./pdfs/ciplan.pdf, page1 used on input line 1218.
+Package pdftex.def Info: ./pdfs/ciplan.pdf, page1 used on input line 1268.
 (pdftex.def)             Requested size: 507.92198pt x 718.319pt.
 
 Appendix B.
-[39
+[41
 
  <C:/Users/antti.paananen/dippa/diplomityo/pdfs/ciplan.pdf>]
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1271.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1271.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1321.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1321.
 (C:\Users\antti.paananen\dippa\diplomityo\dippa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1271.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1321.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1321.
 
 Package rerunfilecheck Info: File `dippa.out' has not changed.
-(rerunfilecheck)             Checksum: E4E0BDD5690FFF3026650A02C66851C2;3710.
+(rerunfilecheck)             Checksum: DCEE21C9FF68C1B32FCF864EB8DB1CEB;3966.
  ) 
 Here is how much of TeX's memory you used:
- 19404 strings out of 493921
- 365565 string characters out of 3144850
+ 19412 strings out of 493921
+ 365681 string characters out of 3144850
  480205 words of memory out of 3000000
- 22137 multiletter control sequences out of 15000+200000
+ 22140 multiletter control sequences out of 15000+200000
  12159 words of font info for 43 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  56i,21n,57p,1369b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1391,9 +1402,9 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on dippa.pdf (39 pages, 1124894 bytes).
+Output written on dippa.pdf (41 pages, 1129914 bytes).
 PDF statistics:
- 859 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 449 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 883 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
+ 473 words of extra memory for PDF output out of 10000 (max. 10000000)
 
