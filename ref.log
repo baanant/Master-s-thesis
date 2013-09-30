@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.6.25)  4 SEP 2013 13:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.9.30)  30 SEP 2013 21:43
 entering extended mode
-**C:/Users/antti.paananen/dippa/diplomityo/ref.bib
-(C:/Users/antti.paananen/dippa/diplomityo/ref.bib
+**C:/Users/baanari/Documents/dippa/diplomityo/ref.bib
+(C:/Users/baanari/Documents/dippa/diplomityo/ref.bib
 Overfull \hbox (10.9127pt too wide) in paragraph at lines 3--15
 []\tenrm @bookRefWorks:27, au-thor=Jessamyn Burns Wen-dell and Karen Holtzblatt
  and Shel-ley Wood, year=2004,|
@@ -15,7 +15,7 @@ Overfull \hbox (10.9127pt too wide) in paragraph at lines 3--15
 .etc.
 
 
-Overfull \hbox (1.27377pt too wide) in paragraph at lines 19--31
+Overfull \hbox (1.27377pt too wide) in paragraph at lines 28--40
 []\tenrm @inproceedingsRefWorks:19, au-thor=Marita Franzke, year=1992, ti-tle=U
 sing the cog-ni-tive walk-through|
 
@@ -28,7 +28,7 @@ sing the cog-ni-tive walk-through|
 .etc.
 
 
-Overfull \hbox (24.80177pt too wide) in paragraph at lines 69--81
+Overfull \hbox (24.80177pt too wide) in paragraph at lines 88--100
 \tenrm a prac-ti-tioner's guide, pages=105-140, isbn=0-471-01877-5, url=http://
 dl.acm.org/citation.cfm?id=189200.189214|
 
@@ -41,7 +41,7 @@ dl.acm.org/citation.cfm?id=189200.189214|
 .etc.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--81
+Underfull \hbox (badness 10000) in paragraph at lines 88--100
 
 
 \hbox(0.0+0.0)x469.75499
@@ -54,7 +54,7 @@ Missing character: There is no © in font cmr10!
                 $
 <to be read again> 
                    _
-l.155 ...p://dx.doi.org/10.1007/978-3-642-25364-5_
+l.174 ...p://dx.doi.org/10.1007/978-3-642-25364-5_
                                                   13}
 ? 
 ! Emergency stop.
@@ -62,7 +62,7 @@ l.155 ...p://dx.doi.org/10.1007/978-3-642-25364-5_
                 $
 <to be read again> 
                    _
-l.155 ...p://dx.doi.org/10.1007/978-3-642-25364-5_
+l.174 ...p://dx.doi.org/10.1007/978-3-642-25364-5_
                                                   13}
 End of file on the terminal!
 
