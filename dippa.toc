@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Level transitions}{15}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Utilization of the model}{16}{subsection.2.2.3}
 \contentsline {chapter}{\numberline {3}Methods for user-centered software process improvement}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Remote usability evaluation}{17}{section.3.1}
+\contentsline {section}{\numberline {3.1}Remote data logging}{17}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Evaluation process}{18}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Log data analysis}{19}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Contextual Inquiry}{20}{section.3.2}
@@ -24,15 +24,15 @@
 \contentsline {subsection}{\numberline {3.2.2}Contextual Inquiry interviews}{22}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Analysing the data}{23}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Remote Contextual Inquiry}{24}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Cognitive Walkthrough}{24}{section.3.3}
+\contentsline {section}{\numberline {3.3}Cognitive Walkthrough}{25}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Preparations}{25}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Analysis}{26}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Interaction Sequence Illustration}{26}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Description of the Interaction Sequence Illustration}{26}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Description of the Interaction Sequence Illustration}{27}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Utilization of the Interaction Sequence Illustration}{27}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}System Usability Scale}{28}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Description of the System Usability Scale}{28}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}System Usability Scale in practice}{28}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.2}System Usability Scale in practice}{29}{subsection.3.5.2}
 \contentsline {section}{\numberline {3.6}Quantitative measurements in usability evaluation}{29}{section.3.6}
 \contentsline {chapter}{\numberline {4}Implementation of the study}{30}{chapter.4}
 \contentsline {section}{\numberline {4.1}Applied human-centered design process}{31}{section.4.1}
