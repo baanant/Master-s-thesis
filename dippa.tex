@@ -875,8 +875,11 @@ The results of the RCI are versatile. Information about the goals of the users a
 \section{Cognitive Walkthrough}
 \label{sec:cognitivewalkthrough}
 
-Cognitive Walkthrough (CW) was developed in the early nineties and it was originally intended to help reviewing 'walk-up-and-use' interfaces, such as Automatic Teller Machine (ATM). CW is a formal usability inspection method for professionals involved in the development process. The key concept behind CW is to use theory as a guide for design review. It is easy to understand and apply and therefore feasible to use in a regular development process. \cite{RefWorks:19, RefWorks:18} 
-The method consist of two phases: preparatory and analysis phases. In the preparatory phase, the tasks, sequences for tasks, users and their backgrounds and the interface to be analyzed will be agreed upon.  The actual analysis will be accomplished in the analysis phase, where every action of every task will be executed and analyzed. In general the Cognitive Walkthrough method can benefit all phases of the design and development process.\cite{RefWorks:26}
+Cognitive Walkthrough (CW) was developed in the early nineties and it was originally intended to help reviewing 'walk-up-and-use' interfaces, such as Automatic Teller Machine (ATM). CW is a formal usability inspection method for professionals involved in the development process. The key concept behind CW is to use theory as a guide for design review. It is easy to understand and apply and therefore feasible to use in a regular development process. \cite{RefWorks:19, RefWorks:18} Contextual Inquiry is additional tool for usability engineering and it is easy to evaluate mockups or sketches of designs relatively quickly with it. \cite{RefWorks:34}
+
+In theory, human-computer interaction process can be described in four steps. Firstly, the user sets the goal for the activity which is to be accomplished with the system. Secondly, the user examines the user interface for available actions. Thirdly, the user selects the action most likely to make progress. Finally, the user carries out the action and assess the feedback from the system. In real-life tasks these steps would probably iterate to achieve subgoals and to complete tasks. Cognitive Walkthrough examines the correct actions to accomplish a task and the four steps to carry out those actions. \cite{RefWorks:34}
+
+The method consist of two phases: preparatory and analysis phases. The preparatory phase contains prerequisites for the walkthrough. First one of them is a brief description of the user and about the knowledge he or she possess. The second prerequisite is a specific description of one or more tasks to be carried out with the system. The last prerequisite is a list of correct actions required to complete the tasks with the UI. The actual analysis will be accomplished in the analysis phase, where every action of every task will be executed and analyzed. In general the Cognitive Walkthrough method can benefit all phases of system's design and development process.\cite{RefWorks:26, RefWorks:34}
 
 \subsection{Preparations}
 Cognitive Walkthrough can be accomplished by using detailed design specification of the user interface which has been received after requirement analysis and functionality definition processes. The walkthrough can be also performed  on a paper simulation, minimal prototype or fully functional prototype of the UI. Formally Cognitive Walkthrough evaluates design's ease of learning by exploring it. \cite{RefWorks:26}
@@ -885,14 +888,14 @@ The analysis can be done individually or in a group. In a group the process star
 
 The first step in walkthrough preparations is to describe the users of the system and choose the tasks for analysis. If the background and technical experience of the users are described in the beginning, more details can be possibly revealed in the walkthrough itself. The selection of tasks (for analysis) is critical and should be based on facts, such as requirement analysis, needs analysis or concept testing. The amount of tasks should be moderate and it is important that the set of chosen tasks include some core functionality and some combinations between those core functionalities. Furthermore, to make tasks as concrete as possible, context descriptions must be included. \cite{RefWorks:26}
 
-After the tasks have been chosen,  the action sequences for the tasks need to be described. Basically it means that the sequence of actions, which are required to accomplish the task with the UI, are being described. These actions can be as simple as "press the start button" or "write your name in the text field". However, depending on the level of user expertise and user descriptions, actions might also consist of several simple actions which can then be executed as one block. These kind of actions could be for example filling in the register form or going to a specific website. The interface definition should include the prompts preceding all the actions in the task and the interface's reactions to those actions. If the development is already finished, all the information from the interface is available, but if the development process is only in the beginning, paper descriptions are needed. The level of detail in paper descriptions depend once again on the expertise of the users. \cite{RefWorks:26}
+After the tasks have been chosen, the action sequences for the tasks need to be described. Basically it means that the sequence of actions, which are required to accomplish the task with the UI, are being described. These actions can be as simple as "press the start button" or "write your name in the text field". However, depending on the level of user expertise and user descriptions, actions might also consist of several simple actions which can then be executed as one block. These kind of actions could be for example filling in the register form or going to a specific website. The interface definition should include the prompts preceding all the actions in the task and the interface's reactions to those actions. If the development is already finished, all the information from the interface is available, but if the development process is only in the beginning, paper descriptions are needed. The level of detail in paper descriptions depend once again on the expertise of the users. \cite{RefWorks:26}
 
 \subsection{Analysis}
 
-The Contextual Inquiry analysis phase examines the actions of the tasks and generates a plausible story or a review about the reasons why the users (which have been defined earlier) would have chosen those actions. These stories are based on presumptions about user's expertise and objectives. Sometimes users trust on their problem-solving skills, which is why it is important to understand the problem-solving process in the analysis phase. In order to mimic this process in the analysis phase, four steps should be taken. First, a rough description of the task to be accomplished should be considered. Then the user interface should be explored and actions should be taken according to assumptions users might have. The third step is to observe if the user interface is returning the expected results for each action. The last part of problem-solving process is to assume and define users' next action.\cite{RefWorks:26}
+The Contextual Inquiry analysis phase examines the actions of the tasks and generates a plausible story or a review about the reasons why the users (which have been defined earlier) would have chosen those actions. These stories are based on presumptions about user's expertise and objectives. Sometimes users trust on their problem-solving skills, which is why it is important to understand the problem-solving process in the analysis phase. In order to mimic this process in the analysis phase, four steps should be taken. First, a rough description of the task to be accomplished should be considered. Then the user interface should be explored and actions should be taken according to assumptions users might have. The third step is to observe if the user interface is returning the expected results for each action. The last part of problem-solving process is to assume and define users' next action.\cite{RefWorks:26} In general, the walkthrough or the analysis evaluates if the user is able to select the correct actions with the user interface.
 
-\texttt{TÄHÄN VIELÄ LISÄÄ ARTIKKELISTA + ETSI MUUTA AINEISTOA}
-
+Four criteria can be used in order to assess the ease of performing the correct actions and thereby completing the task. According to the criteria, the goal, the accessibility of the correct user interface object, the match between the label of the object and the object itself, and the feedback provided should be considered while evaluating the system. \cite{RefWorks:34}
+ 
 \section{Interaction Sequence Illustration}
 \label{sec:isi}
 Considering the practical impacts of the thesis, it is important to use methods and measures which can shore up the software development process in a real-use context. This is why the process and it's interactions are reviewed using ISI method, which utilizes 				authentic use context and real users. \cite{RefWorks:17} ISI was originally developed for evaluating the usability of Information Technology (IT) tasks carried out in healthcare industry, but there are no defined reasons why it could not be utilized in different environments.
@@ -979,10 +982,10 @@ Figure \ref{fig:hcd_process} illustrates the methods used and the actions taken 
 	\label{fig:hcd_process}
 \end{figure}
 
-
-    \section{Practical implementation}
-    \label{sec:implementation}
+\section{Practical implementation}
+ \label{sec:implementation}
     
+ The practical implementation of the research study was dated between August and NOVEMBER???? 2013. Altogether six users from two different countries participated in remote data logging, Contextual Inquiry and Interaction Sequence Illustration evaluations. They also filled in the System Usability Scale form. Cognitive Walkthrough was implemented by one usability analyst. The users' work experience varied from under a year to a quarter of a century. In every evaluation session the users were situated in their own workstations. 
 	\texttt{Kuinka monta osallistujaa, millainen ympäristö, missä maassa, minkä ikäisiä osallistujat, kauanko tehneet työtä}
     	\texttt{kuinka testaus sujui, menetelmäkohtaisesti, mitä välineitä käytettiin miten toimi.}
     	\\*
@@ -995,7 +998,11 @@ Figure \ref{fig:hcd_process} illustrates the methods used and the actions taken 
     	 -vuodet yrityksessä (noin): 1,21,14,0.5 = avg.9
     	 \\*
     	 -suomessa työympäristö
-	  \subsection{Contextual Inquiry}
+\subsection{Contextual Inquiry}
+Contextual Inquiry was executed in three separated phases in the research study. In the first CI implementation the user and the analyst shared the common space, in this case the user's workstation. 
+
+
+	  
 	 -kesto noin kaksi tuntia
 	  \\*
 	  -eteneminen: ensin ci ja lopuksi määritelty interaktio-setti isiä varten.
@@ -1020,7 +1027,16 @@ Figure \ref{fig:hcd_process} illustrates the methods used and the actions taken 
 	  \\*
 	  analyysi vanhaan tutkimukseen peilaten.
 	  \subsection{Remote usability evaluation}
+	  -results 
+	  -no of clicks 
 	\subsection{Building the prototype}
+	-technology: .NET, C, WPF, WCF
+	\\
+	-using the results from the first round evaluation.
+	\\
+	-limitations
+	\\
+	-functionality
     	
 \chapter{Analysis}
 \label{chapter:analysis}
@@ -1055,6 +1071,7 @@ Figure \ref{fig:hcd_process} illustrates the methods used and the actions taken 
     \section{Implementation analysis}
     \label{sec:implementationanalysis}
     -Should these methods be implemented as a part of the process or not.
+    -While writing the thesis, contextual inquiry used as part of requirement definition process.
 
 %When you use \texttt{pdflatex} to render your thesis, you can include PDF images
 %directly, as shown by Figure~\ref{fig:indica_model} below.
@@ -1231,6 +1248,7 @@ Figure \ref{fig:hcd_process} illustrates the methods used and the actions taken 
 jos käytetään hcd:tä ja menetelmiä voidaan päästä eteenpäin umm tasoilla.??
         \section{Future work}
 	\label{sec:future}
+	-need for more simple methods and more versatile data.
 %At this point, you will have some insightful thoughts on your implementation
 %and you may have ideas on what could be done in the future.
 %This chapter is a good place to discuss your thesis as a whole and to show your

@@ -1,10 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: dippa.aux
 The style file: acm.bst
 Database file #1: ref.bib
+I was expecting a `,' or a `}'---line 84 of file ref.bib
+ :  url={http://doi.acm.org/10.1145/97243.97279}
+ :                                              'x§
+I'm skipping whatever remains of this entry
 Warning--to sort, need author, editor, or key in RefWorks:22
 Warning--empty author and editor in RefWorks:22
 Warning--can't use both author and editor fields in RefWorks:9
 Warning--empty chapter and pages in RefWorks:9
 Warning--can't use both author and editor fields in RefWorks:17
 Warning--can't use both author and editor fields in RefWorks:26
-(There were 6 warnings)
+(There was 1 error message)
