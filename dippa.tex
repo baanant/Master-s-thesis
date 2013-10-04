@@ -611,11 +611,11 @@ Understanding the differences in the system usage between individuals can help t
 
 \item \textbf{\emph{How much the efficiency of use can be improved by utilizing the results of usability evaluations?}}
 
-It is important to find the most effective and usable user interface solutions and thus decrease the average time spent on tasks. Local differences can be tracked with remote usability measurements.
+It is important to find the most effective and usable user interface solutions and thus decrease the average time spent on tasks. 
 
 \item \textbf{\emph{What usability methods can be practically joined with the software development process of an ERP system?}}
 
-Finding practical and efficient usability methods to be joined with the software development process can improve the quality of the end product.
+Finding practical and efficient usability methods to be joined with the software development process can improve the quality of end product and also raise the maturity level of the development process.
 
 \end{itemize}
 
@@ -877,9 +877,11 @@ The results of the RCI are versatile. Information about the goals of the users a
 
 Cognitive Walkthrough (CW) was developed in the early nineties and it was originally intended to help reviewing 'walk-up-and-use' interfaces, such as Automatic Teller Machine (ATM). CW is a formal usability inspection method for professionals involved in the development process. The key concept behind CW is to use theory as a guide for design review. It is easy to understand and apply and therefore feasible to use in a regular development process. \cite{RefWorks:19, RefWorks:18} Contextual Inquiry is additional tool for usability engineering and it is easy to evaluate mockups or sketches of designs relatively quickly with it. \cite{RefWorks:34}
 
+\subsection{Fundamentals of Cognitive Walkthrough}
+
 In theory, human-computer interaction process can be described in four steps. Firstly, the user sets the goal for the activity which is to be accomplished with the system. Secondly, the user examines the user interface for available actions. Thirdly, the user selects the action most likely to make progress. Finally, the user carries out the action and assess the feedback from the system. In real-life tasks these steps would probably iterate to achieve subgoals and to complete tasks. Cognitive Walkthrough examines the correct actions to accomplish a task and the four steps to carry out those actions. \cite{RefWorks:34}
 
-The method consist of two phases: preparatory and analysis phases. The preparatory phase contains prerequisites for the walkthrough. First one of them is a brief description of the user and about the knowledge he or she possess. The second prerequisite is a specific description of one or more tasks to be carried out with the system. The last prerequisite is a list of correct actions required to complete the tasks with the UI. The actual analysis will be accomplished in the analysis phase, where every action of every task will be executed and analyzed. In general the Cognitive Walkthrough method can benefit all phases of system's design and development process.\cite{RefWorks:26, RefWorks:34}
+Cognitive Walkthrough consist of two phases: preparatory and analysis phases. The preparatory phase contains prerequisites for the walkthrough. First one of them is a brief description of the user and about the knowledge he or she possess. The second prerequisite is a specific description of one or more tasks to be carried out with the system. The last prerequisite is a list of correct actions required to complete the tasks with the UI. The actual analysis will be accomplished in the analysis phase, where every action of every task will be executed and analyzed. In general the Cognitive Walkthrough method can benefit all phases of system's design and development process.\cite{RefWorks:26, RefWorks:34}
 
 \subsection{Preparations}
 Cognitive Walkthrough can be accomplished by using detailed design specification of the user interface which has been received after requirement analysis and functionality definition processes. The walkthrough can be also performed  on a paper simulation, minimal prototype or fully functional prototype of the UI. Formally Cognitive Walkthrough evaluates design's ease of learning by exploring it. \cite{RefWorks:26}
@@ -898,44 +900,36 @@ Four criteria can be used in order to assess the ease of performing the correct 
  
 \section{Interaction Sequence Illustration}
 \label{sec:isi}
-Considering the practical impacts of the thesis, it is important to use methods and measures which can shore up the software development process in a real-use context. This is why the process and it's interactions are reviewed using ISI method, which utilizes 				authentic use context and real users. \cite{RefWorks:17} ISI was originally developed for evaluating the usability of Information Technology (IT) tasks carried out in healthcare industry, but there are no defined reasons why it could not be utilized in different environments.
+Interaction Sequence Illustration is a modified usability inspection method. It differs from traditional inspection methods, such as Cognitive Walkthrough and heuristic evaluation, in a significant manner. Unlike other inspection methods, ISI does not function in isolation from system's actual context and users. It conducts the model of interaction from the real-life environment. In case multiple systems are required to perform the user's task, ISI can also focus on many systems instead of just one. \cite{RefWorks:17} In general, ISI combines user-based testing and usability inspection approaches. The method was originally developed for evaluating the usability of Information Technology (IT) tasks carried out in healthcare industry, but there are no defined reasons why it could not be utilized in different environments.
 
 \subsection{Description of the Interaction Sequence Illustration}
-Interaction Sequence Illustration is a low level analysis method for human-computer interaction. It uses data acquired during the Contextual Inquiry process and doesn't gather any of its own. However, the inquiry data has to be complemented with documentation 			about 	interaction activities. There are three objectives for ISI method to handle. The first is to demonstrate how the user perceives the system. The second one is to identify and document activities, and to discover problems. The first two objectives creates the 			third one, which is to support the user-centered design and development. \cite{RefWorks:17}  The strength of ISI lies in the analysis of data and it can be used to compare the interaction sequences of two of or more UI implementations. On the other hand it can 			provide prominent information on only one UI's interaction sequence. 
+Interaction Sequence Illustration focuses on low level analysis of human-computer interaction and exploits the data acquired during the Contextual Inquiry process. However, the inquiry data has to be complemented with documentation about interaction activities, photos and screenshots. There are three objectives for ISI method to handle. The first is to demonstrate how the user perceives the system. The second is to identify and document activities, and to discover problems. The first two objectives forms the basis for the third and more extensive objective, which is to support the user-centered design and development. \cite{RefWorks:17}  The strength of ISI lies in the analysis of data and it can be used to compare the interaction sequences of two of or more UI implementations. On the other hand it can 		provide prominent information on only one UI's interaction sequence. 
+
+ISI generates two analysis from the collected data. The first one is an analysis of interaction stages, which divides the whole interaction sequence in to main phases or stages. This analysis is performed based on the inquiries. The second analysis is so called step-by-step illustration. It defines the stages and interaction steps by numbers, photos, descriptions and screenshots. \cite{RefWorks:17} It is basically a well defined and ordered workflow description. 
 
 \subsection{Utilization of the Interaction Sequence Illustration}
-The utilization of Interaction Sequence Illustration can be simplified in seven steps (see Figure \ref{fig:isi_chart}). First the data need to be collect (notes and screenshots) alongside Contextual Inquiry interview.
-Then the screenshots need to be arranged in the right order and all the superfluous data need to be removed. The third phase is to count the interaction steps based on screenshots and activity analysis.
-After the analysis the screenshots needs to be modified and important details highlighted. Then the sequence numbers as well as a  detailed description text should be added to give a profound understanding about the actions. The outcomes of the method are 			illustration, or illustrations depending on the number of research objectives, of the interaction stages. Every stage contains step-by-step illustration (or illustrations) of user-computer interaction. \cite{RefWorks:17}
+The utilization of Interaction Sequence Illustration can be simplified in seven steps (see Figure \ref{fig:isi_chart}). First the data need to be collect alongside Contextual Inquiry interview, including inquiry data, possible photos, screenshots and notes.
+After the data collection the screenshots need to be arranged in the right order and all the superfluous data need to be removed. The third phase is to count the interaction steps based on the screenshots and activity analysis, and to organize interaction steps into stages.
+Next the screenshots need to be modified and important details highlighted. Finally, the sequence numbers and  detailed description texts should be attached to the screenshots in order to give a profound understanding about the actions. The outcome of the method is an extensive illustration of the interaction sequence, information about the usability of the system and about it's effectiveness of use. \cite{RefWorks:17}
 	
 \begin{figure}[H]
   	\centering
   	\includegraphics[width=1.1\textwidth]{./images/isi_chart.png}
-  	\caption{Interaction Sequence Illustration steps and outcomes.}
+  	\caption{Interaction Sequence Illustration stages and outcomes.}
 	\label{fig:isi_chart}
 \end{figure}
 
 \section{System Usability Scale}
 \label{sec:sus}
-In his paper Brooke \cite{RefWorks:10} argued that usability is not any real existing quality, but a good usability artifact is \emph{appropriate to its purpose}. In other words "the usability of any tool or system has to be viewed in terms of the context in which it is 			used, and its appropriateness to that context"\cite{RefWorks:10}. Still in many cases, context related usability evaluation is not desirable. The reason for this is that a large scale context analysis is usually neither cost-efficient nor practical.\cite{RefWorks:10} 
-SUS responds to these challenges by offering an easy and quick way to get subjective ratings about the usability of a system. It is not limited to any specific technology, which makes it universal tool for usability evaluation. \cite{RefWorks:12}
+In his paper Brooke \cite{RefWorks:10} argued that usability is not any real existing quality, but a good usability artifact is \emph{appropriate to its purpose}. In other words "the usability of any tool or system has to be viewed in terms of the context in which it is 			used, and its appropriateness to that context"\cite{RefWorks:10}. Still in many cases, context related usability evaluation is not desirable. The reason for this is that a large scale context analysis is usually neither cost-efficient nor practical.\cite{RefWorks:10} In the 1986, System Usability Scale was introduced to respond these challenges by offering "quick and dirty"\cite{RefWorks:10} way to get subjective ratings about the usability of a system. \cite{RefWorks:12, RefWorks:35} System Usability Scale can be also used as a supplement for another usability evaluation methods.
 
 \subsection{Description of the System Usability Scale}
-System Usability Scale (see \nameref{app:susform}) is a ten-item \emph{Likert scale}, meaning that every item consist of the scale of five, ranging from "Strongly disagree" to "Strongly agree". The questionnaire is generally being filled right after the possibility to use 		the system to be evaluated. The focus should be on immediate responses and too much time shouldn't be given to the respondents. \cite{RefWorks:10} 
-\texttt{TÄHÄN LISÄÄ!!! TEN YEARS OF SUS -ARTIKKELISTA}
+System Usability Scale (see \nameref{app:susform}) is a ten-item \emph{Likert scale}, meaning that every item consist of the scale of five, ranging from "Strongly disagree" to "Strongly agree". The questionnaire is generally being filled right after the possibility to use 		the system to be evaluated. The focus should be on immediate responses and too much time shouldn't be given to the respondents. \cite{RefWorks:10} One of the best qualities of SUS is that it's not dependent on any specific technology or user interface type. Thereby it can be used to evaluate the usability of wide range of different kinds of interfaces from traditional desktop user interfaces to mobile web UIs. SUS is also relatively fast to implement by administrators and to use by the participants of the study. \cite{RefWorks:12}
+\texttt{TÄHÄN LISÄÄ!!!rw12 -ARTIKKELISTA}
 
 
 \subsection{System Usability Scale in practice}
 The outcome of SUS is a single value which express the overall usability of the system. The value of the method consist of all the items and none of them are meaningful as such. System Usability Scale can be calculated by summing the score contribution (range from 0 to 4) 		from each item. Before summing the scale positions, the items 1,3,5,7 and 9 need to be subtracted by one and the items 2,4,6,8 and 10 need to be subtracted from 5. The last step is to multiply the sum of the scores by 2.5 to get the overall SUS value, which will range from minimum of 0 to maximum of 100. \cite{RefWorks:10} The resulting single score is an easy-to-understand measure, and can therefore be discussed with the wide range of stakeholders. \cite{RefWorks:12} 
-
-	
-
-\section{Quantitative measurements in usability evaluation}
-\label{sec:other}
-The last process measurements used in the research are simply the time which was consumed while carrying out the task and the success rate of the task.
-
-
- 
     
 \chapter{Implementation of the study}
 \label{chapter:implementation}
@@ -1000,8 +994,8 @@ Figure \ref{fig:hcd_process} illustrates the methods used and the actions taken 
     	 -suomessa työympäristö
 \subsection{Contextual Inquiry}
 Contextual Inquiry was executed in three separated phases in the research study. In the first CI implementation the user and the analyst shared the common space, in this case the user's workstation. 
-
-
+-ISI ja ci toteutettu  kaksi kertaa etänä.
+ \\*
 	  
 	 -kesto noin kaksi tuntia
 	  \\*
@@ -1051,6 +1045,7 @@ Contextual Inquiry was executed in three separated phases in the research study.
     \\*
 
     \subsection{System Usability Scale}
+    -google form
      -vaihe1: suomessa tulos: 48.125/100
      \\*
      -tulos ei välttämättä kerro koko totuutta koska otanta kohtalaisen pieni.
