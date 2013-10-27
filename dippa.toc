@@ -37,12 +37,12 @@
 \contentsline {chapter}{\numberline {4}Implementation of the study}{32}{chapter.4}
 \contentsline {section}{\numberline {4.1}Principles of human-centered design}{33}{section.4.1}
 \contentsline {section}{\numberline {4.2}Applied human-centered design process}{34}{section.4.2}
-\contentsline {section}{\numberline {4.3}Practical implementation}{37}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Contextual Inquiry}{38}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Interaction Sequence Illustration}{38}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Cognitive Walkthrough}{38}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}System Usability Scale}{38}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Remote usability evaluation}{38}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.3}Practical implementation}{38}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Contextual Inquiry}{39}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Interaction Sequence Illustration}{39}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Cognitive Walkthrough}{39}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}System Usability Scale}{39}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Remote usability evaluation}{39}{subsection.4.3.5}
 \contentsline {subsection}{\numberline {4.3.6}Building the prototype}{39}{subsection.4.3.6}
 \contentsline {chapter}{\numberline {5}Analysis}{40}{chapter.5}
 \contentsline {section}{\numberline {5.1}Results and comparisons}{40}{section.5.1}
