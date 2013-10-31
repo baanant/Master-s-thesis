@@ -879,14 +879,14 @@ Cognitive Walkthrough (CW) was developed in the early nineties and it was origin
 
 In theory, human-computer interaction process can be described in four steps. Firstly, the user sets the goal for the activity which is to be accomplished with the system. Secondly, the user examines the user interface for available actions. Thirdly, the user selects the action most likely to make progress. Finally, the user carries out the action and assess the feedback from the system. In real-life tasks these steps would probably iterate to achieve subgoals and to complete tasks. Cognitive Walkthrough examines the correct actions to accomplish a task and the four steps to carry out those actions. \cite{RefWorks:34}
 
-Cognitive Walkthrough consist of two phases: preparatory and analysis phases. The preparatory phase contains prerequisites for the walkthrough. First one of them is a brief description of the user and about the knowledge he or she possess. The second prerequisite is a specific description of one or more tasks to be carried out with the system. The last prerequisite is a list of correct actions required to complete the tasks with the UI. The actual analysis will be accomplished in the analysis phase, where every action of every task will be executed and analyzed. In general the Cognitive Walkthrough method can benefit all phases of system's design and development process.\cite{RefWorks:26, RefWorks:34}
+Cognitive Walkthrough consist of two phases: preparatory and analysis phases. The preparatory phase contains prerequisites for the walkthrough. First one of them is a brief description of the user and about the knowledge he or she possess. The second prerequisite is a specific description of one or more tasks to be carried out with the system. The last prerequisite is a list of correct actions required to complete the tasks with the UI. The actual analysis will be accomplished in the analysis phase, where every action of every task will be executed and analyzed. In genera,l the Cognitive Walkthrough method can benefit all phases of system's design and development process.\cite{RefWorks:26, RefWorks:34}
 
 \subsection{Preparations}
-Cognitive Walkthrough can be accomplished by using detailed design specification of the user interface which has been received after requirement analysis and functionality definition processes. The walkthrough can be also performed  on a paper simulation, minimal prototype or fully functional prototype of the UI. Formally Cognitive Walkthrough evaluates design's ease of learning by exploring it. \cite{RefWorks:26}
+Cognitive Walkthrough can be accomplished by using detailed design specification of the user interface which has been received after requirement analysis and functionality definition processes when the interface has been developed. The walkthrough can be also performed  on a paper simulation, minimal prototype or fully functional prototype of the UI. Formally Cognitive Walkthrough evaluates design's ease of learning by exploring it. \cite{RefWorks:26}
 
 The analysis can be done individually or in a group. In a group the process starts with designers presenting the design to a group of peers and it's usually done after a certain milestone in interface design. The designers can then benefit from the feedback and improve the implementation for the next revision. Participants may represent different organizational units and in the evaluation team they have to adopt different roles, such as recorder, facilitator and various kinds of expert roles. \cite{RefWorks:26}
 
-The first step in walkthrough preparations is to describe the users of the system and choose the tasks for analysis. If the background and technical experience of the users are described in the beginning, more details can be possibly revealed in the walkthrough itself. The selection of tasks (for analysis) is critical and should be based on facts, such as requirement analysis, needs analysis or concept testing. The amount of tasks should be moderate and it is important that the set of chosen tasks include some core functionality and some combinations between those core functionalities. Furthermore, to make tasks as concrete as possible, context descriptions must be included. \cite{RefWorks:26}
+The first step in walkthrough preparations is to describe the users of the system and choose the tasks for analysis. If the background and technical experience of the users are described in the beginning, more details can be possibly revealed in the walkthrough itself. The selection of tasks (for analysis) is critical and should be based on facts, such as requirement analysis, needs analysis or concept testing. The amount of tasks should be moderate and it is important that the set of chosen tasks include some core functionality and some combinations between those core functionalities. Furthermore, to make tasks as concrete as possible, context descriptions and task stages should be included in the preparations. \cite{RefWorks:26}
 
 After the tasks have been chosen, the action sequences for the tasks need to be described. Basically it means that the sequence of actions, which are required to accomplish the task with the UI, are being described. These actions can be as simple as "press the start button" or "write your name in the text field". However, depending on the level of user expertise and user descriptions, actions might also consist of several simple actions which can then be executed as one block. These kind of actions could be for example filling in the register form or going to a specific website. The interface definition should include the prompts preceding all the actions in the task and the interface's reactions to those actions. If the development is already finished, all the information from the interface is available, but if the development process is only in the beginning, paper descriptions are needed. The level of detail in paper descriptions depend once again on the expertise of the users. \cite{RefWorks:26}
 
@@ -895,6 +895,19 @@ After the tasks have been chosen, the action sequences for the tasks need to be 
 The Contextual Inquiry analysis phase examines the actions of the tasks and generates a plausible story or a review about the reasons why the users (which have been defined earlier) would have chosen those actions. These stories are based on presumptions about user's expertise and objectives. Sometimes users trust on their problem-solving skills, which is why it is important to understand the problem-solving process in the analysis phase. In order to mimic this process in the analysis phase, four steps should be taken. First, a rough description of the task to be accomplished should be considered. Then the user interface should be explored and actions should be taken according to assumptions users might have. The third step is to observe if the user interface is returning the expected results for each action. The last part of problem-solving process is to assume and define users' next action.\cite{RefWorks:26} In general, the walkthrough or the analysis evaluates if the user is able to select the correct actions with the user interface.
 
 Four criteria can be used in order to assess the ease of performing the correct actions and thereby completing the task. According to the criteria, the goal, the accessibility of the correct user interface object, the match between the label of the object and the object itself, and the feedback provided should be considered while evaluating the system. \cite{RefWorks:34}
+
+The analyst should consider the following few questions while going trough the task sequence or different stages on it. The questions should be used as a guidelines or criteria for creating a credible story about the interaction between the user and the system. \cite{RefWorks:26}
+\begin{itemize}
+\item Will the user try to achieve the right effect?
+\item Will the user notice that the correct action is available?
+\item Will the user associate the correct action with the effect they are trying to achieve?
+\item If the correct action is performed, will the user see that progress is being made toward solution of their task?
+\end{itemize}
+
+The first question should be asked to make sure that the user would understand what need to be done to proceed. The second question on the other hand tries to ensure that the user can notice all the relevant actions which need to be done are available.
+The third question should be asked to perceive poor naming of the actions. The last question need to be considered to ensure that the necessary feedback is provided for the user. 
+
+The story created in the analysis should include credible success stories and failure stories. The success stories are being created when the system works and the user could credibly proceed from one task stage to another. If the credible story cannot be created and the story fails under the criteria, failure story should be included in the analysis and it should provide a description why the user would face the problem. Using stories the system's advantages and disadvantages can be described. \cite{RefWorks:26} 		
  
 \section{Interaction Sequence Illustration}
 \label{sec:isi}
@@ -949,6 +962,7 @@ According to ISO standard 9241-210, human-centered design consist a few activiti
 
 This chapter contains description about the principles of human-centered design. Applied steps utilized in the research study are described in section \ref{sec:dprocess}. This chapter will also describe the implementation phases of the experiment. 
 
+texttt{ALSO MOCKUPS AND STORYBOARDS, SEQUENCE DIAGRAMS AND USE CASES ARE BEING DONE DURING THE THESIS.}
 \begin{figure}[H]
   	\centering
     	\includegraphics[width=1.0\textwidth]{./images/lm_process.png}
@@ -1004,7 +1018,7 @@ The applied human-centered design activities described in this section could be 
 
 Altogether, the only changes between the initial iterations of the applied human-centered design and the following iterations would be that the Interaction Sequence Illustration would get decommissioned and the other methods would be used from slightly different perspectives.
 
-\texttt{MUUTA KUVA}
+\texttt{MUUTA KUVA JA TEKSTI MARKON VASTAUKSESTA RIIPPUEN}
 \begin{figure}[H]
   	\centering
     	\includegraphics[width=1.0\textwidth]{./images/applied_hcd_process.png}
@@ -1025,10 +1039,14 @@ Altogether, the only changes between the initial iterations of the applied human
     	\\*
     	 -neljä osallistujaa suomesta
     	 \\*
-    	 -vuodet yrityksessä (noin): 1,21,14,0.5 = avg.9
+    	 -vuodet yrityksessä (noin): 1,21,14,0.5 = avg.9 suomessa
     	 \\*
     	 -suomessa työympäristö
-\subsection{Contextual Inquiry}
+    	 \\*
+    	 -ruotsista 3 osallistujaa
+    	 \\*
+    	 -vuodet yrityksessä (noin): 2,0.5,1.5 = avg. 1.33 ruotsissa
+\subsection{Inquiries}
 Contextual Inquiry was executed in three separated phases in the research study. In the first CI implementation the user and the analyst shared the common space, in this case the user's workstation. 
 -ISI ja ci toteutettu  kaksi kertaa etänä.
  \\*
@@ -1037,7 +1055,9 @@ Contextual Inquiry was executed in three separated phases in the research study.
 	  \\*
 	  -eteneminen: ensin ci ja lopuksi määritelty interaktio-setti isiä varten.
 	  \\*
-	   ymmärrys järjestelmästä ja prosessista. käyttäneet paljon, päivittäin.
+	   ymmärrys järjestelmästä ja prosessista. käyttäneet paljon, päivittäin/viikoittain.
+	  \\*
+	  -ruotsiin tehtiin rci:llä 
 	  \\*
 	  -analyysi toteutettiin affiniteettidiagrammin avulla.
 	  
@@ -1045,11 +1065,22 @@ Contextual Inquiry was executed in three separated phases in the research study.
 
 	  -vaihe1 ja 2:toteutettiin interaktio-setin kautta
 	  \\*
-	  -pyrittiin mahdollisimman laaja-alaiseen täyttöön esimerkki-tehtävässä.
+	  -pyrittiin mahdollisimman laaja-alaiseen täyttöön esimerkki-tehtävässä, mutta annettiin vapaat kädet.. testikannassa toteutettiin koko hierarkian luominen.
 	  \\*
-	  -analyysi toteutettiin menetelmän ohjeiden mukaisesti.
+	  -analyysi toteutettiin menetelmän ohjeiden mukaisesti sillä erotuksella että järjestelmästä laskettiin keskimääräiset kentät.
 	
 	  \subsection{Cognitive Walkthrough}
+	  -toteutin yksin, noudatin ohjeistusta, tein tehtävän testiversiolla
+	  \\*
+	  -kysyin annettuja kysymyksiä itseltäni
+	  \\*
+	  -kirjasin ylös success storyt ja failuret.
+	  \\*
+	  -2.vaihe, testaus ennen prototyypin julkaisua.
+	  \\*
+	  
+	   
+	     
 	  \subsection{System Usability Scale}
 	  -toteutettiin nettilomakkeella anonyymisti
 	  \\*
@@ -1071,17 +1102,38 @@ Contextual Inquiry was executed in three separated phases in the research study.
 \chapter{Analysis}
 \label{chapter:analysis}
 
-    \section{Results and comparisons}
+    \section{Results}
     \label{sec:results}
     
     \subsection{Overview}
     -sales department's contribution is required.
     
+    
+    \subsection{Cognitive Walkthrough}
+    - vaihe1. nimeämisessä suuria ongelmia.
+    -vaihe1.asetuksia ei ole määritelty riittävän tarkoin eri asiakastasoille ==> hierarkia on epäselvä.
+    -vaihe1.järjestelmä ei tarjoa riittävästi tietoa siitä onko toiminto onnistunut vai ei. 
+    -vaihe1.järjestelmä saattaa antaa jopa virheellistä tietoa. 
+    -vaihe1. järjestelmä ei huomioi asetusten sisäisiä riippuvuuksia.
+    -vaihe1.yleisesti järjestelmä ei anna tarpeeksi apua käyttöä ajatellen.
+    -vaihe1.joidenkin asetusten olemassaolo saattaa olla vaikeaa havaita.
+    -vaihe1.ei tarpeeksi hierarkia tietoa.
+    -vaihe1.nimeäminen ei ole yhtenäistä esim. new delivery address vs. new renewal customer.
+    
+    
     \subsection{Contextual Inquiry}
     vaihe1: suomessa:57 huomiota, ongelmakohtaa,parannusideaa 
     \\*
-    -6 kategoriaa
+    -suomessa:6 kategoriaa
     \\*
+    -ruotsissa:6 kategoriaa mutta erit kuin suomessa
+    \\*
+    -vaihe1: ruotsissa: 70 huomiota ongelmakohtaa parannusideaa.
+    \\*
+    -ruotsissa focus ajautui hieman eri asioihin.
+    \\*
+    -selkeitä eroja havaittavissa toiminnassa suomen ja ruotsin välillä.
+
 
     \subsection{System Usability Scale}
     -google form
@@ -1112,6 +1164,12 @@ Contextual Inquiry was executed in three separated phases in the research study.
 	  \\*
 	  -vaihe1:yhteensä asiakasinteraktioiden avgt on 66,08 steppiä. tähän tulee kuitenkin lisätä vielä libsysin käynnistykseen liittyvät stepit.
 	  \\*
+	  -10 stagea havaittu
+	  \\*
+	  -step-by-step kuvaus jätetty pois
+	  \\*
+	  -luvuissa ei mukana alennusten lisäystä, e-access detailsien lisäystä, eikä cost centereiden lisäystä. 
+	  \\*
      
      The results of the research may not be suitable for every organization.
     -Comparison between country offices, between methods
@@ -1122,6 +1180,7 @@ Contextual Inquiry was executed in three separated phases in the research study.
     \label{sec:implementationanalysis}
     -Should these methods be implemented as a part of the process or not.
     -While writing the thesis, contextual inquiry used as part of requirement definition process.
+    -Answers to research questions.
 
 %When you use \texttt{pdflatex} to render your thesis, you can include PDF images
 %directly, as shown by Figure~\ref{fig:indica_model} below.
@@ -1294,11 +1353,13 @@ Contextual Inquiry was executed in three separated phases in the research study.
 
 \chapter{Conclusions and discussions}
 \label{chapter:conclusion}
+-tutkimus kootaan yhteen ja vedetään päätelmät tuloksiin perustuen. arvioidaan tutkimuksen onnistumista.
 
 jos käytetään hcd:tä ja menetelmiä voidaan päästä eteenpäin umm tasoilla.??
         \section{Future work}
 	\label{sec:future}
 	-need for more simple methods and more versatile data.
+	-another methods could be applied in the in-house software development process improvement if they work any better in closed environment (because in-house development gives more possibilities than traditional customer supplier situation.)
 %At this point, you will have some insightful thoughts on your implementation
 %and you may have ideas on what could be done in the future.
 %This chapter is a good place to discuss your thesis as a whole and to show your
