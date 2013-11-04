@@ -39,9 +39,9 @@
 \contentsline {section}{\numberline {4.2}Applied human-centered design process}{34}{section.4.2}
 \contentsline {section}{\numberline {4.3}Practical implementation}{38}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Inquiries}{39}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Interaction Sequence Illustration}{39}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Cognitive Walkthrough}{39}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}System Usability Scale}{39}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.2}Interaction Sequence Illustration}{40}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Cognitive Walkthrough}{40}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}System Usability Scale}{40}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}Remote usability evaluation}{40}{subsection.4.3.5}
 \contentsline {subsection}{\numberline {4.3.6}Building the prototype}{40}{subsection.4.3.6}
 \contentsline {chapter}{\numberline {5}Analysis}{41}{chapter.5}
