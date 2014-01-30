@@ -1039,142 +1039,35 @@ The practical implementation of the research study took place between August 201
 
 The chosen process for the research study was the result of a long consideration. Due to limitations of the schedule, the process had to be restricted. Also, it had to be notable part of the system, with the option to track things such as average processing time and number of interaction steps. Finding an applicable segment proved to be a challenging task, partly because of the tailored nature of the ERP system. Finally, the customer management process was chosen because it was seen as an appropriate part of the system to be studied. The customer management process also had some anticipated usability issues and it was considered as an important part of the future ERP system.
 
-In practice, one applied human-centered design process iteration was divided into three main phases: Two evaluation rounds and one implementation round. The aim of the first evaluation round was to gain understanding about the current system, including its deficiencies and assets. The focus was set for understanding the process and the way user's are utilizing the system in their everyday work. After the basic understanding about the process and the system's capabilities and issues were gathered, the prototype of the new system was created with up-to-date technologies. The objective of the second evaluation was then to evaluate the prototype and redefine the requirements of the new system (gathered with the usability methods). 
+In practice, one applied human-centered design process iteration was divided into three main phases containing all the stages of the applied human-centered design process: Two evaluation rounds and one implementation round. The aim of the first evaluation round was to gain understanding about the current system, including its deficiencies and assets. The focus was set for understanding the process and the way user's are utilizing the system in their everyday work. After the basic understanding about the process and the system's capabilities and issues were gathered, the prototype of the new system was created with up-to-date technologies. The objective of the second evaluation was then to evaluate the prototype and redefine the requirements of the new system (gathered with the usability methods). 
 
 \subsection{The first evaluation round}
 \label{sec:firstiteration}
 
-The first evaluation round encompassed the Contextual Inquiry, Remote Contextual Inquiry, System Usability Scale, Interaction Sequence Illustration and Cognitive Walkthrough. Contextual Inquiry was utilized first with the ISI method in Finland, in order to gain understanding about the context of use. Overall four users participated in the inquiries and they were selected in a way that all the experience levels would be represented. The employment history in the company varied from half a year to 21 years with an average of nine years. Also, the age and technical background varied between the users. Additionally, each of the users worked in the customer service and were managing the customer details daily or weekly, so each of them had relatively good understanding about the process. The users were situated on their own workstations and if real-life cases were available, they were used as a basis for discussion. However, because of the lack of authentic cases, the users were provided access to the test environment of the old ERP system in order to manage customer information without a fear to interfere with the real customer data. The inquires lasted approximately two hours each, and the interviews followed the traditional Contextual Inquiry form. At the end of the inquiry, the users were asked to implement a customership with the predefined details. This way it was possible to gain understanding about the whole customer creation process and collect data for Interaction Sequence Illustration. The inquiries were recorded with the voice recorder and the Interaction Sequence Illustration tasks were recorder with a high-definition video camera. Additionally, notes were written during the interviews.
+The first evaluation round encompassed the Contextual Inquiry, Remote Contextual Inquiry, System Usability Scale, Interaction Sequence Illustration and Cognitive Walkthrough. Contextual Inquiry was utilized first with the ISI method in Finland, in order to gain understanding about the context of use. Overall four users participated in the inquiries and they were selected in a way that all the experience levels would be represented. The employment history in the company varied from half a year to 21 years with an average of nine years. Also, the age and technical background varied between the users. Additionally, each of the users worked in the customer service and were managing the customer details daily or weekly, so each of them had relatively good understanding about the process. The users were situated on their own workstations and if real-life cases were available, they were used as a basis for discussion. However, because of the lack of authentic cases, the users were provided access to the test environment of the old ERP system in order to manage customer information without a fear to interfere with the real customer data. The inquires lasted approximately two hours each, and the interviews followed the traditional Contextual Inquiry form. At the end of the inquiries, the users were asked to implement a customership with the predefined customer details. The details were tried to be defined according to real-life cases and to be as all-inclusive as possible. This way it was possible to gain understanding about the whole customer creation process and collect data for Interaction Sequence Illustration. The inquiries were recorded with the voice recorder and the Interaction Sequence Illustration tasks were recorder with a high-definition video camera. Additionally, notes were written during the interviews.
 
-The second stage of the first evaluation round was to utilize Remote Contextual Inquiry in order to interview three Swedish users and gather cultural independent understanding about the customer management. The users were selected with the similar motives as in Finland: To get the viewpoints of diverse users. The Swedish users had work experience from half a year to two years in the company, with an average of 1.33 years and were also dealing with the customer details daily or weekly. Basically, the inquiries didn't differ from the inquiries implemented in Finland in any other ways, except that the inquiries in Sweden were carried out remotely and that the technical equipment were different. The interviews were accomplished by utilizing web conferencing software, which enabled desktop sharing, voice conferencing and recording of the whole interview. The Swedish users were also asked to implement a customership with the same predefined details as the Finnish users. 
+The second stage of the first evaluation round was to utilize Remote Contextual Inquiry in order to interview three Swedish users and gather cultural independent understanding about the customer management. The users were selected with the similar motives as in Finland: To get the viewpoints of diverse user types. The Swedish users had work experience from half a year to two years in the company, with an average of 1.33 years and were also dealing with the customer details daily or weekly. Basically, the inquiries didn't differ from the inquiries implemented in Finland in any other ways, except that the inquiries in Sweden were carried out remotely and that the technical equipment were different. The interviews were accomplished by utilizing web conferencing software, which enabled desktop sharing, voice conferencing and recording of the whole interview. Basically, the users were using the old system as they usually would except that the screen was captured. The Swedish users were also asked to implement a customership with the same predefined details as the Finnish users for the usage of the ISI method. Notes were written during the  interview sessions.
 
-After the inquiries the SUS form was send to the users and Cognitive Walkthrough was implemented. The System Usability Scale forms were sent after the inquiries in order to give the users preceding information about for what the information will be used for. Cognitive Walktrough was implemented after the inquiries in order to make sure that as much as possible of the critical information has been gathered before the implementation of the prototype.
+After the inquiries a Finnish and English versions of the SUS form was sent to the users as a web form and Cognitive Walkthrough was implemented. The System Usability Scale forms were sent after the inquiries in order to give the users preceding information about for what the information will be used for. Cognitive Walktrough was implemented after the inquiries in order to make sure that as much as possible of the critical information has been gathered before the implementation of the prototype.  The inspection was executed in the system's test environment and according to the instructions of the method. The results were gathered by reviewing the guideline questions of the method and by documenting all the success and failure stories. 
 
 The overall analysis of the first evaluation round was made after all the evaluation data had been gathered  (see chapter \ref{chapter:analysis}). 
 
-\subsection{Prototype and remote usability logging library creation}
+\subsection{High-fidelity prototype and remote usability logging library creation}
 
-The prototype was created based on the findings of the first evaluation round and it was implemented with the Microsoft's latest .NET 4.5 software framework. Because of the organizational requirements the prototype was decided create as a desktop application without any real back-end solution. The user interface was created with Windows Presentation Foundation (WPF) and C!!!!!!!!!!!!!!!!!!!!!!!!!!, utilizing the Model View ViewModel (MVVM) presentation pattern in order to achieve Separation of Concerns (SoC). \cite{RefWorks:37} Also, a third party components were used in the implementation in order to create the prototype more efficiently. 
+The prototype creation process started by creating a new design for the interface and it was accomplished by sketching mock-ups. The mock-ups were build by using the storyboarding tool provided by Microsoft's Visual Studio Ultimate 2012 Integrated Development Environment (IDE) and evaluated with three customer service specialists in Finland. After evaluating and refining the design in multiple evaluation meetings the prototype creation was started.
 
-In order to utilize remote usability logging as a usability evaluation method, a few solutions were reviewed. All the third party solutions were not seen as cost efficient, so the library for the remote usability logging was implemented as a part of the thesis. The library consists of a singleton pattern and it's static methods on top of the Windows Communication Foundation (WCF) service. The library supplies methods for logging sessions and events during the user interface interaction and saves the data, including serialized Extensible Markup Language (XML) data of the arbitrary object to the database. The prototype references the library and the user interface code is decorated with the remote logging functionality. The library gathers information such as time --------------------------
+The prototype was created based on the findings of the first evaluation round and the results mock-up evaluation meetings. It was implemented with the Microsoft's latest .NET 4.5 software framework. Because of the organizational requirements, the prototype was decided to be implemented as a desktop application without any real back-end solution. The user interface was created with Windows Presentation Foundation (WPF) and C\#, utilizing the Model View ViewModel (MVVM) presentation pattern in order to achieve Separation of Concerns (SoC). \cite{RefWorks:37} Also, a third party components were utilized in the implementation to create the prototype more efficiently. The prototype contained dummy data gathered from the old ERP system. All of the functionalities were not fully implemented due the time schedule limitations and the extensive scale of the functionalities which were available in the real system.
+
+In order to utilize remote usability logging as a usability evaluation method, a few solutions were reviewed. All the third party solutions were not seen as cost efficient, so the library for the remote usability logging was implemented as a part of the thesis. The library consisted of a singleton pattern and it's static methods on top of the Windows Communication Foundation (WCF) service. The library supplied methods for logging sessions and events during the user interface interactions and saved the data to the database. The prototype referenced the library and the user interface code was  decorated with the remote logging code snippets. The logging functionality gathered session data such as name, version and user of the application as well as the start and end times of the session. It also captured the state of arbitrary objects in the beginning and the end of the session as serialized Extensible Markup Language (XML) data. The gathered event data consisted of the name and version of the application together with the tracked feature description, link to the session and start and end times of the event as well as serialized arbitrary objects data from the beginning and the end of an event.
 
 	  
+\subsection{The second evaluation round}
 
-%\subsection{Phase 1: Evaluating the existing system}
-%\label{sec:phase1}
+The evaluation of the prototype started with a short evaluation meeting with the Finnish users, to ensure that the mock-ups and the prototype design corresponded each other in a general level. The Cognitive Walktrough was implemented to ensure that all the critical issues in prototype could be eliminated as carefully as possible. The purpose of the evaluation was also to find out if the analyst, who was creating the prototype, was able to find any flaws after the implementation by utilizing the Cognitive Walkthrough. The evaluation was implemented in a similar manner as with the old version of the system. 
 
-%The first phase encompassed the Contextual Inquiry, Remote Contextual Inquiry, System Usability Scale, Interaction Sequence Illustration and Cognitive Walkthrough. Firstly, Contextual Inquiry was utilized together with the ISI and SUS methods in Finland. Overall four users participated in the inquiry and the had working experience from half a year to 21 years in the company. In average, the working experience in the company was approximately nine years. All of the users had previous customer service experience out of the company. The aim of this stage was to gain understanding about the context of use, test the methods in practice and specify the user requirements. 
+The prototype was evaluated with the Swedish users using Remote Contextual Inquiry. The pattern of the inquiries were very similar as during the first evaluation round, except that the prototype was introduced to the users thoroughly in the beginning of the interviews. The screen was shared and the interviewer reviewed the UI section by section. Later on, the user was asked to share the screen and the discussion was continued from the aspect of user being the real user of the prototype. At the end of each inquiry, the user was asked to create a customership with the predefined details and by using the prototype. This was done in order to get data for Interaction Sequence Illustration evaluation purposes and to find some critical problems with the interaction. The predefined customer details were not the same as in the first evaluation round because the quite different approach on the same functionality, but they were also defined to be as close to real-life cases as possible and as all-inclusive as possible. 
 
-
-%A desirable situation would have been the one where the ISI could have been used to measure the average time of the customer creation process and that the Contextual Inquiry would have been targeted on a real customer creation situation. During the first inquiry, it cleared that the users don't have enough real-life cases to be used in Contextual Inquiry and Interaction Sequence Illustration. Also, the practical implementation of the process turned out to be changing according to the customers' needs, provided information and the customer service representative's conventions, so it came clear that measuring the time of completing the process was not a good idea. Because the same reason, utilizing the ISI became more difficult. To make the implementation of Interaction Sequence Illustration beneficial, a set of tasks were created according to the assumed customer creation process as whole and the users were asked to accomplish those tasks. The activities were recorded and the users were asked to point out all the problems in the predefined activity set. This way it was possible to refine the stages and the interaction steps of the conventional customer creation process. 
-
-%
-
-%During the interviews the customer service representatives had only some parts of the customer creation process in their to-do lists. Because the lack of real-life cases, the users were working with the customer management artificially during the inquiries. This was enabled by using the test environment of the system. The authentic parts of the inquiries were naturally implemented in the production environment. The inquiries and ISI activities, which took place in Finland, were implemented in the users' workstations. The materials gathered from the inquiries were audio records and ISI activities were video recorded. Also, notes were written during the meetings. After the meetings, a Finnish version of the SUS questionnaire was sent to all of the participants as a web form.  
-
-
-%Secondly, Remote Contextual Inquiry, Interaction Sequence Illustration and System Usability Scale were implemented with three Swedish users. Users' working experience in the company varied between 0.5 years to two years, but as well as with the Finnish users, all of them had earlier experience from the field of customer service. Average years of the Swedish users in the company were 1.33 years. Inquiries and ISI activities were implemented basically in a same way than in Finland. Inquiries were made about the real-life cases if there were any in progress, but most of the time the test environment of the system were utilized. The ISI was implemented with the same predefined set of activities as in Finland and then refined with the users during the meeting. The aim of this stage of the study was to understand and specify the context of use, specify the user requirements and to examine if there are any differences between the two country offices and the way they interact with the system.
-
-
-%Remote Contextual Inquiry were implemented with the Swedish users instead of Contextual inquiry because of the different geographical locations of the users and the thesis worker. The tool chosen for the remote inquiries was a web conferencing software WebEx, which provided all the necessary needed functions, such as screen sharing, telephone conference, audio recording and video recording. The materials gathered from the interviews were then screen capture video with the audio recorded discussions and handwritten notes. The method related challenges faced with the CI in Finland weren't valid anymore with the Swedish users, but RCI caused some surprising technical problems, such as problems with the microphones and some authentication difficulties. After the meetings, an English version of the SUS questionnaire was sent to all of the participants as a web form. 
-
-
-%Every evaluation session with the Finnish and Swedish users went on for a bit less than two hours, so altogether the user evaluations of this phase took approximately fourteen hours. The response rate of the SUS questionnaire after the first phase was hundred percent. The know-how level of the process and the system was varying considerably between the users. However, all of the participants were using the system and implementing some parts of the customer creation process weekly or daily.
-
-%The first usability inspection was implemented after the user evaluations with the Cognitive Walktrough. It was carried out by the thesis worker in order to assure that the level of recognized major issues of the system was as high as possible. The inspection was executed %in the system's test environment and according to the instructions of the method. The results were gathered by reviewing the guideline questions of the method and by documenting all the success and failure stories. 
-
- 
-
- 
-%\subsection{Phase 2: Building and evaluating the high-fidelity prototype}
-
-%The first task to accomplish after the first phase (see subsection \ref{sec:phase1}) wast to design the new user interface solution for the process and create mockups. The mockups were build by using the storyboarding tool of Microsoft's Visual Studio Ultimate 2012 and %evaluated with three customer service specialists in Finland. After evaluating and refining the design in a multiple evaluation meetings, the software development was ready to start.
-
-%
-%
-%	  \subsection{Cognitive Walkthrough}
-%	  -toteutin yksin, noudatin ohjeistusta, tein tehtävän testiversiolla
-%	  \\*
-%	  -kysyin annettuja kysymyksiä itseltäni
-%	  \\*
-%	  -kirjasin ylös success storyt ja failuret.
-%	  \\*
-%	  -2.vaihe, testaus ennen prototyypin julkaisua.
-%	  \\*
-%	  
-
-%
-%	\texttt{Kuinka monta osallistujaa, millainen ympäristö, missä maassa, minkä ikäisiä osallistujat, kauanko tehneet työtä}
-%    	\texttt{kuinka testaus sujui, menetelmäkohtaisesti, mitä välineitä käytettiin miten toimi.}
-%    	\\*
-%    	-kaksi vaihetta: ennen ja jälkeen prototyypin
-%    	\\*
-%    	-vaihe1: testi-tietokanta käytössä, jotta pääsi paremmin käsiksi toimintaan, osittain myös tuotanto-kannan kanssa tekemistä, jotta autentisuus saatiin esille (tarkemmat tsekkaukset kirjoituksessa yms...).
-%    	\\*
-%    	 -neljä osallistujaa suomesta
-%    	 \\*
-%    	 -vuodet yrityksessä (noin): 1,21,14,0.5 = avg.9 suomessa
-%    	 \\*
-%    	 -suomessa työympäristö
-%    	 \\*
-%    	 -ruotsista 3 osallistujaa
-%    	 \\*
-%    	 -vuodet yrityksessä (noin): 2,0.5,1.5 = avg. 1.33 ruotsissa
-%\subsection{Inquiries}
-%Contextual Inquiry was executed in three separated phases in the research study. In the first CI implementation the user and the analyst shared the common space, in this case the user's workstation. 
-%-ISI ja ci toteutettu  kaksi kertaa etänä.
-% \\*
-%	  
-%	 -kesto noin kaksi tuntia
-%	  \\*
-%	  -eteneminen: ensin ci ja lopuksi määritelty interaktio-setti isiä varten.
-%	  \\*
-%	   ymmärrys järjestelmästä ja prosessista. käyttäneet paljon, päivittäin/viikoittain.
-%	  \\*
-%	  -ruotsiin tehtiin rci:llä 
-%	  \\*
-%	  -analyysi toteutettiin affiniteettidiagrammin avulla.
-%	  
-%	  \subsection{Interaction Sequence Illustration}
-%
-%	  -vaihe1 ja 2:toteutettiin interaktio-setin kautta
-%	  \\*
-%	  -pyrittiin mahdollisimman laaja-alaiseen täyttöön esimerkki-tehtävässä, mutta annettiin vapaat kädet.. testikannassa toteutettiin koko hierarkian luominen.
-%	  \\*
-%	  -analyysi toteutettiin menetelmän ohjeiden mukaisesti sillä erotuksella että järjestelmästä laskettiin keskimääräiset kentät.
-	
-
-	   
-	     
-%	  \subsection{System Usability Scale}
-%	  -toteutettiin nettilomakkeella anonyymisti
-%	  \\*
-%	  -osallistumisprosentti.
-%	  \\*
-%	  analyysi vanhaan tutkimukseen peilaten.
-%	  \subsection{Remote usability evaluation}
-%	  -results 
-%	  -no of clicks 
-
-%	\subsection{Building the prototype}
-
-%	-technology: .NET, C, WPF, WCF
-
-%	\\
-
-%	-using the results from the first round evaluation.
-
-%	\\
-
-%
-%	-limitations
-
-%
-
-%	-functionality
-
-
-
+Remote usability logging was on during the inquiries to count the time used during the sessions and events, as well as to examine the functionality of the library and the suitability for usability evaluation purposes. The session was started in the code when a user created a new customer and ended when the user clicked Save-button. Events were recorder for example when the user created a new contact for the customer. After the inquiries an English SUS form was sent to the user to evaluate the prototype.
 
     	
 \chapter{Analysis}
@@ -1275,6 +1168,28 @@ analyysi vertaileva ennen ja jälkeen + vanhaan aineistoon vedoten.
     -Comparison between country offices, between methods
     -Comparison between individuals (esim. kuinka kauan kesti tietyn toiminnon tekeminen) / Overall comparison (esim. kaikkien koehenkilöiden yhteinen kehitys.)
 - Interaction sequence illustration (esim. kuinka monta steppiä ennen ja jälkeen)
+
+
+\subsection{User interface comparison}
+
+
+\begin{figure}[H]
+
+  	\centerline{
+    	   \includegraphics[width=1.4\textwidth]{./images/proto_main.png}
+    	   }
+  	   \caption{Example of the prototype 1.}
+	   \label{fig:protooneimg}
+	
+\end{figure}
+
+\begin{figure}[H]
+  	\centerline{
+    	   \includegraphics[width=1.4\textwidth]{./images/proto_invoicing.png}
+    	   }
+  	   \caption{Example of  the prototype 2.}
+	   \label{fig:prototwoimg}
+\end{figure}
 
     \section{Implementation analysis}
     \label{sec:implementationanalysis}

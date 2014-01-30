@@ -39,16 +39,18 @@
 \contentsline {section}{\numberline {4.2}Applied human-centered design process}{35}{section.4.2}
 \contentsline {section}{\numberline {4.3}Practical implementation of the applied design process}{39}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}The first evaluation round}{40}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Prototype and remote usability logging library creation}{41}{subsection.4.3.2}
-\contentsline {chapter}{\numberline {5}Analysis}{43}{chapter.5}
-\contentsline {section}{\numberline {5.1}Results}{43}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Overview}{43}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Cognitive Walkthrough}{43}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Contextual Inquiry}{43}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}System Usability Scale}{44}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {5.1.5}Interaction Sequence Illustration}{44}{subsection.5.1.5}
-\contentsline {section}{\numberline {5.2}Implementation analysis}{45}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclusions and discussions}{46}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future work}{46}{section.6.1}
-\contentsline {chapter}{\numberline {A}SUS form}{50}{appendix.A}
-\contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{51}{appendix.B}
+\contentsline {subsection}{\numberline {4.3.2}High-fidelity prototype and remote usability logging library creation}{41}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}The second evaluation round}{42}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}Analysis}{44}{chapter.5}
+\contentsline {section}{\numberline {5.1}Results}{44}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Overview}{44}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Cognitive Walkthrough}{44}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Contextual Inquiry}{44}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}System Usability Scale}{45}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Interaction Sequence Illustration}{45}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}User interface comparison}{46}{subsection.5.1.6}
+\contentsline {section}{\numberline {5.2}Implementation analysis}{47}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusions and discussions}{48}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future work}{48}{section.6.1}
+\contentsline {chapter}{\numberline {A}SUS form}{52}{appendix.A}
+\contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{53}{appendix.B}
