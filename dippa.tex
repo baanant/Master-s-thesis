@@ -606,7 +606,11 @@ The benefit of human-centered design (for software development process) is the i
 
 \section{Background and research questions}
 \label{sec:background}
-The subscriber of this thesis is a middle-sized company which is offering information services globally. The company is using in-house software development in order to create dynamic and bespoke software solutions and thereby aiming for commercial efficiency. It is not using any specific software development methodology, but operates in iterative manner. Because of the fast pace of growth, the company is willing to reform their current ERP system as well as the whole software development process. The reasoning for the new ERP system is the need to automate processes and to stop the increasing amount of new recruitments. The company aims to enhance its performance by fifteen percent with the new system. This thesis aims to give answers to the following research questions:
+The subscriber of this thesis is a middle-sized company which is offering information services globally. The company is using in-house software development in order to create dynamic and bespoke software solutions and thereby aiming for commercial efficiency. It is not using any specific software development methodology, but operates in iterative manner. Because of the fast pace of growth, the company is willing to reform their current ERP system as well as the whole software development process. The reasoning for the new ERP system is the need to automate processes and to stop the increasing amount of new recruitments. The company aims to enhance its performance by fifteen percent with the new system. The examined process in the study is the customer management, or more precisely the customer creation process  (a reasoning for the selection can be found from the section \ref{sec:implementation}). 
+
+In the old ERP system the customership consist of four different levels. The levels are required in order fulfill the business needs to separate the customers which are purchasing products or services, from the ones which are paying them. Also, the customers renewing the orders and receiving the actual deliverables, needs to be separated from the other customer levels. The old system separates the customer levels hierarchically, which enables hierarchical inheritance of the customer preferences in the system. In general, the customer management has quite a significant role in the business and in the system.
+
+This thesis aims to give answers to the following research questions by examining the customer management process:
 
 \begin{itemize}
 \item \textbf{\emph{How usability methods can help to identify critical disparities in the usage of a system?}}
@@ -1035,7 +1039,7 @@ Altogether, the only changes between the initial iteration of the applied human-
  \label{sec:implementation}
 
     
-The practical implementation of the research study took place between August 2013 and January 2014. Altogether seven users from two different countries contributed in the study by participating the usability evaluation sessions. The usability evaluation methods used were remote data logging, Contextual Inquiry, Remote Contextual Inquiry and Interaction Sequence Illustration. The users also filled out the System Usability Scale form.  The only usability inspection method, the Cognitive Walkthrough, was utilized by one analyst. 
+The practical implementation of the research study took place between August 2013 and January 2014. Altogether seven users from two different countries contributed in the study by participating the usability evaluation sessions. The usability evaluation methods used were remote data logging, Contextual Inquiry, Remote Contextual Inquiry and Interaction Sequence Illustration. The users also filled out the System Usability Scale form. The only usability inspection method, the Cognitive Walkthrough, was utilized by one analyst. 
 
 The chosen process for the research study was the result of a long consideration. Due to limitations of the schedule, the process had to be restricted. Also, it had to be notable part of the system, with the option to track things such as average processing time and number of interaction steps. Finding an applicable segment proved to be a challenging task, partly because of the tailored nature of the ERP system. Finally, the customer management process was chosen because it was seen as an appropriate part of the system to be studied. The customer management process also had some anticipated usability issues and it was considered as an important part of the future ERP system.
 
@@ -1091,20 +1095,12 @@ The second phase of the analysis used the similar methods as the first one, with
 
 In this section the results of the thesis will be reviewed. Firstly, the results of utilizing the methods will be explained in two phases: The results gathered by evaluating and analyzing the data of the old ERP system, and the created prototype. Secondly, the overview of the differences between the two user interfaces will be described. Finally, the user interface and the different sections of the prototype will be presented in a general manner. 
     
-    
-    \subsection{Cognitive Walkthrough}
-    - vaihe1. nimeämisessä suuria ongelmia.
-    -vaihe1.asetuksia ei ole määritelty riittävän tarkoin eri asiakastasoille ==> hierarkia on epäselvä.
-    -vaihe1.järjestelmä ei tarjoa riittävästi tietoa siitä onko toiminto onnistunut vai ei. 
-    -vaihe1.järjestelmä saattaa antaa jopa virheellistä tietoa. 
-    -vaihe1. järjestelmä ei huomioi asetusten sisäisiä riippuvuuksia.
-    -vaihe1.yleisesti järjestelmä ei anna tarpeeksi apua käyttöä ajatellen.
-    -vaihe1.joidenkin asetusten olemassaolo saattaa olla vaikeaa havaita.
-    -vaihe1.ei tarpeeksi hierarkia tietoa.
-    -vaihe1.nimeäminen ei ole yhtenäistä esim. new delivery address vs. new renewal customer.
-    
-    
-    
+
+\subsection{Results of the first evaluation round}
+
+The Contextual Inquiry was selected as a first method to evaluate the old ERP system. Regardless of the lack of the real-life customership implementation cases, a significant amount of ideas, critical problems and usability issues were gathered during the inquiries. 
+In Finland, the four inquiries resulted overall 57 different notices. In affinity diagram analysis the notices were sorted into groups, based on their their natural qualities and they emerged six different categories. 
+
     
     \subsection{Contextual Inquiry}
 	toteutettiin affiniteetti diagrammilla.	
@@ -1135,6 +1131,19 @@ In this section the results of the thesis will be reviewed. Firstly, the results
      \\*
 
 
+
+    \subsection{Cognitive Walkthrough}
+    - vaihe1. nimeämisessä suuria ongelmia.
+    -vaihe1.asetuksia ei ole määritelty riittävän tarkoin eri asiakastasoille ==> hierarkia on epäselvä.
+    -vaihe1.järjestelmä ei tarjoa riittävästi tietoa siitä onko toiminto onnistunut vai ei. 
+    -vaihe1.järjestelmä saattaa antaa jopa virheellistä tietoa. 
+    -vaihe1. järjestelmä ei huomioi asetusten sisäisiä riippuvuuksia.
+    -vaihe1.yleisesti järjestelmä ei anna tarpeeksi apua käyttöä ajatellen.
+    -vaihe1.joidenkin asetusten olemassaolo saattaa olla vaikeaa havaita.
+    -vaihe1.ei tarpeeksi hierarkia tietoa.
+    -vaihe1.nimeäminen ei ole yhtenäistä esim. new delivery address vs. new renewal customer.
+    
+    
 
 analyysi vertaileva ennen ja jälkeen + vanhaan aineistoon vedoten.
 \\*
@@ -1173,7 +1182,8 @@ analyysi vertaileva ennen ja jälkeen + vanhaan aineistoon vedoten.
 - Interaction sequence illustration (esim. kuinka monta steppiä ennen ja jälkeen)
   -sales department's contribution is required.
 
-\subsection{User interface comparison}
+\subsection{The prototype user interface}
+
 
 
 \begin{figure}[H]
