@@ -958,7 +958,7 @@ The study illustrates six major ways to benefit from the utilization of SUS. \ci
 \item SUS can be used to compare different interface technologies.
 \end{enumerate}
 
-What is then a desirable SUS score? According to the research study, there is no unambiguous answer available, because the criteria for good usability differs greatly between industries and the life cycle states of the product. However, an organization consistently collecting the SUS data certainly has an understanding what the scores mean for them. Still, the collected data in the research study indicates that a passable products have the SUS score of 70, better products have the score from high 70s to upper 80s and superior products the score above 90. Products with the SUS score under 70 should be improved and the ones with score less than 50 should be considered as unacceptable. \cite{RefWorks:12}
+The remarkable question of SUS is: What is a reasonable score? According to the research study, there is no unambiguous answer available, because the criteria for good usability differs greatly between industries and the life cycle states of the product. However, an organization consistently collecting the SUS data certainly has an understanding what the scores mean for them. Still, the collected data in the research study indicates that a passable products have the SUS score of 70, better products have the score from high 70s to upper 80s and superior products the score above 90. Products with the SUS score under 70 should be improved and the ones with score less than 50 should be considered as unacceptable. \cite{RefWorks:12}
 
 \subsection{System Usability Scale in practice}
 System Usability Scale (see \nameref{app:susform}) is a ten-item \emph{Likert scale}, meaning that every item consist of scale of five, ranging from "Strongly disagree" to "Strongly agree". The questionnaire is generally being filled right after the possibility to use the system to be evaluated. The focus should be on immediate responses and too much time shouldn't be given to the respondents. SUS is relatively fast to implement by administrators and to use by the participants of the study. \cite{RefWorks:10} 
@@ -966,6 +966,7 @@ System Usability Scale (see \nameref{app:susform}) is a ten-item \emph{Likert sc
 The outcome of SUS is a single value which express the overall usability of the system. The value of the method consist of all the items and none of them are meaningful as such. System Usability Scale can be calculated by summing the score contribution (range from 0 to 4) 		from each item. Before summing the scale positions, the items 1,3,5,7 and 9 need to be subtracted by one and the items 2,4,6,8 and 10 need to be subtracted from 5. The last step is to multiply the sum of the scores by 2.5 to get the overall SUS value, which will range from minimum of 0 to maximum of 100. \cite{RefWorks:10} The resulting single score is an easy-to-understand measure, and can therefore be discussed with the wide range of stakeholders. \cite{RefWorks:12} 
     
 \chapter{The outline and implementation of the study}
+\chaptermark{The outline and implementation}
 \label{chapter:implementation}
 
 According to ISO standard 9241-210, human-centered design consist a few activities and iterative process (see Figure \ref{fig:hci_process}). \cite{RefWorks:16} The empirical part of this thesis adapts human-centered design principles and the steps of the process experiment are highly linked to its activities. The rationale for adopting human-centered design is to experiment how standardized human-centered activities fit in with company's software development process. The human-centered design and the selected methods are represented as a part of software development process in figure \ref{fig:lm_process}. It also defines the fundamental idea behind the thesis: Trying to improve in-house software development process by introducing human-centered activities and methods.
@@ -1078,109 +1079,131 @@ The overall analysis of the second evaluation round was made after all the evalu
 \chapter{Analysis and results}
 \label{chapter:analysis}
 
-This chapter summarizes the thesis and presents the results. The first section of the chapter describes the utilized analysis practices whereas the second section summarizes the results of the usability evaluations as well as presents the created user interface solution. The last section of the chapter answers the research questions and analyses the implementation prospects of the aggregated application of the human-centered design process. 
+This chapter summarizes the thesis and presents the results. The first section of the chapter describes the utilized analysis practices, whereas the second section summarizes the results of the usability evaluations and presents the created user interface prototype solution. The last section of the chapter answers the research questions and discusses the implementation possibilities of the applied human-centered design process. 
 
 \section{Methods of analysis}
-The analysis was implemented in two phases according to the two evaluation rounds with the old ERP system and the new prototype. The first analysis was done after the first evaluation round and before designing the prototype. The focus on the Contextual Inquiry and the Remote Contextual Inquiry analyzes were on understanding the context of use and how the users are using the old ERP system. The selected data displays for analyzing the inquiries were affinity diagrams. The gathered study material was examined and organized into a wider categories which then implicated the results of the first inquiries. 
+\label{sec:analysismethods}
+The analysis was implemented in two phases adapting the two evaluation rounds of the old ERP system and the new prototype. The first analysis was done after the first evaluation and before designing the prototype. The focus on the Contextual Inquiry and the Remote Contextual Inquiry analyzes were on understanding the context of use and the ways users are applying the old ERP system. Affinity diagrams were chosen to act as data displays for the analysis and the gathered study material (videos, recordings, photos and notes) were examined and organized into wider categories which implicated the results of the first inquiries. 
 
-The Cognitive Walktrough analysis was done by generating the plausible story of how the users could behave (after the understanding about the context and usage was gained) while creating or managing the customership. Then the UI was explored and actions were taken according to the assumed behavior of a user, and all that time the responses of the system were monitored. Success and failure stories were gathered by considering the guidelines of the method. System Usability Scale analysis was accomplished by counting all the anonymous results according to the formula given by the method. The results of the first evaluation round gathered from Finnish and Swedish users were not combined.
+The Cognitive Walktrough analysis was done (after the understanding about the context and usage was gained) by generating a plausible story of how the users could behave while creating or managing the customership. The UI was explored and actions were taken according to the assumed behavior of a user. During the exploration the responses of the system were monitored and success and failure stories were gathered by considering the guidelines of the method. System Usability Scale analysis was accomplished by counting all the anonymous results according to the System Usability Scale formula. All of the data from the first evaluation round, which were gathered from Finnish and Swedish users, was not combined and was analyzed separately, in order to detect the possible differences between the working habits.
 
-The Interaction Sequence Illustration analysis was implemented by reviewing the recorded video material, taking screen shots  and by making calculations from the material already entered to the system. Counting the interaction steps proved to be harder than expected in the analysis. The reason for problematic was the changing amount of details received from the customers and the changing requirements of different customers. As a resolution, 50 random customership details were examined and the average amount of interactions were calculated. Additionally, the highest possible interaction amount enabled by the system was calculated. Additionally, by utilizing the video recordings and knowledge gained from the inquiries inquiries, it was possible to capture the main interaction stages required for customership creation. Because of the different extent of customer details and customer requirements, the original plan to measure the time required for the interactions (customership creation) and comparing the results of the old system and the prototype, became impossible. 
+The Interaction Sequence Illustration analysis was implemented by reviewing the recorded video material, taking screen shots  and making calculations from the material already entered to the system. Counting and analyzing the interaction steps proved to be more complicated than expected. The reason for the complication was the changing amount of customer details received from the customers itself and the changing requirements between the customers. As a resolution, 50 random customership details were examined and the average amount of interactions were calculated together with the highest possible interaction amount enabled by the system. Additionally, by utilizing the video recordings and knowledge gained from the inquiries, it was possible to capture the main interaction stages required for the customership creation process. Due to different extent of customer details and customer requirements, the original plan to measure the time required for the interactions (customership creation) and comparing the results of the old system and the prototype, became impossible. 
 
-The second phase of the analysis used the similar methods as the first one, with a few exceptions.  On the second phase, the focus of analyzing the inquiries was on redefining the requirements and the design solutions, whereas analysis of the Interaction Sequence Illustration was on capturing the stages of the customer creation process. The problems faced in the earlier phase of the analysis made it impossible to calculate the specific amount of interaction steps and therefore fully utilize all the advantages of the method. Because of the same reasons, the analysis of the remote usability logging was focused mostly on it's possibilities in measuring the usability of the system. 
+The second phase of the analysis used the similar methods as the first one, with a few exceptions.  On the second round, the focus of the inquiry analysis was on redefining the requirements and the design solutions, and the Interaction Sequence Illustration focused on capturing the stages of the customer creation process. The problems faced in the earlier phases of the analysis made it also impossible to calculate the specific amount of interaction steps of the prototype and therefore fully utilize all the advantages of the method. Naturally, there was no previous data about the prototype, so it was also impossible to calculate any averages of the data.  Due to same reasons, the analysis of the remote usability logging was focused mostly on it's possibilities in measuring the usability of the system. 
 
 
 \section{Results}
 \label{sec:results}
 
-In this section the results of the thesis will be reviewed. Firstly, the results of utilizing the methods will be explained in two phases: The results gathered by evaluating and analyzing the data of the old ERP system, and the created prototype. Secondly, the overview of the differences between the two user interfaces will be described. Finally, the user interface and the different sections of the prototype will be presented in a general manner. 
+In this section the results of the thesis will be reviewed. Firstly, the results of utilizing the usability methods will be explained in two phases: The results gathered by evaluating and analyzing the data of the old ERP system, and the data of the created prototype. Secondly, the overview of the differences between the two user interfaces will be described. Finally, the user interface and the different sections of the prototype will be presented in a general manner. Because of confidentiality reasons, the usability evaluation results are not described in detail.
     
 
 \subsection{Results of the first evaluation round}
 
 The Contextual Inquiry was selected as a first method to evaluate the old ERP system. Regardless of the lack of the real-life customership implementation cases, a significant amount of ideas, critical problems and usability issues were gathered during the inquiries. 
-In Finland, the four inquiries resulted overall 57 different notices. In affinity diagram analysis the notices were sorted into groups, based on their their natural qualities and they emerged six different categories. 
+In Finland, the four inquiries resulted overall 57 different notices. In affinity diagram analysis, the notices were sorted into groups based on their their natural qualities. From the large mass of data six different categories emerged. 
 
+First category was named as critical problems. Overall four different notices were classified as critical problems. Critical in this context means harmful issues which affects on business in a debilitating manner and can cause financial losses. In general, all the problems were caused by system not being responsive enough and leaving some critical notes out of interaction or by system's lack of automation. The second category was named as naming issues. The number of naming issues found from the customer management of the system was six and they were found from the user interface buttons, selections and labels. The naming in these cases were generally misleading and caused some extra memory load for the users. In few occasions some users were not able to recognize what the functionality stood for, because of the poor naming conventions. 
+
+The third category holds the greatest amount of problems gathered from the inquiries in Finland and was named as customer hierarchy problems. The hierarchical problems originated mainly from the different customer levels and total of twenty different issues were found. From the usability point of view the biggest problem with the hierarchy, was probably it's lack of adjustment according to the customer levels. This means that the same preferences were available in every customer level of the system, even though they weren't needed. Also the hierarchy itself was possible to break, which in worst case could lead into financial losses. Additionally, hierarchical inheritance of the preferences in the system were not defined accurately enough and their correctness were based on users memory and experience. The next category found was names as user interface issue and total of fourteen issues were classified under it. The problems found concerning the user interface were mostly issues in coherency, meaning that for example the locations of the same buttons varied between the UI views. Also, issues about system's synchronous behavior were discovered and some simple functions were found unnecessary complicated.
+
+The fifth category was defined as improvement ideas. The improvement ideas concerned things such as expansion of the autocomplete functionalities, tooltips, color coding and free commenting. The final category was named as remarks. The category consisted mostly of the remarks about the different ways of using the system and what functionalities were found particularly beneficial.   
     
-    \subsection{Contextual Inquiry}
-	toteutettiin affiniteetti diagrammilla.	
-\\
-    Onnistui hyvin alun vaikeuksista ja real-life tapausten puutteesta huolimatta.
-	\\
-    vaihe1: suomessa:57 huomiota, ongelmakohtaa,parannusideaa 
-    \\*
-    -suomessa:6 kategoriaa
-    \\*
-    -ruotsissa:6 kategoriaa mutta erit kuin suomessa
-    \\*
-    -vaihe1: ruotsissa: 70 huomiota ongelmakohtaa parannusideaa.
-    \\*
-    -ruotsissa focus ajautui hieman eri asioihin.
-    \\*
-    -selkeitä eroja havaittavissa toiminnassa suomen ja ruotsin välillä.
+The results gained from Swedish user inquiries turned out to be slightly different than in Finland. From total of 70 different notices six different categories emerged in Sweden. The largest category found in the analysis of Swedish data was named as general notices and contained 23 different notices. The recognitions concerned mostly about the differences between the Finnish and Swedish procedures. One of the biggest notices in the category was that there are shortages in training of the employees, because some of the functionalities turned out to be unfamiliar for some of the interviewees. Also, a one whole section of the system was found to be utilized more in Sweden than in Finland. The second largest category discovered was named as functionality problems and requirements. The category consist of many different types of issues, but the biggest concerns users had were about advanced search functionalities and exclusiveness of the designated preferences. 
+
+The third category of the Swedish user inquiries was named as development ideas. Overall fifteen development ideas occurred during the interviews. Most of them concerned prompts, warnings and the general communication methods between the employees, such as notes and comments. Also a few functionality development ideas emerged. The next biggest category found was named user interface issues with ten notices. The UI problems discovered were quite similar as in Finland with only few differences. The last two categories were named as naming issues and inheritance problems. The issues in these categories complied mostly with the corresponding findings in Finland. 
+
+As already mentioned earlier, the analysis of the Interaction Sequence Illustration was not possible according to the rules set by the method (see section \ref{sec:analysismethods}). The analysis of the inquiry data and calculations of the real-life data, indicates total of ten different stages in the customership creation process. The simplified form of the customer creation process is the following: Open up the system, fill in customer details and adjust the settings for all four customer levels, enter invoicing parameters and save the customership. The ten interaction stages contains in 83 possible interaction steps per customer level which in total means 332 possible interaction steps per customership creation process. In practice the amount of interaction steps is not that high. The random sample of fifty customership data indicates average of 66 interaction steps for customership creation process (opening the system and entering invoicing parameters are not included). The average interaction steps of different customer level creations varied then between 13 and 23 steps.   
+
+The System Usability Scale analysis from the first round indicates quite similar results between Finland and Sweden. The average score of the old ERP system in Sweden was 50.83 out of hundred and in Finland 48.75. The results shows that the users in Sweden are slightly more satisfied with the system than their colleagues in Finland. However, according to the studies \cite{RefWorks:12} the score under 50 should be considered as unacceptable and the score under 70 should be improved. 
+
+The Cognitive Walkthrough generated mainly similar results as all the other evaluation methods. In general, the results indicated problems in naming conventions, obscurities in hierarchical preference dependencies, lack of feedback, lack of support and difficulties in noticing some of the available preferences. 
+
+The first evaluation round generated results which points out small differences between the country offices in Finland and Sweden. The methods which were utilized in both countries were the inquiries, in Finland Contextual Inquiry and in Sweden Remote Contextual Inquiry, and the System Usability Scale questionnaire. The results of the inquiries were mostly the same, but some important differences were found. The division of work differed between the country offices, which caused differences in way of working and thinking. For example, in Swedish office some customer information was seen as necessary as in Finland that was not the case. Also, as mentioned earlier, Swedish office utilized one whole section of the system in a larger scale than in Finland, and the training of Swedish users turned out to be partly inadequate. The inquiries with the Swedish users resulted also to multiple development ideas. 
+
+Overall, the results of the first evaluation round indicated lot of usability issues. The inquiries generated a total of 127 usability issues, development ideas or notices. The Interaction Sequence Illustration indicated a massive amount of interaction steps required from user to create a single customership. The System Usability Scale scores indicated the need for usability improvements and to increase the user satisfaction. The results of the Cognitive Walktrough adapts the results gained with the other evaluation methods. 
 
 
-    \subsection{System Usability Scale}
-    -google form
-    \\*
-     -vaihe1: suomessa tulos: 48.125/100
-     \\*
-	vaihe1: ruotsissa tulos: 49.1667/100
-	\\*
-     -vaihe1: tulos ei välttämättä kerro koko totuutta koska otanta kohtalaisen pienet ja osaamistasot ovat erilaiset. antaa kuitenkin osviittaa.
-     \\*
+\subsection{Results of the second evaluation round}
+
+Because of the time schedule limitations, only the Swedish users took part on the second evaluation round. The inquiries were implemented remotely and the product to be evaluated was the created user interface prototype. 
 
 
+%System Usability Scale
+   % -google form
+   % \\*
+    % -vaihe1: suomessa tulos: 48.75/100
+  %   \\*
+%	vaihe1: ruotsissa tulos: 50.83/100
+%	\\*
+  %   -vaihe1: tulos ei välttämättä kerro koko totuutta koska otanta kohtalaisen pienet ja osaamistasot ovat erilaiset. antaa kuitenkin osviittaa.
+    % \\*
 
-    \subsection{Cognitive Walkthrough}
-    - vaihe1. nimeämisessä suuria ongelmia.
-    -vaihe1.asetuksia ei ole määritelty riittävän tarkoin eri asiakastasoille ==> hierarkia on epäselvä.
-    -vaihe1.järjestelmä ei tarjoa riittävästi tietoa siitä onko toiminto onnistunut vai ei. 
-    -vaihe1.järjestelmä saattaa antaa jopa virheellistä tietoa. 
-    -vaihe1. järjestelmä ei huomioi asetusten sisäisiä riippuvuuksia.
-    -vaihe1.yleisesti järjestelmä ei anna tarpeeksi apua käyttöä ajatellen.
-    -vaihe1.joidenkin asetusten olemassaolo saattaa olla vaikeaa havaita.
-    -vaihe1.ei tarpeeksi hierarkia tietoa.
-    -vaihe1.nimeäminen ei ole yhtenäistä esim. new delivery address vs. new renewal customer.
+%vaihe 2. ruotsi 74.17
+
+%    \subsection{Cognitive Walkthrough}
+    %- vaihe1. nimeämisessä suuria ongelmia.
+ %   -vaihe1.asetuksia ei ole määritelty riittävän tarkoin eri asiakastasoille ==> hierarkia on epäselvä.
+ %   -vaihe1.järjestelmä ei tarjoa riittävästi tietoa siitä onko toiminto onnistunut vai ei. 
+ %   -vaihe1.järjestelmä saattaa antaa jopa virheellistä tietoa. 
+%   -vaihe1. järjestelmä ei huomioi asetusten sisäisiä riippuvuuksia.
+ %   -vaihe1.yleisesti järjestelmä ei anna tarpeeksi apua käyttöä ajatellen.
+   % -vaihe1.joidenkin asetusten olemassaolo saattaa olla vaikeaa havaita.
+   % -vaihe1.ei tarpeeksi hierarkia tietoa.
+   % -vaihe1.nimeäminen ei ole yhtenäistä esim. new delivery address vs. new renewal customer.
     
-    
+   %    Contextual Inquiry
+%	toteutettiin affiniteetti diagrammilla.	
+%\\
+ %   Onnistui hyvin alun vaikeuksista ja real-life tapausten puutteesta huolimatta.
+%	\\
+%    vaihe1: suomessa:57 huomiota, ongelmakohtaa,parannusideaa 
+  %  \\*
+  %  -suomessa:6 kategoriaa
+  %  \\*
+ %   -ruotsissa:6 kategoriaa mutta erit kuin suomessa
+  %  \\*
+  %  -vaihe1: ruotsissa: 70 huomiota ongelmakohtaa parannusideaa.
+ %   \\*
+  %  -ruotsissa focus ajautui hieman eri asioihin.
+   % \\*
+    %-selkeitä eroja havaittavissa toiminnassa suomen ja ruotsin välillä.
 
-analyysi vertaileva ennen ja jälkeen + vanhaan aineistoon vedoten.
-\\*
+ %analyysi vertaileva ennen ja jälkeen + vanhaan aineistoon vedoten.
+%\\*
      
-     \subsection{Interaction Sequence Illustration}
-     	  -interaktioiden ajallinen mittaaminen ei onnistu
-	  \\*
-	  -interaktioiden määrä vaihtelee riippuen tilanteesta.aiheutti hankaluuksia, joten otettu keskiarvo ja kyselty käyttäjiltä mitä nämä tavallisesti tekisivät.
-	  \\*
-	  -mitkä ovat interaktio stepit ja staget.
-	  \\*
-	  -vaihe1: interaktio katsottu videolta ja laskelmat tehty olemassa oleviin asiakkuuksiin syötettyjen tietoihin perustuen. 50 satunnaisotanta antanee kohtalaisen selkeän kuvan siitä kuinka paljon prosessi vaatii interaktioita.
-	  \\*
-	  -vaihe 1: järjestelmä antaa periaatteessa mahdollisuuden täyttää 83 kenttää per asiakastyyppi + aloitus stepit -> käytännössä näin ei kuitenkaan ole.
-	  \\*
-	  -vaihe1:sopimusasiakkaalla 50 satunnaisotannan avg. steppien määrä on 23, pienin 9 ja suurin 35 (laskettu tietojen syötöstä  tallenna-klikkaukseen.)
-	  \\*
-	  -vaihe1:laskutusasiakkalla 50 satunnaisotannan avg. steppien määrä on 14,48, pienin 9 ja suurin 22 (laskettu lisää laskutusasiakas -painikkeen klikkauksesta tallentamiseen)
-	  \\*
-	  -vaihe1:toimitusasiakkaalla 50 satunnaisotannan avg. steppien määrä on 12,94, pienin 11 ja suurin 18 (laskettu lisää toimitusasiakas -painikkeen klikkauksesta tallentamiseen)
-	  \\*
-	  -vaihe1:uudistusasiakkaalla 50 satunnaisotannan avg. steppien määrä on 15,66 pienin 11 ja suurin 24 (laskettu lisää uudistusosoite -painikkeen klikkauksesta tallentamiseen). myös laskutusasiakas voi olla uudistusasiakas, mikä voi vääristää tulosta hieman.
-	  \\*
-	  -vaihe1:yhteensä asiakasinteraktioiden avgt on 66,08 steppiä. tähän tulee kuitenkin lisätä vielä libsysin käynnistykseen liittyvät stepit.
-	  \\*
-	  -10 stagea havaittu
-	  \\*
-	  -step-by-step kuvaus jätetty pois
-	  \\*
-	  -luvuissa ei mukana alennusten lisäystä, e-access detailsien lisäystä, eikä cost centereiden lisäystä. 
-	  \\*
+ %    \subsection{Interaction Sequence Illustration}
+    % 	  -interaktioiden ajallinen mittaaminen ei onnistu
+%	  \\*
+%	  -interaktioiden määrä vaihtelee riippuen tilanteesta.aiheutti hankaluuksia, joten otettu keskiarvo ja kyselty käyttäjiltä mitä nämä tavallisesti tekisivät.
+%	  \\*
+%	  -mitkä ovat interaktio stepit ja staget.
+%	  \\*
+%	  -vaihe1: interaktio katsottu videolta ja laskelmat tehty olemassa oleviin asiakkuuksiin syötettyjen tietoihin perustuen. 50 satunnaisotanta antanee kohtalaisen selkeän kuvan siitä kuinka paljon prosessi vaatii interaktioita.
+%	  \\*
+%	  -vaihe 1: järjestelmä antaa periaatteessa mahdollisuuden täyttää 83 kenttää per asiakastyyppi + aloitus stepit -> käytännössä näin ei kuitenkaan ole.
+%	  \\*
+%	  -vaihe1:sopimusasiakkaalla 50 satunnaisotannan avg. steppien määrä on 23, pienin 9 ja suurin 35 (laskettu tietojen syötöstä  tallenna-klikkaukseen.)
+%	  \\*
+%	  -vaihe1:laskutusasiakkalla 50 satunnaisotannan avg. steppien määrä on 14,48, pienin 9 ja suurin 22 (laskettu lisää laskutusasiakas -painikkeen klikkauksesta tallentamiseen)
+%	  \\*
+%	  -vaihe1:toimitusasiakkaalla 50 satunnaisotannan avg. steppien määrä on 12,94, pienin 11 ja suurin 18 (laskettu lisää toimitusasiakas -painikkeen klikkauksesta tallentamiseen)
+%	  \\*
+%	  -vaihe1:uudistusasiakkaalla 50 satunnaisotannan avg. steppien määrä on 15,66 pienin 11 ja suurin 24 (laskettu lisää uudistusosoite -painikkeen klikkauksesta tallentamiseen). myös laskutusasiakas voi olla uudistusasiakas, mikä voi vääristää tulosta hieman.
+%	  \\*
+%	  -vaihe1:yhteensä asiakasinteraktioiden avgt on 66,08 steppiä. tähän tulee kuitenkin lisätä vielä libsysin käynnistykseen liittyvät stepit.
+%	  \\*
+%	  -10 stagea havaittu
+%	  \\*
+%	  -step-by-step kuvaus jätetty pois
+%	  \\*
+%	  -luvuissa ei mukana alennusten lisäystä, e-access detailsien lisäystä, eikä cost centereiden lisäystä. 
+%	  \\*
      
-     The results of the research may not be suitable for every organization.
-    -Comparison between country offices, between methods
-    -Comparison between individuals (esim. kuinka kauan kesti tietyn toiminnon tekeminen) / Overall comparison (esim. kaikkien koehenkilöiden yhteinen kehitys.)
-- Interaction sequence illustration (esim. kuinka monta steppiä ennen ja jälkeen)
-  -sales department's contribution is required.
+
+
+
+
 
 \subsection{The prototype user interface}
 
@@ -1206,9 +1229,20 @@ analyysi vertaileva ennen ja jälkeen + vanhaan aineistoon vedoten.
 
     \section{Implementation analysis}
     \label{sec:implementationanalysis}
+    
+    -VARSINAISET TULOKSET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+    -CI:n ja RCI:n välillä ei huomattavia eroja, jos haastattelut on suunniteltu/toteutettu hyvin ja kaikki toimii. Saattaisi olla hyvin eri asia jos kyseessä olisi ulkopuolinen käyttäjä.
+    -menetelmillä saatiin hyvin esille ruotsin ja suomen erilaisia tarpeita. esim. tavoissa toimia on eroja.
     -Should these methods be implemented as a part of the process or not.
     -While writing the thesis, contextual inquiry used as part of requirement definition process of the process..
     -Answers to research questions.
+         The results of the research may not be suitable for every organization.
+  
+  -sales department's contribution is required.
+  -lisää sus dataa tarvitaan. 
+  -isi käy ehkä hyödyttömäksi ajan kanssa. 
+  -remote logging tarvitsee paljon dataa analyysiä varten.
+  -contexual inquiry ja rci hyviä joka kohdassa.
 
 %When you use \texttt{pdflatex} to render your thesis, you can include PDF images
 %directly, as shown by Figure~\ref{fig:indica_model} below.
