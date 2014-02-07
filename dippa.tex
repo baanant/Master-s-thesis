@@ -1061,16 +1061,16 @@ The overall analysis of the first evaluation round was made after all the evalua
 
 The prototype creation process started by creating a new design for the interface and it was accomplished by sketching mock-ups. The mock-ups were build by using the storyboarding tool provided by Microsoft's Visual Studio Ultimate 2012 Integrated Development Environment (IDE) and evaluated with three customer service specialists in Finland. After evaluating and refining the design in multiple evaluation meetings the prototype creation was started.
 
-The prototype was created based on the findings of the first evaluation round and the results mock-up evaluation meetings. It was implemented with the Microsoft's latest .NET 4.5 software framework. Because of the organizational requirements, the prototype was decided to be implemented as a desktop application without any real back-end solution. The user interface was created with Windows Presentation Foundation (WPF) and C\#, utilizing the Model View ViewModel (MVVM) presentation pattern in order to achieve Separation of Concerns (SoC). \cite{RefWorks:37} Also, a third party components were utilized in the implementation to create the prototype more efficiently. The prototype contained dummy data gathered from the old ERP system. All of the functionalities were not fully implemented due the time schedule limitations and the extensive scale of the functionalities which were available in the real system.
+The prototype was created based on the findings of the first evaluation round and the results mock-up evaluation meetings. It was implemented with the Microsoft's latest .NET 4.5 software framework. Because of the organizational requirements, the prototype was decided to be implemented as a desktop application without any real back-end solution. The user interface was created with Windows Presentation Foundation (WPF) and C\#, utilizing the Model View ViewModel (MVVM) presentation pattern in order to achieve Separation of Concerns (SoC). \cite{RefWorks:37} Also, a third party components were utilized in the implementation to create the prototype more efficiently. The prototype contained dummy data gathered from the old ERP system. All of the functionalities were not fully implemented due the time schedule limitations and the extensive scale of the functionalities which were available in the real system. However, lot of dummy functionality was created in order to make the prototype more realistic.
 
 In order to utilize remote usability logging as a usability evaluation method, a few solutions were reviewed. All the third party solutions were not seen as cost efficient, so the library for the remote usability logging was implemented as a part of the thesis. The library consisted of a singleton pattern and it's static methods on top of the Windows Communication Foundation (WCF) service. The library supplied methods for logging sessions and events during the user interface interactions and saved the data to the database. The prototype referenced the library and the user interface code was  decorated with the remote logging code snippets. The logging functionality gathered session data such as name, version and user of the application as well as the start and end times of the session. It also captured the state of arbitrary objects in the beginning and the end of the session as serialized Extensible Markup Language (XML) data. The gathered event data consisted of the name and version of the application together with the tracked feature description, link to the session and start and end times of the event as well as serialized arbitrary objects data from the beginning and the end of an event.
 
 	  
 \subsection{The second evaluation round}
 
-The evaluation of the prototype started with a short evaluation meeting with the Finnish users, to ensure that the mock-ups and the prototype design corresponded each other in a general level. The Cognitive Walktrough was implemented to ensure that all the critical issues in prototype could be eliminated as carefully as possible. The purpose of the evaluation was also to find out if the analyst, who was creating the prototype, was able to find any flaws after the implementation by utilizing the Cognitive Walkthrough. The evaluation was implemented in a similar manner as with the old version of the system. 
+In the beginning of each evaluation session during the second evaluation round, the prototype was presented to the users. In order to make the presentation pragmatic, some dummy data was inserted to the prototype. However, the users were also able to enter the data to the prototype themselves. The evaluation round started with a short evaluation meeting with the Finnish users, to ensure that the mock-ups and the prototype design corresponded each other in a general level. The Cognitive Walktrough was implemented to ensure that all the critical issues in prototype could be eliminated as carefully as possible. The purpose of the evaluation was also to find out if the analyst, who was creating the prototype, was able to find any flaws after the implementation by utilizing the Cognitive Walkthrough. The evaluation was implemented in a similar manner as with the old version of the system. 
 
-The prototype was evaluated with the Swedish users using Remote Contextual Inquiry. The pattern of the inquiries were very similar as during the first evaluation round, except that the prototype was introduced to the users thoroughly in the beginning of the interviews. The screen was shared and the interviewer reviewed the UI section by section. Later on, the user was asked to share the screen and the discussion was continued from the aspect of user being the real user of the prototype. At the end of each inquiry, the user was asked to create a customership with the predefined details and by using the prototype. This was done in order to get data for Interaction Sequence Illustration evaluation purposes and to find some critical problems with the interaction. The predefined customer details were not the same as in the first evaluation round because the quite different approach on the same functionality, but they were also defined to be as close to real-life cases as possible and as all-inclusive as possible. 
+The prototype was evaluated with the Swedish users using Remote Contextual Inquiry. The users were the same as in the first evaluation round. Also, the pattern of the inquiries were very similar, except that the prototype was introduced to the users thoroughly in the beginning of the interviews. The screen was shared and the interviewer reviewed the UI section by section. Later on, the user was asked to share the screen and the discussion was continued from the aspect of user being the real user of the prototype. At the end of each inquiry, the user was asked to create a customership with the predefined details and by using the prototype. This was done in order to get data for Interaction Sequence Illustration evaluation purposes and to find some critical problems with the interaction. The predefined customer details were not the same as in the first evaluation round because the quite different approach on the same functionality, but they were also defined to be as close to real-life cases as possible and as all-inclusive as possible. 
 
 Remote usability logging was on during the inquiries to count the time used during the sessions and events, as well as to examine the functionality of the library and the suitability for usability evaluation purposes. The session was started in the code when a user created a new customer and ended when the user clicked Save-button. Events were recorder for example when the user created a new contact for the customer. After the inquiries an English SUS form was sent to the user to evaluate the prototype.
 
@@ -1095,7 +1095,7 @@ The second phase of the analysis used the similar methods as the first one, with
 \section{Results}
 \label{sec:results}
 
-In this section the results of the thesis will be reviewed. Firstly, the results of utilizing the usability methods will be explained in two phases: The results gathered by evaluating and analyzing the data of the old ERP system, and the data of the created prototype. Secondly, the overview of the differences between the two user interfaces will be described. Finally, the user interface and the different sections of the prototype will be presented in a general manner. Because of confidentiality reasons, the usability evaluation results are not described in detail.
+In this section the results of the thesis will be reviewed. Firstly, the results gathered by evaluating and analyzing the data of the old ERP system will be presented. Secondly, the overview of the prototype's user interface solution will be given, and the differences between the old system and the prototype UI will be discussed, in a general manner. Finally, the results of the prototype usability evaluation will be reviewed. Because of confidentiality reasons, the usability evaluation results are not described in detail.
     
 
 \subsection{Results of the first evaluation round}
@@ -1124,9 +1124,56 @@ The first evaluation round generated results which points out small differences 
 Overall, the results of the first evaluation round indicated lot of usability issues. The inquiries generated a total of 127 usability issues, development ideas or notices. The Interaction Sequence Illustration indicated a massive amount of interaction steps required from user to create a single customership. The System Usability Scale scores indicated the need for usability improvements and to increase the user satisfaction. The results of the Cognitive Walktrough adapts the results gained with the other evaluation methods. 
 
 
+
+
+\subsection{The demonstration of the prototype}
+\label{sec:demoproto}
+
+The user interface of the prototype is divided into two components: A search screen and the ERP system itself. The developed prototype contains only the ERP component, but the search functionality can be imagined as a Google like search, with the categorization of the results. The users of the system have two separate screens on their workstations, which enables the utilization of the two components. Consequently, a default use case of the system could be that the user is searching the customer with the search functionality and the resulting links would the open to the ERP system. 
+
+The figure \ref{fig:protooneimg} demonstrates the main customer level window of the prototype. The details are blurred, because of the confidentiality reasons. On the left of the image, marked with a red square, are the contact details of the customer, containing all the relevant contact information of the customer. There can be multiple different contacts in that area. The section surrounded with a yellow square, contains all the sublevel and upper level information, whereas the are marked with light green contains the main customer level preferences. Comments and history sections are marked with the blue and the navigation tabs with the purple color. The design ended up to utilize the tab navigation in order to make the navigation as easy and fast as possible. Also, the tab navigation is familiar for the users from the modern web browsers. The requirement for the comments field in every customer level came from the users, and consequently there's a list of latest comments available. History section, on the other hand, contains the latest changes done to the customer details, and by clicking the visualized change log the user is able to see the exact changes made. These sections combined, de facto, form the prototype user interface.
+
+\begin{figure}[H]
+
+  	\centerline{
+    	   \includegraphics[width=1.4\textwidth]{./images/proto_main.png}
+    	   }
+  	   \caption{Screenshot of the prototype's ERP component 1.}
+	   \label{fig:protooneimg}
+\end{figure}
+
+The screenshot \ref{fig:prototwoimg} shows the user interface of the invoicing customer. The invoicing and delivery customer interfaces don't vary significantly from the main customer interface, but there are few exceptions. The pen preferences are marked with the dark green color in the contact section. By clicking the pen, a contact dialog opens up. The idea of this dialog is to offer user the possibility to select already existing contact instead of typing all the contact details multiple times. In many occasions, the contact details are the same in different customer levels. From the dialog the user can also select the validation period for the contact. The closed and open chains next to the preferences, indicates the design idea for the preference inheritance. For example if a preference is selected at the main customer level and the chain of the same preference is closed in the invoicing customer level, the invoicing customer inherits the selected preference from the main customer. The same procedure functions throughout the whole customer hierarchy, so if some preference is selected in the main customer level and the chains are closed on invoicing and delivery customer levels, the delivery customer inherits the preference from the main customer. The idea behind the design is to point out the inherited preferences, and therefore decrease the users' memory load. It also decrease the users' workload since they don't have to fill out all the details on every level of the hierarchy.   
+
+\begin{figure}[H]
+  	\centerline{
+    	   \includegraphics[width=1.4\textwidth]{./images/proto_invoicing.png}
+    	   }
+  	   \caption{Screenshot of  the prototype's ERP component 2.}
+	   \label{fig:prototwoimg}
+\end{figure}
+
+There are few differences between the old ERP system and the prototype solutions, but many of them are considered confidential. The following paragraph describes some general differences between the two.
+
+Probably the most significant difference between the old system and the prototype solution is that the prototype does not display all the possible settings on every level, but separates the preferences according to the level. Also, the prototype's functionality to select previous contacts in the contact section decreases the need to type same details multiple times, which was not possible in the old system. The tab solution in prototype enables the user to manage multiple different instances of different things simultaneously, which provides a remarkable advantage over the old ERP. The problems of the inheritance in the old user interface has been prevented with the chain design. Additionally, the existence of comments and the history sections separates the old and the new version. Both of them provides valuable information for the user about the customership.
+
 \subsection{Results of the second evaluation round}
 
-Because of the time schedule limitations, only the Swedish users took part on the second evaluation round. The inquiries were implemented remotely and the product to be evaluated was the created user interface prototype. 
+Due to time schedule limitations, only the Swedish users took part on the second evaluation round in addition to the Finnish analyst. This subsection represents the results of the prototype evaluation in chronological order. 
+
+The first evaluation method used to analyze the usability of the prototype, after the declarative meeting with the Finnish users, was the Cognitive Walktrough. The amount of the discovered issues was not remarkably high and only two types of problems were found. The first type of problems were related to the naming conventions. For example, some of the new buttons were labeled in a way which needed clarification. Additionally, some of the labels and settings were named using the corresponding designations in the old system, which needed some extra specifications. The second type of issues discovered from the prototype were layout problems. It emerged that some of the critical functions were hidden and not immediately noticeable as they should have been according to their importance for the system. The results of the Cognitive walkthrough indicates that the usability problems have decreased comparing to the CW implemented during the first evaluation round.
+
+The results of the inquiries formed four different categories in affinity diagram and which shared 44 different notices. It emerged, that some critical observations stayed unnoticed during the first evaluation round, but appeared in the second causing then problems in the prototype's usability. Additionally,the fully renewed user interface solution entailed some new usability issues. The biggest category was named as user interface and functionality problems. In general, a few layout problems appeared. The results indicates that the prototype contain some misplaced buttons which should be more hidden or more visible. Also, some of the settings should be available in all the customer levels and some of the levels were missing some relevant fields. Even though the prototype introduced some more efficient ways for browsing the data and between the customer levels, some shortcut links were desired to be shown. For example, the open link from the invoicing customer level to the main customer level was missing.  
+
+The second category was named as user interface ideas and it consisted of nine different notices. Many of the notices contained ideas concerning the commenting functionality in the system. For example, most of the users wanted it to be possible to flag or highlight the important comments is some way. They also desired some new comment fields to be added to the prototype and the functionality to select on which of the customer levels the comment will be shown. Additionally, an idea about peek windows for data check was stated. These quick views would provide an outlook to some data behind any link, when the mouse is hovered on it. This could be useful for instance in a case when a customer is making a call and the data is need to be displayed as fast as possible. The category also contained some ideas about how to make entering the customer data easier by utilizing the inheritance between the customer levels. 
+
+The third category contained qualities which were found particularly functional. The results indicate that the layout of the prototype was liked in general by the users. Also, the tab navigation, history and comment sections, advanced search functionality and the chain inheritance design, described in the subsection \ref{sec:demoproto}, were approved by the users. Additionally, the users valued the fact that the hierarchy could not been broken in the prototype version. The last category was labeled as 'Needs consideration'. These were the big issues discovered, which requires some design solutions to be implemented in the business process itself. Examples of this kind of issues could be deciding on the compulsory information required while creating a new customership or on which level different preferences should be attached in the user interface. Even though the inquiries resulted still tens of notices, the usability issues discovered decreased from the old system's 127 to prototype's 44 issues. 
+
+The results of the Interaction Sequence Illustration from the second evaluation round indicates that there are total of nine different interaction stages in the prototype, which is one stage less than in the old system. Because of the lack of the real data, only the maximum amounts of interaction steps could be calculated. The maximum number of possible interaction steps on the main customer level in the prototype was 54 steps which is  29 less than the possible interaction steps of the old system. Also, the maximum amount of interaction steps on invoicing customer and delivery customer levels were 47 and 38, comparison to the old systems 83 on both levels. In general, the amount of interaction steps required in customer creation process is evidently decreased with the prototype solution.
+
+    
+-ISI, SUS, Remote usability  logging.
+
+- vielä löytyi ongelmia, implicates that iterations are needed and that 
 
 
 %System Usability Scale
@@ -1205,28 +1252,6 @@ Because of the time schedule limitations, only the Swedish users took part on th
 
 
 
-\subsection{The prototype user interface}
-
-
-
-\begin{figure}[H]
-
-  	\centerline{
-    	   \includegraphics[width=1.4\textwidth]{./images/proto_main.png}
-    	   }
-  	   \caption{Example of the prototype 1.}
-	   \label{fig:protooneimg}
-	
-\end{figure}
-
-\begin{figure}[H]
-  	\centerline{
-    	   \includegraphics[width=1.4\textwidth]{./images/proto_invoicing.png}
-    	   }
-  	   \caption{Example of  the prototype 2.}
-	   \label{fig:prototwoimg}
-\end{figure}
-
     \section{Implementation analysis}
     \label{sec:implementationanalysis}
     
@@ -1237,12 +1262,14 @@ Because of the time schedule limitations, only the Swedish users took part on th
     -While writing the thesis, contextual inquiry used as part of requirement definition process of the process..
     -Answers to research questions.
          The results of the research may not be suitable for every organization.
-  
+  -koska toisellakin kierroksella löytyi ongelmia, voidaan todeta että CI toimii iteratiivisessa kehityksessä,
   -sales department's contribution is required.
   -lisää sus dataa tarvitaan. 
   -isi käy ehkä hyödyttömäksi ajan kanssa. 
+  -ISI stages 10 ja 9
   -remote logging tarvitsee paljon dataa analyysiä varten.
   -contexual inquiry ja rci hyviä joka kohdassa.
+  -cw ei ole hyvä muutosten testaamiseen, ainakaan jos testaaja on sama kuin kehittäjä.
 
 %When you use \texttt{pdflatex} to render your thesis, you can include PDF images
 %directly, as shown by Figure~\ref{fig:indica_model} below.
