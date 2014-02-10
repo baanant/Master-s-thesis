@@ -32,9 +32,9 @@
 \contentsline {subsection}{\numberline {3.4.1}Description of the Interaction Sequence Illustration}{29}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Utilization of the Interaction Sequence Illustration}{30}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}System Usability Scale}{30}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Numbers behind the SUS}{31}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.1}Numbers behind the System Usability Scale}{31}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}System Usability Scale in practice}{32}{subsection.3.5.2}
-\contentsline {chapter}{\numberline {4}The outline and implementation of the study}{33}{chapter.4}
+\contentsline {chapter}{\numberline {4}Study outline and implementation}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}Principles of human-centered design}{34}{section.4.1}
 \contentsline {section}{\numberline {4.2}Applied human-centered design process}{35}{section.4.2}
 \contentsline {section}{\numberline {4.3}Practical implementation of the applied design process}{39}{section.4.3}
