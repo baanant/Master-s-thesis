@@ -386,7 +386,7 @@
 % have a hyphen in them (for example, if you write ``structure-modification
 % operation'', the word structure-modification will never be hyphenated).
 % You need a special package to hyphenate those words.
-\hyphenation{di-gi-taa-li-sta yksi-suun-tai-sta ana-ly-sis pro-duct imp-le-men-ta-ti-on}
+\hyphenation{di-gi-taa-li-sta yksi-suun-tai-sta ana-ly-sis pro-duct imp-le-men-ta-ti-on o-pe-ra-ti-o-nal}
 
 
 
@@ -479,10 +479,17 @@
 % show up in the TOC
 \chapter*{Acknowledgements}
 
+At the time I started my studies, I couldn't expect how much they would change me.
+Today, after many years of studying and 254 version commits later, I can finally put an end to this wonderful journey.
+This is the end of an era, but I'm looking forward to the new ones more than ever before.
 
--
+I want to thank my supervisor Professor Marko Nieminen for competent instructions and for pushing me to the right direction with my thesis work. 
+I also want to thank my instructor Jouni Kuusinen for supportive attitude and study related advices, as well as all my colleagues at work who involved in the process.
+Thank your friends, old and new, for good times, relaxation and for keeping me approximately sane.
 
--
+Still, the biggest thanks belongs to my family for their unconditional love, support and constant faith in me. I wouldn't write these words today without them.
+So, thank you from the bottom of my heart! 
+
 \vskip 10mm
 
 \noindent Espoo, \DATE
@@ -617,7 +624,7 @@ This thesis aims to give answers to the following research questions by examinin
 
 Understanding the differences in the system's usage between individuals and cultural manners can help to understand and deploy the best practices throughout the organization, identify issues in the system, and thereby increase efficiency.
 
-\item \textbf{\emph{How applying the human-centered design can affect on in-house software development process?}}
+\item \textbf{\emph{How applying the human-centered design can improve in-house software development process?}}
 
 Can the in-house software development process benefit from the principles of human-centered design.
 
@@ -751,7 +758,7 @@ The level representation of the CMMI is described in Figure \ref{fig:cmmi} inclu
 The Capability Maturity Model Integration is a good example of a model for software process improvement but it doesn't consider the human-centered part of system development. The Usability Maturity Model has been created as a scale to measure the human-centeredness of system development projects. In other words, UMM is a method to evaluate organization's capability to implement human-centered design. It has many corresponding elements with other SPI models, such as ISO TR 15504 standard, but it is still considered a stand-alone model. \cite{RefWorks:30}
 
  \subsection{Maturity levels of the model}
-Like CMMI, also the Usability Maturity Model consist of maturity levels (see Figure \ref{fig:umm}). There are six maturity levels in the UMM and first one of them is called level X, in which the need for human-centered activities are not recognized at all. At the level A, the organization has recognized the need for improving systems quality of use. Level A1 is a problem recognition attribute, and it describes the extent of understanding the problems. To achieve this level of maturity, the staff and the management need to be aware about the need for improvements. Level A2 describes a number of processes to be performed, which then provides input for human-centered activities. Also, practices should be performed in order to gather user requirements, which then should be included in the information collection. In level B, the organization indicates to the staff that the quality of use is considered as an important attribute in the development, and trains the staff to be aware that the usability can be improved by considering the user requirements. The level B1 can be achieved by training the staff human-centered methods and principles of human-system interaction. The employees needs to focus on the users for instance by trying to understand the end users' skills, backgrounds and motivations. \cite{RefWorks:30}
+Like CMMI, also the Usability Maturity Model consist of maturity levels (see Figure \ref{fig:umm}). There are six maturity levels in the UMM and first one of them is called level X, in which the need for human-centered activities are not recognized at all. At the level A, the organization has recognized the need for improving systems quality of use. Level A1 is a problem recognition attribute, and it describes the extent of understanding the problems. To achieve this level of maturity, the staff and the management need to be aware about the need for improvements. Level A2 describes a number of processes to be performed, which then provides input for human-centered activities. Also, practices should be performed in order to gather user requirements, which then should be included in the information collection. In level B, the organization indicates to the staff that the quality of use is considered as an important attribute in the development, and trains the staff to be aware that the usability can be improved by considering the user requirements. The level B1 can be achieved by training the staff human-centered methods and principles of human-system interaction. The employees needs to focus on the users for instance by trying to understand the end users' skills, backgrounds and motivations (Level B2). \cite{RefWorks:30}
 
 The human-centered processes are already implemented in the level C. Users are involved in specifying and testing the system, and the suitable human-centered techniques are being employed. Active involvement of the users, the creation of UX, the quality of use defined by the users, continuous testing and feedback are required, in order for the organization to achieve the C1 maturity level. The level C2 on the other hand requires the use of appropriate usability methods, suitable facilities and tools, and maintaining usability techniques. Maintaining usability techniques includes reviewing the suitability of the methods and that the state-of-the  art UI technologies are being used. The level C3 can be achieved by ensuring that the employees have the defined and required human-centered competences. In level D and in all the sub-levels, the human-centered processes are integrated to the life cycle and quality processes of the system. Also, the required time and resources are targeted for these activities,the interaction with other departments is successful, feedback process is administered and the design solutions are being iterated. \cite{RefWorks:30}
 
@@ -797,8 +804,9 @@ Usage data may offer valuable information about users' actions and can thus be u
 According to Bateman et al. \cite{RefWorks:24} log-based usability evaluation process consist typically of three stages (see Figure \ref{fig:logging_usability_process}). The first stage is called \emph{application instrumentation}. In application instrumentation, the logging capability is added to the application. In other words, instrumentation is a process which determines which data will be logged from the usage of an application. In order to gain useful data, successful decisions in instrumentation stage are crucial. Bateman et al. assert that if wrong decisions are made, and therefore large amount of low-level data have been collected, the data might be challenging to interpret and might not bring any value. On the other hand, they remark that if only high-level events are logged, internal structures may remain undiscovered. Consequently, both low-level and high-level usage data need to be tracked and logged. Occasionally, when the log data don't supply enough information for interpretation, contextual information is needed. Generally it requires a significant amount of effort and vigilance to be able to gather all the essential data to be analyzed. \cite{RefWorks:24}
 
 \begin{figure}[H]
-  	\centering
-  	\includegraphics[width=0.8\textwidth]{./images/logging_usability_process.png}
+  	\centerline{
+  	\includegraphics[width=1.0\textwidth]{./images/logging_usability_process.png}
+  	}
   	\caption{Process for log-based usability evaluation. \cite{RefWorks:24}}
 	\label{fig:logging_usability_process}
 \end{figure}
@@ -931,8 +939,9 @@ After the data has been collected the screenshots need to be arranged in the chr
 Next, the screenshots need to be modified and important details highlighted. Finally, the sequence numbers and  detailed description texts should be attached to the screenshots in order to give a profound understanding about the actions. The outcome of the method is an extensive illustration of the interaction sequence, information about the usability of the system, and about it's effectiveness of use. \cite{RefWorks:17}
 	
 \begin{figure}[H]
-  	\centering
-  	\includegraphics[width=1.1\textwidth]{./images/isi_chart.png}
+  	\centerline{
+  	\includegraphics[width=1.3\textwidth]{./images/isi_chart.png}
+  	}
   	\caption{Interaction Sequence Illustration stages and outcomes.}
 	\label{fig:isi_chart}
 \end{figure}
@@ -975,8 +984,9 @@ This chapter contains description about the principles of human-centered design.
 
 
 \begin{figure}[H]
-  	\centering
-    	\includegraphics[width=1.0\textwidth]{./images/lm_process.png}
+  	\centerline{
+    	\includegraphics[width=1.2\textwidth]{./images/lm_process.png}
+    	}
   	\caption{Human-centered design as a part of in-house software development process.\cite{RefWorks:16}}
 	\label{fig:lm_process}
 \end{figure}
@@ -1030,11 +1040,14 @@ The applied human-centered design activities described in this section could be 
 Altogether, the only changes between the initial iteration of the applied human-centered design and the following iterations would be that the Interaction Sequence Illustration would (possibly) get decommissioned and the other methods would be used from slightly different perspectives. 
 
 \begin{figure}[H]
-  	\centering
-    	\includegraphics[width=1.0\textwidth]{./images/applied_hcd_process.png}
+  	\centerline{
+    	\includegraphics[width=1.3\textwidth]{./images/applied_hcd_process.png}
+    	}
   	\caption{Relations between human-centered design process stages, methods utilized in the thesis and the implementation stages of the thesis.}
 	\label{fig:hcd_process}
 \end{figure}
+
+
 
 \section{Practical implementation of the applied design process}
  \label{sec:implementation}
@@ -1136,7 +1149,7 @@ The figure \ref{fig:protooneimg} demonstrates the main customer level window of 
 \begin{figure}[H]
 
   	\centerline{
-    	   \includegraphics[width=1.4\textwidth]{./images/proto_main.png}
+    	   \includegraphics[width=1.3\textwidth]{./images/proto_main.png}
     	   }
   	   \caption{Screenshot of the prototype's ERP component 1.}
 	   \label{fig:protooneimg}
@@ -1146,7 +1159,7 @@ The screenshot \ref{fig:prototwoimg} shows the user interface of the invoicing c
 
 \begin{figure}[H]
   	\centerline{
-    	   \includegraphics[width=1.4\textwidth]{./images/proto_invoicing.png}
+    	   \includegraphics[width=1.3\textwidth]{./images/proto_invoicing.png}
     	   }
   	   \caption{Screenshot of  the prototype's ERP component 2.}
 	   \label{fig:prototwoimg}
@@ -1170,10 +1183,10 @@ The third category contained qualities which were found particularly functional.
 
 The results of the Interaction Sequence Illustration from the second evaluation round indicates that there are total of nine different interaction stages in the prototype, which is one stage less than in the present system. Because of the lack of the real data, only the maximum amounts of interaction steps could be calculated. The maximum number of possible interaction steps on the main customer level in the prototype was 54 steps which is  29 less than the possible interaction steps of the current system. Also, the maximum amount of interaction steps on invoicing customer and delivery customer levels were 47 and 38, comparison to the present systems 83 on both levels. In general, the amount of interaction steps required in customer creation process is evidently decreased with the prototype solution.
 
- The System Usability Scale score from the second evaluation round with the Swedish users was 74.17, which indicates significant increase in the score comparing to the corresponding score of the current ERP system. The results strengthens the perception of the earlier results indicating improvements in the usability of the user interface. 
+The System Usability Scale score from the second evaluation round with the Swedish users was 74.17, which indicates significant increase in the score comparing to the corresponding score of the current ERP system. The results strengthens the perception of the earlier results indicating improvements in the usability of the user interface. 
  
- The evaluation of the remote usability logging proved to be impossible because of the lack of real-life usage of the prototype. However, it seems that it is possible to track the usability and efficiency quite well with the library.
--ISI, SUS, Remote usability  logging.
+The evaluation of the remote usability logging proved to be impossible because of the lack of real-life usage of the prototype. However, as a result it seems that it is possible to track the usability and the efficiency of use with the created library. The library was attached to the source code of the prototype and the results were positive. The library functioned correctly, saving all the relevant data of the evaluation sessions. For example, a main customer level creation session, tracked data of the empty main customer object in the beginning of the session and with the data in the end of the session. From the data, it is possible and effortless to analyze that the session in question, was a main customer creation session. Also, session's starting time, ending time the user reference were tracked. In addition to session data, event usability logging proved to be functional. Details such as feature name, object data in the beginning and in the end of the event were tracked successfully, together with the consumed time and session references. For example, from the main customer creation session, the events of modifying contact data were tracked successfully with the specific details about the contact and the edited features. Basically, all the interaction steps of the events were tracked with the timestamps, user information, feature information and session references.
+
 
 
 
@@ -1254,26 +1267,85 @@ The results of the Interaction Sequence Illustration from the second evaluation 
 
 
 
-    \section{Implementation analysis}
-    \label{sec:implementationanalysis}
+
+
+\section{Functionality of the methods in the context of study}
+The applied methods were chosen according to their practicality and suitability to the study context (see chapter \ref{chapter:methods}). The suitability to study context referred to the methods' adaptability to the human-centered design activities and thereby possibly to the subscriber company's software development process. However, the evaluations and the results indicate that not all of the applied methods were suitable for this specific case. On the other hand, a few of the methods generated significant amount of beneficial usability data. 
+
+Probably the successful method was Contextual Inquiry resulting specific and easily exploitable data. Applying the method remotely (Remote Contextual Inquiry) didn't have an affect on the efficiency of the evaluation. This may be derived from the in-house development perspective, which made it easier to interview the users in a natural and comfortable manner. Additionally, the remote inquiries were planned carefully, so that the technological problems were minimized. However, it is possible that Remote Contextual Inquiry wouldn't create that great benefit, comparing to the traditional Contextual Inquiry, in some other context of study. Inquiries were applied in three stages of the human-centered design (Understand and specify the context of use, specify the user requirements and evaluate the designs against requirements) and produced beneficial results from every one of them. Additionally, the methods gave a great insight about the cultural differences between Finnish and Swedish country offices.
+
+Interaction Sequence Illustration was applied also in three human-centered design stages. The method produced a good results giving a deep understanding about the different stages of the examined process. However, because of the varying structure of the customer creation process, the method could not be utilized as widely as general. Moreover, considering the possible future iterations, the effectiveness of the ISI method will slowly fade away, because no significant differences in the process itself will emerge as the development continues. This is why ISI is more functional in a situation where the object or the process of study is static, and when the context of use need to be fully understood. 
+
+The Cognitive Walktrough was applied in two stages of the human-centered design: in specifying the user requirements and evaluating the designs against the requirements. In the study, CW was functional in the first of them. Inspecting the current system functioned well and produced results which were not identified with the other methods. However, the inspection of the prototype, and therefore the stage of evaluating the design against the requirements, didn't yield to any great results. A most remarkable difference between the two inspections were that the analyst was not participated in the development of the current system, but was developing the prototype. This indicates, that if the CW will be applied in a development process, the analyst shouldn't be a developer of the system.  
+
+The System Usability Scale turned out to be practical and quick way of perceiving the level of user satisfaction and the UX. It also provides a good insight of the differences between different cultures. However, in the study, too small small amount of data was gathered. To fully benefit from the method and in order to gain reliable usability data, more people are required to answer the questionnaire, which can be challenging in a small or middle-sized companies. Also, if previous data would be available, it would provide a good baseline for the next evaluations, which would make the results more valuable to the company. Still, the method provides a good general view of the user satisfaction and the benefit it produces, seem to overrule the effort of implementation in the context of in-house software development. The method is applied in three stages of the human-centered design. It is used to understand and specify the context of use, or in this case the level of user satisfaction of the current system. It is also utilized to support the specification of the user requirements (by stating the user satisfaction) and to evaluate the designs against the requirements. The method indicates the differences in user satisfaction between the development iterations. Consequently, it is beneficial for in-house software development and additionally, the response rate is usually significantly high.   
+
+Remote usability logging is applied in one stage of the human-centered design. It was supposed to use to evaluate the designs against the requirement, but because of the lack of previous data, the evaluation became considerably pointless. However, the created library could be used in the future iterations, when there would be comparable data available. As a conclusion, the method will bring value only when the data from at least two iterations are available for comparison. Nevertheless, when at least two iterations are evaluated, the method provides specified data about the usage of the system.
+      
+
+
+
+\section{Answers to the research questions}
+
+The study and the results show, that the applied methods can help to identify critical disparities in the usage of a system. The inquiries revealed most of the disparities, but it is likely that in a long timespan for example System Usability Scale and remote usability logging would reveal more and more differences between the system usage in different country offices. Even though the cultural differences between Finland and Sweden are not that significant, the two evaluation rounds implemented exposed multiple differences in the usage of the system and in the work process itself. It is highly likely that if a more diverse cultures would be joined to the study, the results would have be even more various. 
+
+According to the results, an in-house software development process can benefit from applying the human-centered design. The results indicate, that the usability did improve with the iterative development and that the software development process itself has improved by applying the human-centered design. The improvement is based on increase in the company's Usability Maturity Model level. Evidently, the company's UMM level has increased from level A to the level B. Clearly, level A was a condition for this study, meaning that the organization noticed the need for improving the system's quality of use. The evaluations implemented during the study raised the UMM level to A2, by describing a number of usability activities to be performed and by gathering user requirements. 
+
+The other actions (not related to the study) taken indicates that the company's UMM level has raised to level B. For example,evaluating other processes (in addition to the customer management) has been proposed to be implemented as a part new ERP system development, because of the encouraging amount of requirements gathered from the customer management process. Also, the code library created for the remote usability logging has already been applied in another project. These actions thereby indicates that the quality of use is considered as an important attribute in the development. In general, the transition from the level A to level B designates for cultural change in the company, from experience based to more user-centric development. 
+
+The increase of UMM level also affects on the company's Capability Maturity Model Integration process areas. For example, usability evaluations have an affect on level three and its process areas, such as requirements development (by providing usability related requirements), risk management (by providing more usable and efficient solutions) and validation (by providing usability validations).    
+
+All the changes in the company's maturity levels show that by applying the human-centered actions, the in-house software development process can be improved.
+
     
-    -VARSINAISET TULOKSET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
-    -CI:n ja RCI:n välillä ei huomattavia eroja, jos haastattelut on suunniteltu/toteutettu hyvin ja kaikki toimii. Saattaisi olla hyvin eri asia jos kyseessä olisi ulkopuolinen käyttäjä.
-    -menetelmillä saatiin hyvin esille ruotsin ja suomen erilaisia tarpeita. esim. tavoissa toimia on eroja.
-    -Should these methods be implemented as a part of the process or not.
-    -While writing the thesis, contextual inquiry used as part of requirement definition process of the process..
-    -Answers to research questions.
-         The results of the research may not be suitable for every organization.
+   % -VARSINAISET TULOKSET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+%    -CI:n ja RCI:n välillä ei huomattavia eroja, jos haastattelut on suunniteltu/toteutettu hyvin ja kaikki toimii. Saattaisi olla hyvin eri asia jos kyseessä olisi ulkopuolinen käyttäjä.
+%    -menetelmillä saatiin hyvin esille ruotsin ja suomen erilaisia tarpeita. esim. tavoissa toimia on eroja. but still the differences between two countries are relatively small.
+  -While writing the thesis, contextual inquiry used as part of requirement definition process of the process..
+
   -koska toisellakin kierroksella löytyi ongelmia, voidaan todeta että CI toimii iteratiivisessa kehityksessä,
-  -sales department's contribution is required.
-  -lisää sus dataa tarvitaan. 
-  -isi käy ehkä hyödyttömäksi ajan kanssa. 
-  -ISI stages 10 ja 9
-  -remote logging tarvitsee paljon dataa analyysiä varten.
-  -contexual inquiry ja rci hyviä joka kohdassa.
-  -cw ei ole hyvä muutosten testaamiseen, ainakaan jos testaaja on sama kuin kehittäjä.
-- vielä löytyi ongelmia, implicates that iterations are needed and that 
+
+%  -lisää sus dataa tarvitaan. 
+
+
+%  -remote logging tarvitsee paljon dataa analyysiä varten.
+
+ %% -cw ei ole hyvä muutosten testaamiseen, ainakaan jos testaaja on sama kuin kehittäjä.
+- vielä löytyi ongelmia, implicates that iterations are needed. silti huomattavaa parannusta huomattavissa
 - applied process can improve the umm level and thereby the cmmi level.,
+
+-after the study, ci and remote usability logging have been utilized. 
+
+
+
+%\begin{itemize}
+%\item \textbf{\emph{How usability methods can help to identify critical disparities in the usage of a system?}}
+
+%Understanding the differences in the system's usage between individuals and cultural manners can help to understand and deploy the best practices throughout the organization, identify issues in the system, and thereby increase efficiency.
+
+%\item \textbf{\emph{How applying the human-centered design can improve in-house software development process?}}
+
+%Can the in-house software development process benefit from the principles of human-centered design.
+
+%\item \textbf{\emph{What usability methods can be practically joined with the software development process of an ERP system?}}
+
+%Finding practical and efficient usability methods to be joined with the software development process, can improve the quality and efficiency of the end product, and also raise process' maturity level.
+
+%\end{itemize}
+
+
+\section{Implementation guidelines}
+\label{sec:implementationguidelines}
+-The experiences of implementing usability evaluations as a part of in-house software development were highly positive. The cooperation was remarkably effortless because of the users were part of the developing organization.  
+-pitää muistaa että sisäisesti toteutettavissa ohjelmissa saattaa puuttua fresh opinion
+    -Should these methods be implemented as a part of the process or not.
+-luultavasti helpompaa kuin ulkoisille asiakkaille
+-applied human-centered design process on hyvä in-house software developmentiin mutta kaikkien yritysten tulisi käyttää juuri itselleen sopivia menetelmiä, eli valitsemamme menetelmät eivät toimi kaikille.
+-jokaisen yrityksen tulee valita tarpeisiinsa sopivat menetelmät, kaikki ei toimi kaikille
+recommendations about the methods.
+- applied process can improve the umm level and thereby the cmmi level.,
+-if utilizing cw do not use same persons to develop and inspect.
+
 %When you use \texttt{pdflatex} to render your thesis, you can include PDF images
 %directly, as shown by Figure~\ref{fig:indica_model} below.
 
