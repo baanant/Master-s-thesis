@@ -50,7 +50,7 @@
 \contentsline {section}{\numberline {5.3}Functionality of the methods in the context of study}{55}{section.5.3}
 \contentsline {section}{\numberline {5.4}Answers to the research questions}{57}{section.5.4}
 \contentsline {section}{\numberline {5.5}Implementation guidelines}{58}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusions and discussions}{59}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future work}{59}{section.6.1}
-\contentsline {chapter}{\numberline {A}SUS form}{63}{appendix.A}
-\contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{64}{appendix.B}
+\contentsline {chapter}{\numberline {6}Conclusions and discussions}{60}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future work}{60}{section.6.1}
+\contentsline {chapter}{\numberline {A}SUS form}{64}{appendix.A}
+\contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{65}{appendix.B}
