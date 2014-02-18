@@ -34,7 +34,7 @@
 \contentsline {section}{\numberline {3.5}System Usability Scale}{31}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Numbers behind the System Usability Scale}{31}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}System Usability Scale in practice}{32}{subsection.3.5.2}
-\contentsline {chapter}{\numberline {4}Study outline and implementation}{34}{chapter.4}
+\contentsline {chapter}{\numberline {4}The outline and implementation of the study}{34}{chapter.4}
 \contentsline {section}{\numberline {4.1}Principles of human-centered design}{35}{section.4.1}
 \contentsline {section}{\numberline {4.2}Applied human-centered design process}{36}{section.4.2}
 \contentsline {section}{\numberline {4.3}Practical implementation of the applied design process}{40}{section.4.3}
@@ -42,7 +42,7 @@
 \contentsline {subsection}{\numberline {4.3.2}High-fidelity prototype and remote usability logging library creation}{42}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}The second evaluation round}{43}{subsection.4.3.3}
 \contentsline {chapter}{\numberline {5}Analysis and results}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Methods of analysis}{45}{section.5.1}
+\contentsline {section}{\numberline {5.1}The analysis}{45}{section.5.1}
 \contentsline {section}{\numberline {5.2}Results}{46}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Results of the first evaluation round}{47}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}The demonstration of the prototype}{49}{subsection.5.2.2}
@@ -50,7 +50,7 @@
 \contentsline {section}{\numberline {5.3}Functionality of the methods in the context of study}{55}{section.5.3}
 \contentsline {section}{\numberline {5.4}Answers to the research questions}{57}{section.5.4}
 \contentsline {section}{\numberline {5.5}Implementation guidelines}{60}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusions and discussions}{61}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future work}{61}{section.6.1}
-\contentsline {chapter}{\numberline {A}SUS form}{65}{appendix.A}
-\contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{66}{appendix.B}
+\contentsline {chapter}{\numberline {6}Conclusions and discussions}{62}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future work}{63}{section.6.1}
+\contentsline {chapter}{\numberline {A}SUS form}{67}{appendix.A}
+\contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{68}{appendix.B}

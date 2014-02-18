@@ -595,25 +595,26 @@ The usage of ERP software has increased globally and now even service organizati
 
 Despite the importance of the efficiency aspect, the usability of ERP systems is not a widely researched subject area. However, weaknesses in usability may lead into low productivity and make it harder for users to achieve their goals.\cite{RefWorks:2} 
 
-The aim of this thesis is to examine how the usability of a service-oriented ERP system can be enhanced by integrating usability inquiries, inspections and measures into its software development process. 
+The aim of this thesis is to examine how the usability of a service-oriented ERP system can be enhanced by integrating usability inquiries, inspections and measures into its software development process, and how the in-house software development process itself can be improved by applying these methods.
 
 
-This study examines a customer service related business process, employed in the subscriber company, (described in more detail in section \ref{sec:background}) and evaluates the state of its usability by utilizing a variety of applicable methods:
+This study examines a customer service related business process, employed in the subscriber company, (described in more detail in section \ref{sec:background}) and evaluates its user interface solutions by applying a variety of applicable methods:
 \begin{itemize}
-\item Contextual Inquiry to define the business process and to identify usability issues.
+\item Contextual Inquiry to define the business process, identify usability issues and to gather user requirements.
 \item Cognitive Walkthrough for usability inspection.
 \item Interaction Sequence Illustration (ISI) to measure the rate of interactions and to understand them.
+\item Remote Contextual Inquiry to define the business process, identify usability issues and to gather user requirements in distributed locations.
+\item Remote usability logging to evaluate usability in distributed locations and to gather usability data automatically.
 \item System Usability Scale (SUS) to give a global view of subjective assessments of usability.
-\item Remote usability evaluation (by using log data) to evaluate usability in distributed locations.
 \end{itemize}
 
 \indent According to the ISO standard of human-centered design for interactive systems, many benefits can be gained by using human-centered methods as a part of software development process. The productivity of an individual user can be increased together with the operational efficiency of an organization. Usable and useful systems also reduce training and help-desk costs, as well as stress and discomfort since they are easily understood by the users. In other words, human-centered design improves the UX (User experience). \cite{RefWorks:16}
 
-The benefit of human-centered design (for software development process) is the increased total life cycle of a product, and the likelihood of the project succeeding on time and within the designated budget. The human-centered approach also decrease the risk of software being rejected by the users, or failing to meet the specified requirements. \cite{RefWorks:16}
+The benefit of human-centered design is the increased total life cycle of a product, and the likelihood of the project succeeding on time and within the designated budget. The human-centered approach also decrease the risk of software being rejected by the users, or failing to meet the specified requirements. \cite{RefWorks:16} Thereby, it affects also to the organizations software development process.
 
 \section{Background and research questions}
 \label{sec:background}
-The subscriber of the thesis is a middle-sized company which offers information services globally. The company is utilizing in-house software development in order to create dynamic and bespoke software solutions, and thereby aims for commercial efficiency. Company's software development is not based on any specific software development methodology, but operates in iterative manner. Because of the fast pace of growth, the company is willing to reform their current ERP system together with the whole software development process. The reasoning for the new ERP system is the need to automate processes and to stop the increasing need for the new labor force. The company aims to enhance its performance by fifteen percent with the new system. The examined process in the study is the customer management, or more precisely, the customer creation process  (a reasoning for the selection can be found from the section \ref{sec:implementation}). 
+The subscriber of the thesis is a middle-sized company which offers information services globally. The company is applying in-house software development in order to create dynamic and bespoke software solutions, and thereby aims for commercial efficiency. Company's software development is not based on any specific software development methodology, but operates in iterative manner. Because of the fast pace of growth, the company is willing to reform their current ERP system together with the whole software development process. The reasoning for the new ERP system is the need to automate processes and to stop the increasing need for the new labor force. The company aims to enhance its performance by fifteen percent with the new system. The examined process of the study is the customer management, or more precisely, the customer creation process  (a reasoning for the selection can be found from the section \ref{sec:implementation}). 
 
 In the current ERP system the customership consist of four different levels. The levels are required in order to fulfill the business needs and to separate the customers which are purchasing products or services, from the payers. Also, the customers renewing the orders and the ones receiving the actual deliverables, needs to be separated from the other customer levels. The current system separates the customer levels hierarchically, which enables hierarchical inheritance of the customer preferences. In general, the customer management has a significant role in the business and in the system. Even though the system has been created for the specific business needs, it's inevitably outdated and needs to be updated considering also the usability requirements of the business environment.
 
@@ -672,7 +673,7 @@ Finding practical and efficient usability methods to be joined with the in-house
 \section{Scope and structure of the thesis}
 \label{sec:scope}
 
-This thesis covers a research study about usability of the customer management process, executed in the ERP system, and employed by the customer service department of the subscriber company. This study aims to join the models of software process improvement (SPI) and the human-human centered design and thereby attach usability perspective into the software development process of the subscriber company. It covers only the human-centered perspective of the development process, but not elaborate the others, meaning that the human-centeredness is discussed mostly as an individual part of the software development. However, chapter \ref{chapter:implementation} tries to bind the human-centered approach and the in-house software development process together in a general level. The literature research consists of the SPI, two of its models, and a few usability methods. Even though, the target of the research is an ERP software, literature about Enterprise Resource Planning is not covered in the thesis.
+This thesis covers a research study about the usability of the customer management process, executed in the ERP system, and employed by the customer service department of the subscriber company. This study aims to join the models of software process improvement (SPI) and the human-human centered design and thereby attach usability perspective into the software development process of the subscriber company. It covers only the human-centered perspective of the development process, but not elaborate on others, meaning that the human-centeredness is discussed mostly as an individual part of the software development. However, chapter \ref{chapter:implementation} tries to bind the human-centered approach and the in-house software development process together in a general manner. The literature research consists of the SPI, two of its models, and a few usability methods. Even though, the target of the research is an ERP software, literature about Enterprise Resource Planning is not covered in the thesis.
 
 The first actual chapter (see chapter \ref{chapter:maturitymodels}) of the thesis elucidates the models of software process improvement. The third chapter describes the usability methods used in this thesis in order to improve the software development process. Each of the usability methods used in the study are discussed thoroughly. The fourth chapter introduces the process experiment. It reflects the experiment to the process of human-centered design and the detailed description of the practical part of the study. The fifth chapter describes the analysis of the study and represents the results. It contains the results gathered from the experimental part and the main result, the implementation analysis for the applied human-centered design process. The last chapter discussed and concludes the research study and the whole thesis.
 
@@ -974,8 +975,8 @@ System Usability Scale (see \nameref{app:susform}) is a ten-item \emph{Likert sc
 
 The outcome of SUS is a single value which express the overall system usability. The value of the method consist of all the items and none of them are meaningful as such. System Usability Scale can be calculated by summing the score contribution (range from 0 to 4) 		from each item. Before summing the scale positions, the items 1,3,5,7 and 9 need to be subtracted by one and the items 2,4,6,8 and 10 need to be subtracted from 5. The last step is to multiply the sum of the scores by 2.5 to get the overall SUS value, which will range from minimum of 0 to maximum of 100. \cite{RefWorks:10} The resulting single score is an easy-to-understand measure, and can therefore be discussed with the wide range of stakeholders. \cite{RefWorks:12} 
     
-\chapter{Study outline and implementation}
-\chaptermark{Study outline and implementation}
+\chapter{The outline and implementation of the study}
+\chaptermark{Outline and implementation}
 \label{chapter:implementation}
 
 According to the ISO standard 9241-210, human-centered design consist a few activities and iterative process (see Figure \ref{fig:hci_process}). \cite{RefWorks:16} The empirical part of the master's thesis adapts human-centered design principles. The steps of the process experiment are highly linked to its activities. The rationale for adapting human-centered design is to study how standardized human-centered activities fit in the company's software development process. The human-centered design and the selected methods are represented as a part of software development process in figure \ref{fig:lm_process}. It also defines the fundamental idea behind the master's thesis: Trying to improve in-house software development process by introducing human-centered activities and methods.
@@ -1092,9 +1093,9 @@ The overall analysis of the second evaluation round was made after all the evalu
 \chapter{Analysis and results}
 \label{chapter:analysis}
 
-This chapter summarizes the thesis and presents the results. The first section of the chapter describes the utilized analysis practices, whereas the second section summarizes the results of the usability evaluations and presents the created user interface prototype solution. The last section of the chapter answers the research questions and discusses the implementation possibilities of the applied human-centered design process. 
+This chapter summarizes the thesis work and presents the results. The first section of the chapter describes the applied analysis practices, whereas the second section summarizes the results of the usability evaluations and presents the created user interface prototype solution. The last section of the chapter answers the research questions and discusses the implementation possibilities of the applied human-centered design process. 
 
-\section{Methods of analysis}
+\section{The analysis}
 \label{sec:analysismethods}
 The analysis was implemented in two phases adapting the two evaluation rounds of the present ERP system and the new prototype. The first analysis was completed after the first evaluation and before designing the prototype. The focus on the Contextual Inquiry and the Remote Contextual Inquiry analyzes were on understanding the context of use and the ways users are applying the current ERP system. Affinity diagrams were chosen to act as data displays for the analysis and the gathered study material (videos, recordings, photos and notes) were examined and organized into wider categories which implicated the results of the first inquiries. 
 
@@ -1308,7 +1309,7 @@ The results of the Cognitive Walktrough evaluations were not particularly except
 
 The remote usability logging did not produce any analyzable data, which is why the practicality and utility of the method is infeasible to estimate. The method needs to be attached to the production environment in order to gather beneficial data, which also requires analysis. Only then the functionality of the method as a part of the in-house software development process can  be assessed. However, the designed remote logging library is effortless to attach to any process or user interface solution, and significant amount of data can be acquired automatically. The in-house approach also enables the data acquisition without any privacy or legislation issues. Because of its simplicity, remote usability logging can be practically joined with the development process of an  ERP system. Still, longer iterative usability tracking is required to confirm the usefulness of the method.
 
-As a summary, the recommended usability methods for the subscriber company's applied human-centered design process would be the following: Contextual Inquiry and Remote Contextual Inquiry to understand the context of use, discover cultural differences in usage, and to define and redefine the user requirements. System Usability Scale to get the subjective ratings about the usability and an overview about the user satisfaction. Remote usability logging to gather hidden usability, performance and usage data to be exploited in the software development. Interaction Sequence Illustration to document and understand the static business processes in the beginning of the development.
+As a summary, the recommended usability methods for the subscriber company's applied human-centered design process would be the following: Contextual Inquiry and Remote Contextual Inquiry to understand the context of use, discover cultural differences in usage, and to define and redefine the user requirements. System Usability Scale to get the subjective ratings about the usability and an overview about the user satisfaction. Remote usability logging to gather hidden usability, performance and usage data to be exploited in the software development. In addition to the recommended methods, the subscriber company could seek for new methods to support the applied human-centered design as a part of the in-house software development and in order to find the best and most suitable combination of methods.
  
 
       
@@ -1360,21 +1361,37 @@ As a summary, the recommended usability methods for the subscriber company's app
 \section{Implementation guidelines}
 \label{sec:implementationguidelines}
 
--The experiences of implementing usability evaluations as a part of in-house software development were highly positive. The cooperation was remarkably effortless because of the users were part of the developing organization.  
--pitää muistaa että sisäisesti toteutettavissa ohjelmissa saattaa puuttua fresh opinion
+The experiences of implementing usability evaluations as a part of in-house software development process were highly positive. The users being part of the development organization has great advantages over the development for external users. The users can be approached easily and therefore the feedback and data can be gathered easily. However, there are some matters to be considered before the implementation of the applied human-centered design. 
 
-    -Should these methods be implemented as a part of the process or not.
--luultavasti helpompaa kuin ulkoisille asiakkaille
--applied human-centered design process on hyvä in-house software developmentiin mutta kaikkien yritysten tulisi käyttää juuri itselleen sopivia menetelmiä, eli valitsemamme menetelmät eivät toimi kaikille.
--jokaisen yrityksen tulee valita tarpeisiinsa sopivat menetelmät, kaikki ei toimi kaikille
-recommendations about the methods: kolme menetelmääö
-- applied process can improve the umm level and thereby the cmmi level.,
--also other aspects of the software development process should be considered carefully. 
--if utilizing cw do not use same persons to develop and inspect.
--not necessary to implement so high details prototypes. mockups could be enough if development is iterative.
--umm levels should be achieved systematically.
--yleisesti in-house helpottaa evaluointia
--voidaan toteuttaa tehokkaammin ja yksinkertaisemmin ja säästeliäämmin.
+Even though the in-house software development benefits greatly from the contribution of internal users, they might lack of fresh ideas. This is why it is important not to forget to think outside the box and not to comply only with the old practices.  
+It is also advisable to remember that the methods implemented in the study might not be suitable for all companies. Every company applying the human-centered design should select the methods most suitable for their needs. 
+
+It is crucial not to forget the other aspects of the software development process. The applied human-centered design can assist a company to improve their Usability Maturity Model level and therefore to improve the Capability Maturity Model Integration level. An improvement in both of the models represents improvements in in-house software development process. However, in order to improve the software development as a whole, several other aspects should be considered as well and the higher levels of two maturity models should be pursued systematically.
+
+In general, the evaluations could be implemented more efficiently and more simply than was done in the thesis work. In the case of the subscriber company, the inquiries and the SUS questionnaire should be applied in every country office in order to find more detailed information about the cultural differences and also to gather more reliable usability data. The remote usability logging should be utilized, from the beginning of the new ERP system development, meaning that the library should be referenced in the code in an iterative manner. This way the implications of changes could be tracked efficiently and the functionality of the method could be defined in more detail. Additionally, the prototype designs created in the later stages of the development or from the other processes (than customer management), can be implemented in a lower level of detail. For example mock-ups and paper prototyping could be utilized in order to accomplish the same results as with the high-fidelity prototype, but only faster. In general, the usability evaluations and human-centered design activities should be kept as agile and efficient as possible, in order for them to create a real value for the in-house software development process.  
+ 
+ % - jalkauttaa kaikkialle.
+%-applied human-centered design process on hyvä in-house software developmentiin mutta kaikkien yritysten tulisi käyttää juuri itselleen sopivia menetelmiä, eli valitsemamme menetelmät eivät toimi kaikille.
+%- applied process can improve the umm level and thereby the cmmi level.,
+%-voidaan toteuttaa tehokkaammin ja yksinkertaisemmin ja säästeliäämmin.
+%-umm levels should be achieved systematically.
+%-not necessary to implement so high details prototypes. mockups could be enough if development is iterative.
+
+%-The experiences of implementing usability evaluations as a part of in-house software development were highly positive. The cooperation was remarkably effortless because of the users were part of the developing organization.  
+%-pitää muistaa että sisäisesti toteutettavissa ohjelmissa saattaa puuttua fresh opinion
+%
+%    -Should these methods be implemented as a part of the process or not.
+%-luultavasti helpompaa kuin ulkoisille asiakkaille
+
+%-jokaisen yrityksen tulee valita tarpeisiinsa sopivat menetelmät, kaikki ei toimi kaikille
+%recommendations about the methods: kolme menetelmääö	
+%
+%
+%-if utilizing cw do not use same persons to develop and inspect.
+%
+%
+%-yleisesti in-house helpottaa evaluointia
+
 
 %When you use \texttt{pdflatex} to render your thesis, you can include PDF images
 %directly, as shown by Figure~\ref{fig:indica_model} below.
@@ -1547,6 +1564,16 @@ recommendations about the methods: kolme menetelmääö
 
 \chapter{Conclusions and discussions}
 \label{chapter:conclusion}
+
+In this research study, the aim was to examine the subscriber company's customer management process in their current Enterprise Resource Planning system, and to discover its usability issues and define user requirements for the future system. 
+However, the biggest goal of the study was to find out if the organization's in-house software development process could be improved by applying human-centered design activities.
+
+The study consisted several stages. Firstly, literature about the topic was studied and a set of usability methods were adapted into different human-centered design activities. Secondly, the current ERP system was studied and evaluated by applying the methods and by analyzing the usability data. Then, a prototype was created according to the findings from the evaluations, and finally the prototype was evaluated again. The practical actions of the study were implemented in an iterative manner and according to the applied human-centered design activities.
+
+The results were versatile and they consisted of usability issues, user requirements, user interface prototype, remote usability logging code library and recommendations of which methods the subscriber company could utilize in order to improve their software development process. Additionally, the gathered results indicate that the in-house software development process can be improved by applying human-centered activities, but the level of improvement depends on the project, selected methods and the previous maturity levels of the company. 
+
+In general, the study was successful but it emerged that some of the applied usability methods were not suitable for the studied business process and for the iterative in-house software development of an ERP system. 
+
 -tutkimus kootaan yhteen ja vedetään päätelmät tuloksiin perustuen. 
 arvioidaan tutkimuksen onnistumista.
 -in-house software development process  can be improved with human-centered activities, how much and with what methods, depends on company and project and the maturity levels of the company.
@@ -1568,6 +1595,14 @@ jos käytetään hcd:tä ja menetelmiä voidaan päästä eteenpäin umm tasoill
 	-from the company's point of view, new methods should be tried, more data required for old ones. 
 	-in-house environment requires cost-efficient, easily implementable methods.
 	-another methods could be applied in the in-house software development process improvement if they work any better in closed environment (because in-house development gives more possibilities than traditional customer supplier situation.)
+	
+	
+%	
+%	5.4. Pohdinta ja johtopäätökset
+%Työn luonteesta ja laajuudesta riippuen työselostuksen lopussa on luku ”Johtopäätökset” tai kaksi erillistä lukua, esim. ”Pohdinta” ja ”Johtopäätökset”. Pohdinnassa tarkastellaan mm. teorian ja mittausten yhteensopivuutta ja syitä mahdollisiin eroihin. Tässä yhteydessä voidaan pohtia tarvittavia jatkotutkimuksia sekä tulosten hyödyntämismahdollisuuksia. Johtopäätöksinä esitellään ensi sijassa vain lopulliset tulokset; mitä seikkoja kirjoittaja katsoo omilla tutkimuksillaan saaneensa selville ja miten nämä liittyvät kirjallisuudessa esitettyihin asioihin. Tuloksia on pyrittävä vertaamaan mahdollisiin aikaisemmin julkaistuihin tutkimuksiin.
+%5.5. Yhteenveto
+%Yhteenvedossa selostetaan ja kuvataan lyhyesti koko työn kulku työn aiheesta saavutettuihin tuloksiin ja niistä tehtyihin päätelmiin asti. Asioita, joihin on kiinnitetty huomiota johdannossa, käsitellään uudelleen yhteenvedossa. Eli onko asetetut tavoitteet saavutettu, tehtiinkö niin kuin suunniteltiin jne.
+%Lopussa voidaan pohtia mahdollisten jatkoselvitysten tarvetta. Jos arviointia ja/tai jatkokehitystä on esitetty laajasti, ne voidaan kerätä myös omaan lukuunsa. Uusia
 %At this point, you will have some insightful thoughts on your implementation
 %and you may have ideas on what could be done in the future.
 %This chapter is a good place to discuss your thesis as a whole and to show your
