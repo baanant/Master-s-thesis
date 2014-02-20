@@ -51,6 +51,6 @@
 \contentsline {section}{\numberline {5.4}Answers to the research questions}{57}{section.5.4}
 \contentsline {section}{\numberline {5.5}Implementation guidelines}{60}{section.5.5}
 \contentsline {chapter}{\numberline {6}Conclusions and discussions}{62}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future work}{63}{section.6.1}
-\contentsline {chapter}{\numberline {A}SUS form}{67}{appendix.A}
-\contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{68}{appendix.B}
+\contentsline {section}{\numberline {6.1}Future work}{64}{section.6.1}
+\contentsline {chapter}{\numberline {A}SUS form}{68}{appendix.A}
+\contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{69}{appendix.B}
