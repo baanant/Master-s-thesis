@@ -222,7 +222,7 @@
 
 
 
-\usepackage[mydraft]{aalto-thesis}
+\usepackage{aalto-thesis}
 \usepackage{pdfpages}
 
 % Hyperref
@@ -270,8 +270,8 @@
 %\newcommand{\SUBTITLE}{Subtitle}
 %\newcommand{\FSUBTITLE}{Alaotsikko}
 %\newcommand{\SSUBTITLE}{Lilla Vargens universum}
-\newcommand{\DATE}{June 5, 2013}
-\newcommand{\FDATE}{5. kesäkuuta 2013}
+\newcommand{\DATE}{March 2, 2014}
+\newcommand{\FDATE}{2. maaliskuuta 2014}
 %\newcommand{\SDATE}{Den 18 Juni 2011}
 
 % Supervisors and instructors
@@ -324,8 +324,8 @@
 %\newcommand{\SPROFESSORSHIP}{Datakommunikationsprogram}
 % Professorship code is the same in all languages
 \newcommand{\PROFCODE}{T-121}
-\newcommand{\KEYWORDS}{Usability, ERP, Software development process, Process measurement, Cognitive Walkthrough, Remote usability evaluation, Automatic usability logging, SUS, Contextual Inquiry, ISI, Software process improvement}
-\newcommand{\FKEYWORDS}{Käytettävyys, ERP, Ohjelmistokehitysprosessi, Prosessimittaus, Kognitiivinen läpikäynti, Käytettävyyden etäarviointi, Automaattinen käytettävyyslokitus, SUS, Kontekstuaalinen tutkimus, ISI, Ohjelmistoprosessin kehitys}
+\newcommand{\KEYWORDS}{Usability, User interface, ERP, Software development process, Process measurement, Cognitive Walkthrough, Remote usability evaluation, Automatic usability logging, SUS, Contextual Inquiry, ISI, Software process improvement, RCI, Usability Maturity Model, CMMI}
+\newcommand{\FKEYWORDS}{Käytettävyys, Käyttöliittymä, ERP, Ohjelmistokehitysprosessi, Prosessimittaus, Kognitiivinen läpikäynti, Käytettävyyden etäarviointi, Automaattinen käytettävyyslokitus, SUS, Kontekstuaalinen tutkimus, ISI, Ohjelmistoprosessin kehitys, RCI, Käytettävyyden kypsyysmalli, CMMI}
 %\newcommand{\SKEYWORDS}{omsättning, kassaflöde, värdepappersmarknadslagen,
 %yrkesutövare, intresseföretag, verifieringskedja}
 \newcommand{\LANGUAGE}{English}
@@ -386,7 +386,7 @@
 % have a hyphen in them (for example, if you write ``structure-modification
 % operation'', the word structure-modification will never be hyphenated).
 % You need a special package to hyphenate those words.
-\hyphenation{di-gi-taa-li-sta yksi-suun-tai-sta ana-ly-sis pro-duct imp-le-men-ta-ti-on o-pe-ra-ti-o-nal}
+\hyphenation{di-gi-taa-li-sta yksi-suun-tai-sta ana-ly-sis pro-duct imp-le-men-ta-ti-on o-pe-ra-ti-o-nal u-sa-bi-li-ty}
 
 
 
@@ -416,7 +416,19 @@
 % Abstract in English
 % ------------------------------------------------------------------
 \thesisabstract{english}{
--
+This study examines the possibility to improve in-house software development process by applying the ISO standard  (ISO 9241-210 Human-centered design for interactive systems) in the development of an Enterprise Resource Planning (ERP) system. Improvement of the process is tried to identify by comparing the Usability Maturity Model (UMM) and Capability Maturity Model Integration (CMMI) levels before and after the applied human-centered design is attached as a part of the software development process. The study also aims to define a suitable set of usability methods which can be attached to the in-house software development process, and used to identify possible cultural differences in the usage of the ERP system.
+
+A set of usability methods are joined with the human-centered design activities. A process of the ERP system is then examined by applying the principles of human-centered design and the usability methods. Firstly, a subset of methods is used to understand and specify the process's context of use, and to specify the user requirements. Secondly, mock-ups and a high-fidelity prototype are created to produce design solutions to meet user requirements. Finally, the created designs are evaluated against the user requirements by utilizing a subset of evaluation methods.  
+
+The results are diverse. Applying the usability methods as a part of human-centered design activities produced wide scale of usability issues and requirements, as well as identified cultural differences in the usage of the system. Additionally, the study resulted a source code for remote usability logging, mock-ups, a prototype and recommendations about the utilization of the methods. However, the main result of the study is a conclusion that the Usability Maturity Model and Capability Maturity Model Integration levels can be increased, and thereby in-house software development process can be improved, by applying the human-centered design activities and usability methods.
+ 
+%Tiivistelmä palvelee tiedonhakua ja tietojen välittämistä tietojärjestelmiin. Se
+%selvittää lukijalle suppeassa muodossa diplomityön sisällön. Tiivistelmä on
+%itsenäinen esitys, joka on ymmärrettävissä ilman täydentävää tekstiä. Siinä ei saa
+%olla viittauksia muuhun tekstiin eikä tietoa, jota ei käsitellä varsinaisessa tekstissä.
+%Tiivistelmästä käy ilmi työn aihepiiri, keskeinen sisältö, saadut tulokset ja päätelmät.
+%Tiivistelmän ohjepituus on 200 sanaa. Harvinaisten termien ja lyhenteiden käyttöä on
+%vältettävä.
 %\fixme{Abstract text goes here (and this is an example how to use fixme).}
 %Fixme is a command that helps you identify parts of your thesis that still
 %require some work. When compiled in the custom \texttt{mydraft} mode, text
@@ -439,7 +451,16 @@
 % Abstract in Finnish
 % ------------------------------------------------------------------
 \thesisabstract{finnish}{
--
+Tässä työssä tutkitaan mahdollisuutta parantaa yrityksen sisällä tapahtuvaa ohjelmistokehitysprosessia hyödyntämällä ISO standardia (ISO 9241-210 Ihmisen ja järjestelmän vuorovaikutuksen ergonomia) toiminnanohjausjärjestelmän kehityksessä. Kehitys on pyritty havaitsemaan vertaamalla käytettävyyden ja tuotekehityksen kypsyysmallien tasoa ennen kuin ihmisläheisen suunnittelun toiminnot on lisätty ohjelmistokehitysprosessiin ja sen jälkeen. Lisäksi tutkielmassa pyritään määrittelemään joukko käytettävyysmenetelmiä, jotka voidaan vaivattomasti liittää osaksi yrityksen sisäistä ohjelmistokehitysprosessia, ja joilla voidaan havaita mahdolliset toiminnanohjausjärjestelmän käytössä ilmenevät kulttuurierot.
+
+Tutkielmassa joukko käytettävyysmenetelmiä on liitetty ihmisläheisen suunnittelun perustoimintoihin, jonka jälkeen yhtä toiminnanohjausjärjestelmän prosesseista on tutkittu soveltaen ihmisläheisen suunnittelun periaatteita ja käytettävyysmenetelmiä. Aluksi osaa käytettävyysmenetelmistä hyödynnetään käyttökontekstin ymmärtämiseksi ja käyttettävyysvaatimuksien määrittelemiseksi. Sen jälkeen luodaan käyttöliittymämalleja ja korkean tason prototyyppi käytettävyysvaatimusten mukaisesti. Lopuksi tutkielmassa arvioidaan käytettävyysmenetelmien avulla vastaavatko käyttöliittymämallit käytettävyysvaatimuksiin. 
+
+Työn tulokset ovat moninaiset. Käytettävyysmenetelmien hyödyntämisellä ihmisläheisen suunnittelun osana saatiin esille suuri joukko käytettävyysongelmia, käytettävyysvaatimuksia ja kulttuurieroja järjestelmän käytöstä. Lisäksi työssä toteuttettiin ohjelmakoodi automaattiseen käytettävyystapahtumien kirjaamiseen, sekä käyttöliittymämalleja ja korkean tason käyttöliittymäprototyyppi. Lisäksi työssä annetaan suositukset hyödynnettyjen käytettävyysmenetelmien käyttöön. Tutkielman tärkein tulos lienee kuitenkin johtopäätös siitä, että käytettävyyden ja tuotekehityksen kypsyysmallien tasoa ja siten yrityksen sisällä tapahtuvaa ohjelmistokehitysprosessia voidaan kehittää hyödyntämällä ihmisläheisen suunnittelun periaatteita ja käytettävyysmenetelmiä.
+%This study examines the possibility to improve in-house software development process by applying the ISO standard Human-centered design for interactive systems, in the development of an Enterprise Resource Planning (ERP) system. Improvement of the process is tried to identify by comparing the Usability Maturity Model (UMM) and Capability Maturity Model Integration (CMMI) levels before and after the applied human-centered design is attached as a part of the software development process. The study also aims to define a suitable set of usability methods which can be attached to the in-house software development process, and used to identify possible cultural differences in the usage of the ERP system.
+%
+%A set of usability methods are joined with the human-centered design activities. A process of the ERP system is then examined by applying the principles of human-centered design and the usability methods. Firstly, a subset of methods is used to understand and specify the process's context of use, and to specify the user requirements. Secondly, mock-ups and a high-fidelity prototype are created to produce design solutions to meet user requirements. Finally, the created designs are evaluated against the user requirements by utilizing a subset of evaluation methods.  
+%
+%The results are diverse. Applying the usability methods as a part of human-centered design activities produced wide scale of usability issues and requirements, as well as identified cultural differences in the usage of the system. Additionally, the study resulted a source code for remote usability logging, mock-ups, a prototype and recommendations about the utilization of the methods. However, the main result of the study is a conclusion that the Usability Maturity Model and Capability Maturity Model Integration levels can be increased, and thereby in-house software development process can be improved, by applying the human-centered design activities and usability methods.
 }
 
 % Abstract in Swedish
