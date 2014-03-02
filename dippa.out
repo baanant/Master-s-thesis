@@ -10,7 +10,7 @@
 \BOOKMARK [1][-]{section.2.2}{2.2 Usability Maturity Model}{chapter.2}% 10
 \BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Maturity levels of the model}{section.2.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Level transitions}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Utilization of the model}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Model application}{section.2.2}% 13
 \BOOKMARK [0][]{chapter.3}{3 Methods for user-centered software process improvement}{}% 14
 \BOOKMARK [1][-]{section.3.1}{3.1 Remote usability logging}{chapter.3}% 15
 \BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Evaluation process}{section.3.1}% 16
@@ -18,7 +18,7 @@
 \BOOKMARK [1][-]{section.3.2}{3.2 Contextual Inquiry}{chapter.3}% 18
 \BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Fundamentals of Contextual Inquiry}{section.3.2}% 19
 \BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Contextual Inquiry interviews}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Analysing the data}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Data analysis}{section.3.2}% 21
 \BOOKMARK [2][-]{subsection.3.2.4}{3.2.4 Remote Contextual Inquiry}{section.3.2}% 22
 \BOOKMARK [1][-]{section.3.3}{3.3 Cognitive Walkthrough}{chapter.3}% 23
 \BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Fundamentals of Cognitive Walkthrough}{section.3.3}% 24
@@ -26,27 +26,28 @@
 \BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Analysis}{section.3.3}% 26
 \BOOKMARK [1][-]{section.3.4}{3.4 Interaction Sequence Illustration}{chapter.3}% 27
 \BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Description of the Interaction Sequence Illustration}{section.3.4}% 28
-\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 Utilization of the Interaction Sequence Illustration}{section.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 Application of the Interaction Sequence Illustration}{section.3.4}% 29
 \BOOKMARK [1][-]{section.3.5}{3.5 System Usability Scale}{chapter.3}% 30
 \BOOKMARK [2][-]{subsection.3.5.1}{3.5.1 Numbers behind the System Usability Scale}{section.3.5}% 31
-\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2 System Usability Scale in practice}{section.3.5}% 32
-\BOOKMARK [0][]{chapter.4}{4 The outline and implementation of the study}{}% 33
+\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2 Practical implementation}{section.3.5}% 32
+\BOOKMARK [0][]{chapter.4}{4 Outline and implementation of the study}{}% 33
 \BOOKMARK [1][-]{section.4.1}{4.1 Principles of human-centered design}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.2}{4.2 Applied human-centered design process}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.2}{4.2 Applied human-centered design process plan}{chapter.4}% 35
 \BOOKMARK [1][-]{section.4.3}{4.3 Practical implementation of the applied design process}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 The first evaluation round}{section.4.3}% 37
-\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 High-fidelity prototype and remote usability logging library creation}{section.4.3}% 38
-\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 The second evaluation round}{section.4.3}% 39
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Current system evaluation}{section.4.3}% 37
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 High-fidelity prototype and remote usability logging library implementation}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 Prototype evaluation}{section.4.3}% 39
 \BOOKMARK [0][]{chapter.5}{5 Analysis and results}{}% 40
-\BOOKMARK [1][-]{section.5.1}{5.1 The analysis}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.2}{5.2 Results}{chapter.5}% 42
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Results of the first evaluation round}{section.5.2}% 43
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 The demonstration of the prototype}{section.5.2}% 44
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Results of the second evaluation round}{section.5.2}% 45
+\BOOKMARK [1][-]{section.5.1}{5.1 Analysis description}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.2}{5.2 Study results}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Results of the current system evaluation}{section.5.2}% 43
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Demonstration of the prototype}{section.5.2}% 44
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Results of the prototype evaluation}{section.5.2}% 45
 \BOOKMARK [1][-]{section.5.3}{5.3 Functionality of the methods in the context of study}{chapter.5}% 46
 \BOOKMARK [1][-]{section.5.4}{5.4 Answers to the research questions}{chapter.5}% 47
 \BOOKMARK [1][-]{section.5.5}{5.5 Implementation guidelines}{chapter.5}% 48
-\BOOKMARK [0][]{chapter.6}{6 Conclusions and discussions}{}% 49
-\BOOKMARK [1][-]{section.6.1}{6.1 Future work}{chapter.6}% 50
-\BOOKMARK [0][]{appendix.A}{A SUS form}{}% 51
-\BOOKMARK [0][]{appendix.B}{B Contextual Inquiry: Study plan}{}% 52
+\BOOKMARK [0][]{chapter.6}{6 Conclusions and future work}{}% 49
+\BOOKMARK [1][-]{section.6.1}{6.1 Conclusions of the study}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.2}{6.2 Future work}{chapter.6}% 51
+\BOOKMARK [0][]{appendix.A}{A SUS form}{}% 52
+\BOOKMARK [0][]{appendix.B}{B Contextual Inquiry: Study plan}{}% 53

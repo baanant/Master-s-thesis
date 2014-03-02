@@ -14,7 +14,7 @@
 \contentsline {section}{\numberline {2.2}Usability Maturity Model}{14}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Maturity levels of the model}{15}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Level transitions}{16}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Utilization of the model}{17}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Model application}{17}{subsection.2.2.3}
 \contentsline {chapter}{\numberline {3}Methods for user-centered software process improvement}{18}{chapter.3}
 \contentsline {section}{\numberline {3.1}Remote usability logging}{18}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Evaluation process}{19}{subsection.3.1.1}
@@ -22,7 +22,7 @@
 \contentsline {section}{\numberline {3.2}Contextual Inquiry}{21}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Fundamentals of Contextual Inquiry}{22}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Contextual Inquiry interviews}{23}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Analysing the data}{24}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Data analysis}{24}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Remote Contextual Inquiry}{25}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}Cognitive Walkthrough}{26}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Fundamentals of Cognitive Walkthrough}{26}{subsection.3.3.1}
@@ -30,27 +30,28 @@
 \contentsline {subsection}{\numberline {3.3.3}Analysis}{28}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Interaction Sequence Illustration}{29}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Description of the Interaction Sequence Illustration}{29}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Utilization of the Interaction Sequence Illustration}{30}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Application of the Interaction Sequence Illustration}{30}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}System Usability Scale}{31}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Numbers behind the System Usability Scale}{31}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}System Usability Scale in practice}{32}{subsection.3.5.2}
-\contentsline {chapter}{\numberline {4}The outline and implementation of the study}{34}{chapter.4}
+\contentsline {subsection}{\numberline {3.5.2}Practical implementation}{32}{subsection.3.5.2}
+\contentsline {chapter}{\numberline {4}Outline and implementation of the study}{34}{chapter.4}
 \contentsline {section}{\numberline {4.1}Principles of human-centered design}{35}{section.4.1}
-\contentsline {section}{\numberline {4.2}Applied human-centered design process}{36}{section.4.2}
+\contentsline {section}{\numberline {4.2}Applied human-centered design process plan}{36}{section.4.2}
 \contentsline {section}{\numberline {4.3}Practical implementation of the applied design process}{40}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}The first evaluation round}{41}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}High-fidelity prototype and remote usability logging library creation}{42}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}The second evaluation round}{43}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.1}Current system evaluation}{41}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}High-fidelity prototype and remote usability logging library implementation}{42}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Prototype evaluation}{44}{subsection.4.3.3}
 \contentsline {chapter}{\numberline {5}Analysis and results}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}The analysis}{45}{section.5.1}
-\contentsline {section}{\numberline {5.2}Results}{46}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Results of the first evaluation round}{47}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}The demonstration of the prototype}{49}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Results of the second evaluation round}{53}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.1}Analysis description}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}Study results}{46}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Results of the current system evaluation}{47}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Demonstration of the prototype}{49}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Results of the prototype evaluation}{53}{subsection.5.2.3}
 \contentsline {section}{\numberline {5.3}Functionality of the methods in the context of study}{55}{section.5.3}
 \contentsline {section}{\numberline {5.4}Answers to the research questions}{57}{section.5.4}
 \contentsline {section}{\numberline {5.5}Implementation guidelines}{60}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusions and discussions}{62}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future work}{64}{section.6.1}
+\contentsline {chapter}{\numberline {6}Conclusions and future work}{62}{chapter.6}
+\contentsline {section}{\numberline {6.1}Conclusions of the study}{62}{section.6.1}
+\contentsline {section}{\numberline {6.2}Future work}{64}{section.6.2}
 \contentsline {chapter}{\numberline {A}SUS form}{69}{appendix.A}
 \contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{70}{appendix.B}
