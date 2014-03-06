@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.9.30)  30 SEP 2013 21:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.6.25)  6 MAR 2014 12:10
 entering extended mode
-**C:/Users/baanari/Documents/dippa/diplomityo/ref.bib
-(C:/Users/baanari/Documents/dippa/diplomityo/ref.bib
+**C:/Users/antti.paananen/dippa/diplomityo/ref.bib
+(C:/Users/antti.paananen/dippa/diplomityo/ref.bib
 Overfull \hbox (10.9127pt too wide) in paragraph at lines 3--15
 []\tenrm @bookRefWorks:27, au-thor=Jessamyn Burns Wen-dell and Karen Holtzblatt
  and Shel-ley Wood, year=2004,|
@@ -27,8 +27,56 @@ sing the cog-ni-tive walk-through|
 .\tenrm p
 .etc.
 
+Missing character: There is no Â in font cmr10!
+Missing character: There is no § in font cmr10!
 
-Overfull \hbox (24.80177pt too wide) in paragraph at lines 88--100
+Overfull \hbox (0.46817pt too wide) in paragraph at lines 98--111
+[]\tenrm @inproceedingsRefWorks:34, au-thor=John Rie-man and Marita Franzke and
+ David Red-miles, year=1995,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (30.10736pt too wide) in paragraph at lines 98--111
+\tenrm tion=Denver, Col-orado, USA, pages=387-388, isbn=0-89791-755-3, url=http
+://doi.acm.org/10.1145/223355.223735|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm t
+.\tenrm i
+.\tenrm o
+.\tenrm n
+.\tenrm =
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--111
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+
+Overfull \hbox (10.27374pt too wide) in paragraph at lines 114--120
+[]\tenrm @inproceedingsRefWorks:33, au-thor=K. Fouskas and A. Pateli and D. Spi
+nel-lis and Heli Vi-rola, year=2002,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (24.80177pt too wide) in paragraph at lines 123--135
 \tenrm a prac-ti-tioner's guide, pages=105-140, isbn=0-471-01877-5, url=http://
 dl.acm.org/citation.cfm?id=189200.189214|
 
@@ -41,7 +89,7 @@ dl.acm.org/citation.cfm?id=189200.189214|
 .etc.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--100
+Underfull \hbox (badness 10000) in paragraph at lines 123--135
 
 
 \hbox(0.0+0.0)x469.75499
@@ -49,21 +97,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--100
 
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 ! Missing $ inserted.
 <inserted text> 
                 $
 <to be read again> 
                    _
-l.174 ...p://dx.doi.org/10.1007/978-3-642-25364-5_
-                                                  13}
+l.204 ...p://dx.doi.org/10.1007/978-3-642-02806-9_
+                                                  12}
 ? 
 ! Emergency stop.
 <inserted text> 
                 $
 <to be read again> 
                    _
-l.174 ...p://dx.doi.org/10.1007/978-3-642-25364-5_
-                                                  13}
+l.204 ...p://dx.doi.org/10.1007/978-3-642-02806-9_
+                                                  12}
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!
