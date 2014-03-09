@@ -39,19 +39,19 @@
 \contentsline {section}{\numberline {4.2}Applied human-centered design process plan}{36}{section.4.2}
 \contentsline {section}{\numberline {4.3}Practical implementation of the applied design process}{40}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Current system evaluation}{41}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}High-fidelity prototype and remote usability logging library implementation}{42}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}High-fidelity prototype and remote usability logging library implementation}{43}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Prototype evaluation}{44}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Analysis and results}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Analysis description}{45}{section.5.1}
-\contentsline {section}{\numberline {5.2}Study results}{46}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Results of the current system evaluation}{47}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Demonstration of the prototype}{49}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Results of the prototype evaluation}{53}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Functionality of the methods in the context of study}{55}{section.5.3}
-\contentsline {section}{\numberline {5.4}Implementation guidelines}{57}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusions and discussion}{59}{chapter.6}
-\contentsline {section}{\numberline {6.1}Answers to the research questions}{59}{section.6.1}
-\contentsline {section}{\numberline {6.2}Conclusions of the study}{62}{section.6.2}
-\contentsline {section}{\numberline {6.3}Future work}{65}{section.6.3}
-\contentsline {chapter}{\numberline {A}SUS form}{70}{appendix.A}
-\contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{71}{appendix.B}
+\contentsline {chapter}{\numberline {5}Analysis and results}{46}{chapter.5}
+\contentsline {section}{\numberline {5.1}Analysis description}{46}{section.5.1}
+\contentsline {section}{\numberline {5.2}Study results}{47}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Results of the current system evaluation}{48}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Demonstration of the prototype}{51}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Results of the prototype evaluation}{54}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Functionality of the methods in the context of study}{56}{section.5.3}
+\contentsline {section}{\numberline {5.4}Implementation guidelines}{58}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusions and discussion}{60}{chapter.6}
+\contentsline {section}{\numberline {6.1}Answers to the research questions}{60}{section.6.1}
+\contentsline {section}{\numberline {6.2}Conclusions of the study}{63}{section.6.2}
+\contentsline {section}{\numberline {6.3}Future work}{66}{section.6.3}
+\contentsline {chapter}{\numberline {A}SUS form}{71}{appendix.A}
+\contentsline {chapter}{\numberline {B}Contextual Inquiry: Study plan}{72}{appendix.B}
