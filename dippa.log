@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.4)  19 MAR 2014 21:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.4)  19 MAR 2014 22:12
 entering extended mode
 **C:/Users/antti.paananen/dippa/diplomityo/dippa.tex
 (C:/Users/antti.paananen/dippa/diplomityo/dippa.tex
@@ -1401,7 +1401,7 @@ Package rerunfilecheck Info: File `dippa.out' has not changed.
 Here is how much of TeX's memory you used:
  19875 strings out of 493921
  371902 string characters out of 3144850
- 495827 words of memory out of 3000000
+ 495829 words of memory out of 3000000
  22539 multiletter control sequences out of 15000+200000
  11549 words of font info for 41 fonts, out of 3000000 for 9000
  852 hyphenation exceptions out of 8191
@@ -1414,7 +1414,7 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on dippa.pdf (72 pages, 1451175 bytes).
+Output written on dippa.pdf (72 pages, 1451410 bytes).
 PDF statistics:
  1256 PDF objects out of 1440 (max. 8388607)
  175 named destinations out of 1000 (max. 500000)
